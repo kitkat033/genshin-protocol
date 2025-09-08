@@ -64,6 +64,21 @@ message MOCCCAAOBLH {
 	uint32 NAGOFHBMDIL = 6;
 }
 
+enum CAFJEFIEIAJ {
+	CAFJEFIEIAJ_UgcRecParamTypeNone = 0;
+	CAFJEFIEIAJ_UgcRecParamTypeMusicNoteLarge = 1;
+	CAFJEFIEIAJ_UgcRecParamTypeMusicNoteLessEqual = 2;
+	CAFJEFIEIAJ_UgcRecParamTypeMusicNoteTag = 3;
+	CAFJEFIEIAJ_UgcRecParamTypeMusicName = 4;
+	CAFJEFIEIAJ_UgcRecParamTypeMusicLabel = 5;
+	CAFJEFIEIAJ_UgcRecParamTypeMusicStarCountLargeEqual = 6;
+	CAFJEFIEIAJ_UgcRecParamTypeMusicStarCountLessEqual = 7;
+	CAFJEFIEIAJ_UgcRecParamTypeLimitPlatform = 8;
+	CAFJEFIEIAJ_UgcRecParamTypeMustcIsAvatar = 9;
+	CAFJEFIEIAJ_UgcRecParamTypeMusicBpmRange = 10;
+	CAFJEFIEIAJ_UgcRecParamTypeMusicLimitAlbum = 11;
+}
+
 // CmdID: 1329
 message LMIJBMMCNNC {
 	string HOGHKHICFIO = 5;
@@ -163,6 +178,10 @@ message HDMOCMPFAKL {
 
 // CmdID: 3368
 message OIBNOJNFNDC {
+	message HAOGAEPDDJE {
+		BPAPMANBCFD CHGKPOBIIIB = 5;
+		HHDAKFMJJPL IKDJALIJLNH = 9;
+	}
 	NKCGIMBPNEF KAFNEINPJBJ = 5;
 	repeated HAOGAEPDDJE ILAMAMILIID = 15;
 	uint32 JNMCNLMGOLM = 2;
@@ -394,6 +413,12 @@ message FLEGLJHOCKE {
 	uint32 ELJHCLPOGAG = 12;
 	uint32 DLCMAIDKANC = 14;
 	uint32 IEFLLEAGMBH = 1;
+}
+
+enum LBCOBCFMLFH {
+	LBCOBCFMLFH_EffigyChallengeV4RestartEndReasonNone = 0;
+	LBCOBCFMLFH_EffigyChallengeV4RestartEndReasonTimeout = 1;
+	LBCOBCFMLFH_EffigyChallengeV4RestartEndReasonReject = 2;
 }
 
 // CmdID: 29148
@@ -738,6 +763,11 @@ message KKDNMEHEEPM {
 
 // CmdID: 8390
 message CLKGMGHMKCK {
+	enum CEAPDPLBBNL {
+		CEAPDPLBBNL_None = 0;
+		CEAPDPLBBNL_Pack = 1;
+		CEAPDPLBBNL_Plant = 2;
+	}
 	repeated uint32 GJOMJOHLLNG = 6;
 }
 
@@ -1010,6 +1040,13 @@ message OLAIFACLGFO {
 	bool JLMMBBBKFBP = 4;
 }
 
+enum KGHKODJMCHF {
+	KGHKODJMCHF_MovingPlatformNone = 0;
+	KGHKODJMCHF_MovingPlatformUseConfig = 1;
+	KGHKODJMCHF_MovingPlatformAbility = 2;
+	KGHKODJMCHF_MovingPlatformRoute = 3;
+}
+
 message ELPOIDBANDP {
 	FJLBNBOBHHB CHJJDOFOKFA = 1;
 	IJOGNBOBNDJ KFFFFKILKPN = 2;
@@ -1094,6 +1131,13 @@ message MKNKHKNLJEN {
 	uint32 ENBOLCJMDAE = 9;
 	bool GELAGFLOFNF = 14;
 	bool JEHOMILLANI = 7;
+}
+
+enum CKIBFDGEILD {
+	CKIBFDGEILD_None = 0;
+	CKIBFDGEILD_Collectable = 1;
+	CKIBFDGEILD_Collected = 2;
+	CKIBFDGEILD_Finished = 3;
 }
 
 // CmdID: 6303
@@ -1371,6 +1415,12 @@ message IPEGPLJEPIL {
 	uint32 NLIPMOJBGGD = 15;
 }
 
+enum PNNBLGNNKFC {
+	PNNBLGNNKFC_MpSettingNoEnter = 0;
+	PNNBLGNNKFC_MpSettingEnterFreely = 1;
+	PNNBLGNNKFC_MpSettingEnterAfterApply = 2;
+}
+
 // CmdID: 9399
 message OEEKBEGGNBJ {
 	repeated CLHHJLELKFC HOGLFPJCKAO = 14;
@@ -1424,6 +1474,11 @@ message CCAGOCAMJMH {
 
 // CmdID: 29418
 message CEGCGFKCNJH {
+	enum BPJDGFJPPNO {
+		BPJDGFJPPNO_InitFollowPos = 0;
+		BPJDGFJPPNO_SetFollowPos = 1;
+		BPJDGFJPPNO_SetAbsFollowPos = 2;
+	}
 	BKJNICKOBNO JEFLKMDLMDB = 9;
 	NNAPNCAKOGL LICPGIECDFG = 3;
 	BKJNICKOBNO IKLMEAOGGHJ = 15;
@@ -1451,6 +1506,13 @@ message ECJADLMPAEL {
 // CmdID: 27912
 message JBGGNANPOHI {
 	AOJBKHLEHEG GMBENOCNPMO = 12;
+}
+
+enum HKEGBOMGCBJ {
+	HKEGBOMGCBJ_AsterLittleStageNone = 0;
+	HKEGBOMGCBJ_AsterLittleStageUnstarted = 1;
+	HKEGBOMGCBJ_AsterLittleStageStarted = 2;
+	HKEGBOMGCBJ_AsterLittleStageFinished = 3;
 }
 
 // CmdID: 26599
@@ -1638,6 +1700,12 @@ message MDPAONODAGM {
 }
 
 message KNCHLHAHFFG {
+	enum GJNMMHPFOMH {
+		GJNMMHPFOMH_Locked = 0;
+		GJNMMHPFOMH_Unlock = 1;
+		GJNMMHPFOMH_Feedable = 2;
+		GJNMMHPFOMH_Finished = 3;
+	}
 	repeated BPBCKKGFHMD NEALMGKOPKI = 3;
 	uint32 JNMCNLMGOLM = 14;
 	uint32 MJEHOEAELEC = 11;
@@ -1706,6 +1774,37 @@ message MCFALHADJLA {
 	uint32 JEDCJDIDEGI = 10;
 	bool JLMMBBBKFBP = 13;
 	uint32 FBHLAAJHPLH = 1;
+}
+
+enum DADAMNANHNJ {
+	DADAMNANHNJ_Default = 0;
+	DADAMNANHNJ_Effect = 1;
+	DADAMNANHNJ_Cost = 2;
+	DADAMNANHNJ_Gm = 3;
+	DADAMNANHNJ_Attack = 4;
+	DADAMNANHNJ_Reboot = 5;
+	DADAMNANHNJ_PlayCard = 6;
+	DADAMNANHNJ_QuicklyOnstage = 7;
+	DADAMNANHNJ_RemoveAfterDie = 8;
+	DADAMNANHNJ_Init = 9;
+	DADAMNANHNJ_EffectDamage = 10;
+	DADAMNANHNJ_EffectHeal = 11;
+	DADAMNANHNJ_EffectRevive = 12;
+	DADAMNANHNJ_InitOnstage = 13;
+	DADAMNANHNJ_DieOnstage = 14;
+	DADAMNANHNJ_SelectOnstage = 15;
+	DADAMNANHNJ_CharacterDie = 16;
+	DADAMNANHNJ_ReviveWhenDeath = 17;
+	DADAMNANHNJ_TransferToOpponent = 18;
+	DADAMNANHNJ_TransferDice = 19;
+	DADAMNANHNJ_PlayCardBeingCounter = 20;
+	DADAMNANHNJ_UseVehicleSkill = 21;
+	DADAMNANHNJ_Discover = 22;
+	DADAMNANHNJ_AbcRecalculate = 23;
+	DADAMNANHNJ_AbcChargeUp = 24;
+	DADAMNANHNJ_CharReplace = 25;
+	DADAMNANHNJ_CharBreakUp = 26;
+	DADAMNANHNJ_ReturnAllModifier = 27;
 }
 
 // CmdID: 20716
@@ -1856,6 +1955,15 @@ message EMLGGCEBDIG {
 	uint32 FIIMOJACIEL = 2;
 }
 
+enum JONKPHFBHGO {
+	JONKPHFBHGO_FireworksLaunchParamNone = 0;
+	JONKPHFBHGO_FireworksLaunchParamRepeat = 1;
+	JONKPHFBHGO_FireworksLaunchParamInteval = 2;
+	JONKPHFBHGO_FireworksLaunchParamDelay = 3;
+	JONKPHFBHGO_FireworksLaunchParamRoundInteval = 4;
+	JONKPHFBHGO_FireworksLaunchParamMax = 5;
+}
+
 // CmdID: 3719
 message ELHGKPDOGAN {
 	uint32 AIMGHBBFBCG = 1;
@@ -1900,6 +2008,12 @@ message IJBIGFEJGFA {
 	repeated uint32 JJNPPMLMFDF = 2;
 	uint32 EFCNMILHBHD = 13;
 	bool KFKKFPPHAJA = 4;
+}
+
+enum HBAAFJNJLLO {
+	HBAAFJNJLLO_SandwormCannonNoneEffect = 0;
+	HBAAFJNJLLO_SandwormCannonWeakEffect = 1;
+	HBAAFJNJLLO_SandwormCannonStrongEffect = 2;
 }
 
 // CmdID: 806
@@ -2138,6 +2252,13 @@ message LPMEBIMOFJP {
 
 // CmdID: 6871
 message POHHJNJIKAA {
+	enum EHIIJNIPLAA {
+		EHIIJNIPLAA_Succ = 0;
+		EHIIJNIPLAA_TargetSceneCannotEnter = 1;
+		EHIIJNIPLAA_SelfMpUnavailable = 2;
+		EHIIJNIPLAA_OtherDataVersionNotLatest = 3;
+		EHIIJNIPLAA_DataVersionNotLatest = 4;
+	}
 	BFPEOGCBDAC KDJCMAMPBCL = 7;
 	uint32 EDDKEHLLIEI = 1;
 	EHIIJNIPLAA CLBANAHDPFN = 15;
@@ -2488,11 +2609,20 @@ message IGAGFPJKIJO {
 
 // CmdID: 6758
 message MEFDJMGCMHK {
+	enum GKMKGAHBFAF {
+		GKMKGAHBFAF_None = 0;
+		GKMKGAHBFAF_Enter = 1;
+		GKMKGAHBFAF_Leave = 2;
+	}
 	uint32 AGHFGKKEMDL = 13;
 }
 
 // CmdID: 4684
 message NLMMALNMFJI {
+	message IJAKLECFBIA {
+		HHDAKFMJJPL IKDJALIJLNH = 9;
+		repeated BPAPMANBCFD GCFEJIHKOOF = 5;
+	}
 	repeated NKCGIMBPNEF AHJKDJFJEHN = 5;
 	repeated IJAKLECFBIA ILAMAMILIID = 6;
 	repeated uint32 LGIFLPALDHC = 15;
@@ -2682,6 +2812,12 @@ message LJLLCOGPEOO {
 }
 
 message NKIPPGKOFMB {
+	message BPCEMDINBDC {
+		uint32 OGKANLFBBBA = 5;
+		uint32 MPDFNGEAGAA = 4;
+		LNJILLNPHDH MOJBOHOJBEP = 15;
+		uint32 BEEHFAFLJLG = 8;
+	}
 	BFNBGBKHHGB PJMLFNMDMGD = 10;
 	repeated uint32 GMNJEGPOCGP = 11;
 	repeated BPCEMDINBDC JKNENFACMDM = 7;
@@ -2693,6 +2829,10 @@ message NKIPPGKOFMB {
 
 // CmdID: 4182
 message BBDJFPMBKOI {
+	enum HMGLOCMKLPC {
+		HMGLOCMKLPC_KeepRotX = 0;
+		HMGLOCMKLPC_KeepRotXy = 1;
+	}
 	BKJNICKOBNO IKLMEAOGGHJ = 10;
 	repeated string CFMEHBALDJP = 15;
 	BKJNICKOBNO JEFLKMDLMDB = 9;
@@ -2842,6 +2982,12 @@ message IEGLDJALFBK {
 // CmdID: 27679
 message LNCKPOPKEAC {
 	repeated IBGCMJKEHKC PMJKILLAINN = 7;
+}
+
+enum KPNCFBCMMOJ {
+	KPNCFBCMMOJ_None = 0;
+	KPNCFBCMMOJ_InBag = 1;
+	KPNCFBCMMOJ_CanForge = 2;
 }
 
 // CmdID: 4648
@@ -3082,11 +3228,25 @@ message MAMIAAFCEEP {
 	uint32 CMAAMNEGLDN = 3;
 }
 
+enum NMIKIHFCINC {
+	NMIKIHFCINC_DungeonCandidateAvatarTypeNone = 0;
+	NMIKIHFCINC_DungeonCandidateAvatarTypeFormal = 1;
+	NMIKIHFCINC_DungeonCandidateAvatarTypeUgc = 2;
+}
+
 // CmdID: 25011
 message MJDONBAPGFH {
 	repeated uint32 KEIFGEBHKNE = 14;
 	repeated uint32 DNAMHEPIJEL = 5;
 	uint32 NCEKLKIPGKA = 11;
+}
+
+enum COEIGFLJJKH {
+	COEIGFLJJKH_TribalChapterNone = 0;
+	COEIGFLJJKH_TribalChapterNotOpen = 1;
+	COEIGFLJJKH_TribalChapterLock = 2;
+	COEIGFLJJKH_TribalChapterUnlock = 3;
+	COEIGFLJJKH_TribalChapterFinish = 4;
 }
 
 // CmdID: 4930
@@ -3219,6 +3379,13 @@ message BEDPMNOMCEH {
 	repeated uint64 FKACELABCEN = 1;
 }
 
+enum LENPGEBDLIJ {
+	LENPGEBDLIJ_None = 0;
+	LENPGEBDLIJ_Started = 1;
+	LENPGEBDLIJ_Unstarted = 2;
+	LENPGEBDLIJ_Succ = 3;
+}
+
 // CmdID: 8488
 message DAPDCAAOEKI {
 	uint32 JNMCNLMGOLM = 7;
@@ -3283,6 +3450,10 @@ message HJPHCBEKMGG {
 
 // CmdID: 28638
 message GCGLKAKMILB {
+	message JGHLLEDMDNG {
+		uint32 FEAEEJDHFOO = 15;
+		uint32 ONCPKECLODA = 8;
+	}
 	repeated JGHLLEDMDNG DBGPLFHLLIF = 5;
 	int32 KBFHMOHPAPJ = 11;
 }
@@ -3339,6 +3510,12 @@ message BEOFAHFLGJM {
 	uint32 CLEGINOPJGM = 14;
 }
 
+enum NOAPCFIJJBL {
+	NOAPCFIJJBL_ThemeParkSimUpgradeEmployeeNone = 0;
+	NOAPCFIJJBL_ThemeParkSimUpgradeEmployeeByBuff = 1;
+	NOAPCFIJJBL_ThemeParkSimUpgradeEmployeeByClient = 2;
+}
+
 // CmdID: 529
 message PJKDKCEHJNP {
 	repeated IDAEPNMLCAG OCNLNHHPJFL = 13;
@@ -3354,8 +3531,8 @@ message GNMNFIJLNLC {
 message DFMFMJDBFJA {
 	uint32 JNMCNLMGOLM = 5;
 	oneof MBDFLBIAPEF {
-		FHELDCNBCIA tower_challenge_detail = 160;
 		NNMHJMMJDBO effigy_challenge_v_5_detail = 1281;
+		FHELDCNBCIA tower_challenge_detail = 160;
 	}
 }
 
@@ -3512,6 +3689,11 @@ message OHGAOMKIFHJ {
 	JBAOBCFFFAN ILPNHKCDNFF = 13;
 }
 
+enum KGNBGFEBJDA {
+	KGNBGFEBJDA_InterOpFinish = 0;
+	KGNBGFEBJDA_InterOpStart = 1;
+}
+
 message JKIHAOPOGCD {
 	repeated HJIEEDDHPEN OCNLNHHPJFL = 11;
 	bool BCGGPNEGILA = 1;
@@ -3519,6 +3701,15 @@ message JKIHAOPOGCD {
 
 // CmdID: 28039
 message HOLNELHAIEC {
+	enum JMMKEDBFDGE {
+		JMMKEDBFDGE_Invalid = 0;
+		JMMKEDBFDGE_KickByHost = 1;
+		JMMKEDBFDGE_BackToMyWorld = 2;
+		JMMKEDBFDGE_HomeBlocked = 3;
+		JMMKEDBFDGE_HomeInEditMode = 4;
+		JMMKEDBFDGE_ByMuip = 5;
+		JMMKEDBFDGE_CurModuleClosed = 6;
+	}
 	JMMKEDBFDGE CLBANAHDPFN = 8;
 }
 
@@ -3551,8 +3742,8 @@ message DCNONEDKJIM {
 message HPILMONJPMN {
 	oneof CEKJGNCOPAK {
 		float flt_param = 3;
-		uint32 int_param = 13;
 		string str_param = 10;
+		uint32 int_param = 13;
 	}
 }
 
@@ -3577,6 +3768,13 @@ message DMJJBAFDGHL {
 	string OOCPDPPGMLD = 10;
 	FNHFAHIDMLM NJFOCEHBCGE = 7;
 	uint32 EAOKGLECECP = 1;
+}
+
+enum AHFDJMKLPCM {
+	AHFDJMKLPCM_ThemeParkSimEmployeeStateNone = 0;
+	AHFDJMKLPCM_ThemeParkSimEmployeeStateHired = 1;
+	AHFDJMKLPCM_ThemeParkSimEmployeeStateCandidate = 2;
+	AHFDJMKLPCM_ThemeParkSimEmployeeStateWorked = 3;
 }
 
 // CmdID: 27550
@@ -3605,53 +3803,53 @@ message HEIHNIHAPHK {
 
 message CEMIPFKICJL {
 	oneof HENMBOGFIPK {
-		NEGNFLDMBCI transfer_card_to_opponent = 1236;
-		KMPDLCPGKLO token_change = 8;
-		HKIKNPNFELO add_dice = 10;
-		LOEIBNKNENK zone_shuffle = 986;
-		BIMAEEJCMME element_mastery_change = 1607;
-		IMMABIAPKGI discover_refresh_count = 1013;
-		MMDAAGFLOAF discover_refresh = 1331;
-		CHAAPLLEHAF modify_add = 1688;
-		GICAFGBGAOH move_card = 15;
-		GNLHKCAJHAE bust_cards = 436;
-		KFDMDMBFIBJ skill_result = 9;
-		DLCOBGFIEMN dice_reroll = 14;
-		APINEIOCLCM waiting_list_change = 1115;
-		OCIJHLNBDEE pass = 12;
-		GKELBKFPLAF select_on_stage = 5;
-		EMNGDBCBPMD use_skill_end = 1659;
-		CBNPNDOAHBK reaction_end = 403;
-		NIOFBMGAAII use_legend = 1757;
-		EJHPLMEGLAI op_timer = 2039;
-		NGANONLNJOM discover_end = 28;
-		BGDMMMKLMLA phase_continue = 1689;
-		HLFMPAKGOAB client_perform = 426;
-		IFCNCMOBLFI field_update = 1772;
-		LBDEMEBEKAJ replace_char = 1206;
-		PKMNOHGEKHC game_over = 1809;
-		DHAOMEBLBPG remove_cards = 7;
-		HBGGEJKAOLD new_card = 848;
-		OMGGIKAIKAC card_update = 1967;
-		FIHGOLJBLIB skill_limits_change = 1172;
-		KDGMPPAKHBH break_up = 505;
-		OGPLMOMJBOF char_die = 6;
-		MNINHPCLCOA change_character_index = 825;
-		NNBGAIKPBKK dice_roll = 13;
-		OMCHIDPFPKN pve_intention_change = 1403;
 		CDLGDENDMPC modify_remove = 811;
-		PDCDDAEILJG duel_data_change = 2030;
-		BIIIIJLFEOP cost_revise = 1448;
-		EMBNOMCPPOK select_on_stage_by_effect = 1731;
-		AFPFFAAHPJO phase_change = 2;
-		LFJLALPPMKK use_skill = 3;
-		EOPINLJPHKG add_cards = 1;
-		GMEIIEGAKAN cost_dice = 4;
-		BALENBILHCJ no_damage_skill_result = 616;
+		NEGNFLDMBCI transfer_card_to_opponent = 1236;
 		EPIKFIIDHHD card_henshin = 1276;
-		HGEELDHIOGP update_controller = 748;
-		LEFHFEBLPHC pve_intention_info = 460;
+		DLCOBGFIEMN dice_reroll = 14;
+		NGANONLNJOM discover_end = 28;
+		FIHGOLJBLIB skill_limits_change = 1172;
+		BIMAEEJCMME element_mastery_change = 1607;
 		PEONPJKHADK reaction_begin = 176;
+		GICAFGBGAOH move_card = 15;
+		HBGGEJKAOLD new_card = 848;
+		CBNPNDOAHBK reaction_end = 403;
+		HKIKNPNFELO add_dice = 10;
+		CHAAPLLEHAF modify_add = 1688;
+		EMBNOMCPPOK select_on_stage_by_effect = 1731;
+		GNLHKCAJHAE bust_cards = 436;
+		DHAOMEBLBPG remove_cards = 7;
+		GKELBKFPLAF select_on_stage = 5;
+		HGEELDHIOGP update_controller = 748;
+		APINEIOCLCM waiting_list_change = 1115;
+		MMDAAGFLOAF discover_refresh = 1331;
+		LOEIBNKNENK zone_shuffle = 986;
+		NNBGAIKPBKK dice_roll = 13;
+		OGPLMOMJBOF char_die = 6;
+		GMEIIEGAKAN cost_dice = 4;
+		BIIIIJLFEOP cost_revise = 1448;
+		LEFHFEBLPHC pve_intention_info = 460;
+		OMCHIDPFPKN pve_intention_change = 1403;
+		EMNGDBCBPMD use_skill_end = 1659;
+		EJHPLMEGLAI op_timer = 2039;
+		BALENBILHCJ no_damage_skill_result = 616;
+		LFJLALPPMKK use_skill = 3;
+		IFCNCMOBLFI field_update = 1772;
+		EOPINLJPHKG add_cards = 1;
+		KDGMPPAKHBH break_up = 505;
+		OCIJHLNBDEE pass = 12;
+		OMGGIKAIKAC card_update = 1967;
+		PKMNOHGEKHC game_over = 1809;
+		KMPDLCPGKLO token_change = 8;
+		BGDMMMKLMLA phase_continue = 1689;
+		MNINHPCLCOA change_character_index = 825;
+		PDCDDAEILJG duel_data_change = 2030;
+		IMMABIAPKGI discover_refresh_count = 1013;
+		NIOFBMGAAII use_legend = 1757;
+		LBDEMEBEKAJ replace_char = 1206;
+		HLFMPAKGOAB client_perform = 426;
+		AFPFFAAHPJO phase_change = 2;
+		KFDMDMBFIBJ skill_result = 9;
 	}
 }
 
@@ -3753,6 +3951,14 @@ message JKFLDIIIION {
 message PKLDCFGAFJJ {
 	uint32 GEKABDJLHAH = 2;
 	uint32 NGAEKBKLJNM = 12;
+}
+
+enum BIAJKCAAIPN {
+	BIAJKCAAIPN_RegionSearchNone = 0;
+	BIAJKCAAIPN_RegionSearchUnstarted = 1;
+	BIAJKCAAIPN_RegionSearchStarted = 2;
+	BIAJKCAAIPN_RegionSearchWaitReward = 3;
+	BIAJKCAAIPN_RegionSearchFinished = 4;
 }
 
 message LIAAOBONJGA {
@@ -3961,6 +4167,10 @@ message PBEHGODHLGO {
 
 // CmdID: 8311
 message NIFMBLCKBKN {
+	enum PDBHIDAFHCG {
+		PDBHIDAFHCG_AddServerBuff = 0;
+		PDBHIDAFHCG_DelServerBuff = 1;
+	}
 	repeated uint64 PJDNKAFOJGA = 4;
 	repeated uint32 NEJEHBJKOEG = 10;
 	repeated BLDLFDFIJHH MANBDKIAIBG = 6;
@@ -3971,8 +4181,8 @@ message NIFMBLCKBKN {
 message CLLOFCDNLPD {
 	bool BELEPPDGCPE = 3;
 	oneof MBDFLBIAPEF {
-		PLIOMDIGGNL weapon = 2;
 		DPEBBHAAKGO reliquary = 1;
+		PLIOMDIGGNL weapon = 2;
 	}
 }
 
@@ -3984,6 +4194,12 @@ message FIHHENKGAHM {
 
 message APHOFDCPHHO {
 	repeated FBKAFOMLJIH MPJHMAMEJLI = 13;
+}
+
+enum EMPAMOEDNEP {
+	EMPAMOEDNEP_GalleryStartByNone = 0;
+	EMPAMOEDNEP_GalleryStartByMatch = 1;
+	EMPAMOEDNEP_GalleryStartByDraft = 2;
 }
 
 // CmdID: 8356
@@ -4021,6 +4237,12 @@ message AIAIEGPJJEJ {
 }
 
 message MJEOBFIPJDG {
+	enum LLEBAKDFBNJ {
+		LLEBAKDFBNJ_Invalid = 0;
+		LLEBAKDFBNJ_InProgress = 1;
+		LLEBAKDFBNJ_Complete = 2;
+		LLEBAKDFBNJ_RewardTaken = 3;
+	}
 	uint32 MLBPAKLMOHF = 12;
 	uint32 HFJAPPKBOIN = 3;
 	uint32 DODBIKKLGAC = 5;
@@ -4195,6 +4417,13 @@ message BJMMBLLOIPE {
 
 message IIEKBBBLOOH {
 	repeated FKLFDBODJFF BDOOFKCGEGM = 15;
+}
+
+enum MOPOCGJIJLB {
+	MOPOCGJIJLB_DieOptNone = 0;
+	MOPOCGJIJLB_DieOptReplay = 1;
+	MOPOCGJIJLB_DieOptCancel = 2;
+	MOPOCGJIJLB_DieOptRevive = 3;
 }
 
 // CmdID: 22769
@@ -4456,6 +4685,12 @@ message AEPHLEOJECI {
 	bool BELEPPDGCPE = 11;
 }
 
+enum DKAENNFMIOK {
+	DKAENNFMIOK_Edit = 0;
+	DKAENNFMIOK_SelfPass = 1;
+	DKAENNFMIOK_Published = 2;
+}
+
 message BOAGHGIFEIK {
 	string EHMBDIJBHMF = 6;
 	string FLCJCIKFFOA = 3;
@@ -4519,6 +4754,13 @@ message PLDGMOKHJAJ {
 message KFHMPCJEIBC {
 	uint32 LPIELKOLILI = 11;
 	int32 KBFHMOHPAPJ = 5;
+}
+
+enum HHLKOAGMMLI {
+	HHLKOAGMMLI_None = 0;
+	HHLKOAGMMLI_Edit = 1;
+	HHLKOAGMMLI_FriendReplay = 2;
+	HHLKOAGMMLI_SelfReplay = 3;
 }
 
 // CmdID: 25363
@@ -4930,31 +5172,31 @@ message DOLJKFEOJFI {
 	uint32 DNLFOAGCKHM = 4;
 	uint32 AIFPJDBNNMP = 13;
 	oneof MBDFLBIAPEF {
-		CJKGMPHICNA hide_and_seek_v_4_info = 1718;
-		KGBHGJMEMLO hide_and_seek_info = 704;
-		EDBBNCHLEII mvm_2_pvp_info = 1475;
-		FJBELLLLKGA mechanicus_info = 902;
-		PFBKBOKDHBE electrohercules_battle_v_3_info = 1937;
-		NLNPGBJMEHH char_amusement_info = 870;
-		MGGOOGIGCHH ball_game_info = 1950;
-		BAPAPOGAMFP coin_collect_info = 34;
-		GKCFPIHNPCA pitch_pot_info = 183;
-		NCIOBIIBDOA fleur_fair_info = 1334;
-		CGHDEPNIFHK brick_breaker_info = 1599;
-		PDFNINKKKNG cooperate_challenge_info = 904;
-		ANLEJPKFMNH lan_v_3_boat_info = 666;
-		IOPJIDGDMFL target_shooting_info = 1618;
-		EAHDCJCKDCN fishing_joy_info = 1538;
 		HIOANFDJHHG monster_vs_monster_info = 748;
-		MBKAPMEGPJM ceremony_ghost_info = 446;
 		OOFPCCNOKDP watergun_info = 1964;
-		DKNCFFHHKOM bird_ball_info = 1625;
-		OGLOEFDEBGO chess_info = 1142;
-		FEADPCIGNHF party_info = 166;
 		EDIOIBIFGAE saurus_1_v_3_info = 1032;
-		CNFNJGHHAPD irodori_chess_info = 394;
+		ANLEJPKFMNH lan_v_3_boat_info = 666;
+		CJKGMPHICNA hide_and_seek_v_4_info = 1718;
+		MGGOOGIGCHH ball_game_info = 1950;
+		PDFNINKKKNG cooperate_challenge_info = 904;
+		PFBKBOKDHBE electrohercules_battle_v_3_info = 1937;
+		EAHDCJCKDCN fishing_joy_info = 1538;
+		EDBBNCHLEII mvm_2_pvp_info = 1475;
+		BAPAPOGAMFP coin_collect_info = 34;
+		MBKAPMEGPJM ceremony_ghost_info = 446;
 		EOPNFGLENLI lan_v_4_party_lion_info = 1873;
+		CGHDEPNIFHK brick_breaker_info = 1599;
+		NCIOBIIBDOA fleur_fair_info = 1334;
+		OGLOEFDEBGO chess_info = 1142;
+		CNFNJGHHAPD irodori_chess_info = 394;
+		DKNCFFHHKOM bird_ball_info = 1625;
+		FEADPCIGNHF party_info = 166;
+		FJBELLLLKGA mechanicus_info = 902;
+		GKCFPIHNPCA pitch_pot_info = 183;
 		EFODCPKKIGH fleur_fair_v_2_pacman_info = 255;
+		KGBHGJMEMLO hide_and_seek_info = 704;
+		NLNPGBJMEHH char_amusement_info = 870;
+		IOPJIDGDMFL target_shooting_info = 1618;
 	}
 }
 
@@ -4979,6 +5221,11 @@ message INDAHJMECLO {
 
 // CmdID: 5791
 message IPJBMENOLKP {
+	enum GIBMOLNDLPO {
+		GIBMOLNDLPO_Invalue = 0;
+		GIBMOLNDLPO_Add = 1;
+		GIBMOLNDLPO_Set = 2;
+	}
 	GIBMOLNDLPO JGMHKENPEIE = 9;
 	uint32 BEFBAGHKMMJ = 13;
 	float FFJCOJDMGNM = 15;
@@ -4993,6 +5240,11 @@ message HGCDFCPCEDH {
 
 // CmdID: 2325
 message ODJFMPLKDHP {
+	enum MCOFAIEANKE {
+		MCOFAIEANKE_OptionNone = 0;
+		MCOFAIEANKE_OptionNormal = 1;
+		MCOFAIEANKE_OptionFirstCanGo = 2;
+	}
 	BKJNICKOBNO BIONMLIAEFM = 14;
 	LKLHKKGDANP FJOGMOPJMHN = 3;
 	repeated BKJNICKOBNO PPAJLHNMJNM = 9;
@@ -5025,6 +5277,13 @@ message LOOAACONOPC {
 // CmdID: 4967
 message DGOEJADIKLF {
 	uint32 LDHODIBGKPO = 8;
+}
+
+enum NBHJBJPMBFA {
+	NBHJBJPMBFA_EnterCustomDungeonNone = 0;
+	NBHJBJPMBFA_EnterCustomDungeonEdit = 1;
+	NBHJBJPMBFA_EnterCustomDungeonPlay = 2;
+	NBHJBJPMBFA_EnterCustomDungeonOfficial = 3;
 }
 
 message MHNAFJEHIFF {
@@ -5353,6 +5612,11 @@ message PKCFOCNLGNE {
 }
 
 message LFLKOJIIHCB {
+	enum JCHBILBIIDK {
+		JCHBILBIIDK_Strange = 0;
+		JCHBILBIIDK_Familiar = 1;
+		JCHBILBIIDK_Honey = 2;
+	}
 	uint32 MJEHOEAELEC = 13;
 	uint32 ILBCPIFLANH = 6;
 }
@@ -5412,6 +5676,16 @@ message BFNHBABDGNJ {
 }
 
 message EAHDCJCKDCN {
+	message OOMPIIPHCEK {
+		string NAEAEMHLLPJ = 8;
+		uint32 KMILKBNLBEL = 13;
+		uint32 OGKANLFBBBA = 3;
+		uint32 BECDHAAEBGK = 2;
+		uint32 MPDFNGEAGAA = 5;
+		bool MDGALPPOHPA = 6;
+		uint32 FMDPCNBBBBB = 7;
+		uint32 FEAEEJDHFOO = 15;
+	}
 	repeated OOMPIIPHCEK DBGPLFHLLIF = 3;
 	uint32 JNMCNLMGOLM = 14;
 	uint32 NHAKBIJMEAB = 5;
@@ -5526,6 +5800,12 @@ message OCJIPFECGHF {
 	uint32 NDDMJOEDLKN = 8;
 }
 
+enum PDFMIFMCIFN {
+	PDFMIFMCIFN_ReunionReportTypeNone = 0;
+	PDFMIFMCIFN_ReunionReportTypeStart = 1;
+	PDFMIFMCIFN_ReunionReportTypeDouble = 2;
+}
+
 message PFIIDOKGEPM {
 	map<uint32, uint32> DJOFMHHOOKG = 1;
 }
@@ -5543,6 +5823,14 @@ message BPAGJCBGEPO {
 message EGGCJIHMBAH {
 	bool OIFKPCGDNPN = 14;
 	uint32 JNMCNLMGOLM = 5;
+}
+
+enum FFLNFKAAPKI {
+	FFLNFKAAPKI_QuestAbyssWarLimitRegionStatusNone = 0;
+	FFLNFKAAPKI_QuestAbyssWarLimitRegionStatusClose = 1;
+	FFLNFKAAPKI_QuestAbyssWarLimitRegionStatusToBeStarted = 2;
+	FFLNFKAAPKI_QuestAbyssWarLimitRegionStatusStart = 3;
+	FFLNFKAAPKI_QuestAbyssWarLimitRegionStatusToBeClosed = 4;
 }
 
 // CmdID: 23341
@@ -5592,6 +5880,11 @@ message HJIKFDJFOFF {
 }
 
 message CHNJHODEPOM {
+	enum NLIMGEAKECJ {
+		NLIMGEAKECJ_Unstarted = 0;
+		NLIMGEAKECJ_Started = 1;
+		NLIMGEAKECJ_Finished = 2;
+	}
 	uint32 BKKABHGJEJC = 12;
 	uint32 DJNPEHGBEJE = 8;
 }
@@ -5646,6 +5939,11 @@ message ANBCBGEKOHD {
 }
 
 message GNGOAENEBAC {
+	enum IHLOMPNKCAN {
+		IHLOMPNKCAN_StateNone = 0;
+		IHLOMPNKCAN_StateScan = 1;
+		IHLOMPNKCAN_StateAction = 2;
+	}
 	bool FBOCFIGPFKI = 2;
 }
 
@@ -5654,6 +5952,16 @@ message NIFCDPCBDPO {
 	repeated NBINKLMKAFJ FCGGAIBIDAP = 15;
 	uint32 OJDCFJKOICE = 9;
 	uint32 DIPIOCAGCJP = 14;
+}
+
+enum NJOHBAEBCBO {
+	NJOHBAEBCBO_None = 0;
+	NJOHBAEBCBO_Giveup = 1;
+	NJOHBAEBCBO_Timeout = 2;
+	NJOHBAEBCBO_LeaveRegion = 3;
+	NJOHBAEBCBO_LeaveScene = 4;
+	NJOHBAEBCBO_CrossWeek = 5;
+	NJOHBAEBCBO_AvatarDie = 6;
 }
 
 // CmdID: 3514
@@ -5727,16 +6035,16 @@ message PJOAMOHCNDH {
 	uint32 HCPJDHCNGGP = 9;
 	oneof MBDFLBIAPEF {
 		JLJMGGHAKGO fruit_pick_info = 755;
-		NODKLKCLHIM bird_ball_client_info = 220;
-		KJIOKAHLMMM holiday_resort_adventure_info = 2016;
-		AGKPNPIOCJM ceremony_doodle_info = 986;
-		GKDOMAMJCOH float_toy_info = 1550;
-		GJGBMKEFIKF natlan_drill_collect_info = 1023;
-		HLKIDGIFKBJ great_festival_v_2_sheet_restore_info = 419;
-		FPEPINKNEBE fairy_tales_flyppy_hat_info = 1533;
-		PNLNPALCOID catcafe_info = 1718;
 		DPPHBLOBFPO cook_game_info = 944;
+		HLKIDGIFKBJ great_festival_v_2_sheet_restore_info = 419;
+		NODKLKCLHIM bird_ball_client_info = 220;
+		AGKPNPIOCJM ceremony_doodle_info = 986;
+		PNLNPALCOID catcafe_info = 1718;
+		GJGBMKEFIKF natlan_drill_collect_info = 1023;
+		FPEPINKNEBE fairy_tales_flyppy_hat_info = 1533;
+		KJIOKAHLMMM holiday_resort_adventure_info = 2016;
 		CGOELNPCLLC dream_switching_info = 1782;
+		GKDOMAMJCOH float_toy_info = 1550;
 	}
 }
 
@@ -5759,6 +6067,17 @@ message POONHPPIGKG {
 
 // CmdID: 104
 message DPPLMHFGAKA {
+	enum GJDEIHKPHLP {
+		GJDEIHKPHLP_SettleReasonNone = 0;
+		GJDEIHKPHLP_SettleReasonSucc = 1;
+		GJDEIHKPHLP_SettleReasonTimeOut = 2;
+		GJDEIHKPHLP_SettleReasonAllDie = 3;
+		GJDEIHKPHLP_SettleReasonFail = 4;
+	}
+	message NPJKEBBFKKA {
+		int32 IBBLMEHPJFF = 8;
+		uint32 FPCHHJGJDKK = 3;
+	}
 	repeated NPJKEBBFKKA EFKMHGMONCN = 11;
 	repeated uint32 INCMGDNFABB = 1;
 	uint32 DFPFJEBMJMG = 14;
@@ -5888,6 +6207,12 @@ message KMJCCECBBPL {
 	uint32 BPNHFJDOCOJ = 5;
 	uint32 LLMGGMHBFDC = 6;
 	uint32 KDPIOMOGBJM = 7;
+}
+
+enum OIAACEJPFAA {
+	OIAACEJPFAA_None = 0;
+	OIAACEJPFAA_ByKick = 1;
+	OIAACEJPFAA_Quit = 2;
 }
 
 message HBMMPKIIECI {
@@ -6041,6 +6366,28 @@ message LPHBMNIBIEP {
 	int32 KBFHMOHPAPJ = 6;
 }
 
+enum JNEPDLCKBDH {
+	JNEPDLCKBDH_GcgGameNone = 0;
+	JNEPDLCKBDH_GcgGameGm = 1;
+	JNEPDLCKBDH_GcgGameMatch = 2;
+	JNEPDLCKBDH_GcgGamePvp = 3;
+	JNEPDLCKBDH_GcgGameTavernChallenge = 4;
+	JNEPDLCKBDH_GcgGameConstChallenge = 5;
+	JNEPDLCKBDH_GcgGameWorldChallenge = 6;
+	JNEPDLCKBDH_GcgGameBossChallenge = 7;
+	JNEPDLCKBDH_GcgGameWeekChallenge = 8;
+	JNEPDLCKBDH_GcgGameBreakChallenge = 9;
+	JNEPDLCKBDH_GcgGameQuest = 10;
+	JNEPDLCKBDH_GcgGameGuideGroup = 11;
+	JNEPDLCKBDH_GcgGameOther = 12;
+	JNEPDLCKBDH_GcgGameActivityJourney = 13;
+	JNEPDLCKBDH_GcgGamePveActivity = 14;
+	JNEPDLCKBDH_GcgGameArena = 15;
+	JNEPDLCKBDH_GcgGameActivityPveInfinite = 16;
+	JNEPDLCKBDH_GcgGameActivityPvePuzzle = 17;
+	JNEPDLCKBDH_GcgGameActivityPveAutoBattleCard = 18;
+}
+
 // CmdID: 8389
 message PFCMHPGDONB {
 	repeated CGEEOGIMLAO LGGLMMNLNFF = 14;
@@ -6051,12 +6398,17 @@ message EALEPKIHIIA {
 	bool JABJOECMBFA = 11;
 }
 
+enum EOKCHAAIGNL {
+	EOKCHAAIGNL_None = 0;
+	EOKCHAAIGNL_Starred = 1;
+	EOKCHAAIGNL_Official = 2;
+	EOKCHAAIGNL_Template = 3;
+}
+
 message NNEEBHLBFFC {
 	float FANMKKOPONB = 2;
 	bool JCMDFILODNO = 1;
-	oneof KIAKEENCDGG {
-		MEBFIECHBEN trigger_ability = 100;
-	}
+	optional MEBFIECHBEN trigger_ability = 100;
 }
 
 // CmdID: 1101
@@ -6117,6 +6469,13 @@ message JDGCHIKIBOA {
 
 message MAJEDLILDBA {
 	repeated PEAPHMMHMNC POJOLBAGCNP = 4;
+}
+
+enum KAKMLHAGBNC {
+	KAKMLHAGBNC_ClientReconnnectNone = 0;
+	KAKMLHAGBNC_ClientReconnnectQuitMp = 1;
+	KAKMLHAGBNC_ClientReconnnectSceneTimeCheckFail = 2;
+	KAKMLHAGBNC_ClientReconnnectEnterQuestFocus = 3;
 }
 
 // CmdID: 7394
@@ -6208,6 +6567,17 @@ message OBNHKPEFHLK {
 	uint32 JNMCNLMGOLM = 3;
 }
 
+enum JBAOBCFFFAN {
+	JBAOBCFFFAN_None = 0;
+	JBAOBCFFFAN_StarredDungeon = 1;
+	JBAOBCFFFAN_StarredRoom = 2;
+	JBAOBCFFFAN_Owner = 3;
+	JBAOBCFFFAN_History = 4;
+	JBAOBCFFFAN_Search = 5;
+	JBAOBCFFFAN_Official = 6;
+	JBAOBCFFFAN_Template = 7;
+}
+
 // CmdID: 4094
 message ACGDLNBAOLP {
 	repeated uint32 LGIFLPALDHC = 7;
@@ -6222,14 +6592,12 @@ message GNIOKFIALMI {
 	uint32 EEBPNGJNHAE = 5;
 	uint32 EFGCPDJJHFL = 11;
 	oneof FLNAGGAJHFM {
-		uint32 gadget_id = 3;
-		uint32 item_id = 4;
 		uint32 monster_id = 1;
 		uint32 npc_id = 2;
+		uint32 gadget_id = 3;
+		uint32 item_id = 4;
 	}
-	oneof BDNIKLDDMOB {
-		INIGNNEIJLL gadget = 13;
-	}
+	optional INIGNNEIJLL gadget = 13;
 }
 
 // CmdID: 23022
@@ -6262,6 +6630,15 @@ message DDCIPEKHCDL {
 	uint32 OLGIIFHGFEL = 11;
 	uint32 LPAFDKMCCIB = 8;
 	uint32 KLDMNNOHMHH = 4;
+}
+
+enum LBEABKIBLGB {
+	LBEABKIBLGB_ChangeHpDebtsNone = 0;
+	LBEABKIBLGB_ChangeHpDebtsPay = 1;
+	LBEABKIBLGB_ChangeHpDebtsPayFinish = 2;
+	LBEABKIBLGB_ChangeHpDebtsClear = 21;
+	LBEABKIBLGB_ChangeHpDebtsReduceAbility = 41;
+	LBEABKIBLGB_ChangeHpDebtsAddAbility = 51;
 }
 
 // CmdID: 26316
@@ -6558,6 +6935,13 @@ message MAMGNMPKMBN {
 	uint32 HIHONAKHBFJ = 1;
 }
 
+enum OLLKIAGEIOK {
+	OLLKIAGEIOK_None = 0;
+	OLLKIAGEIOK_Init = 1;
+	OLLKIAGEIOK_Building = 2;
+	OLLKIAGEIOK_Built = 3;
+}
+
 // CmdID: 3891
 message KJCAHPCHPML {
 	NEAFCDKKLBK OHEFFIDNNKK = 1;
@@ -6717,11 +7101,25 @@ message BLEJPFBNEMG {
 	uint32 NJIGJAMNOBI = 3;
 }
 
+enum LNAEOCAICJC {
+	LNAEOCAICJC_None = 0;
+	LNAEOCAICJC_SnapShot = 1;
+	LNAEOCAICJC_Init = 2;
+	LNAEOCAICJC_BallScore = 3;
+	LNAEOCAICJC_Shoot = 4;
+	LNAEOCAICJC_Effect = 5;
+}
+
 // CmdID: 1204
 message JHBKNALCDCD {
 	uint32 FKPHIAJIPNN = 15;
 	int32 KBFHMOHPAPJ = 8;
 	uint32 GKICJLIMCAO = 7;
+}
+
+enum PLINDCJCFLJ {
+	PLINDCJCFLJ_WidgetSlotQuickUse = 0;
+	PLINDCJCFLJ_WidgetSlotAttachAvatar = 1;
 }
 
 // CmdID: 22164
@@ -6802,11 +7200,11 @@ message CPKAGFJOKFM {
 message FBGOJAKGDOM {
 	uint32 ELJHCLPOGAG = 11;
 	oneof CEKJGNCOPAK {
+		FCPMBNDLHMI change_gadget_state = 12;
+		LJKBHNIFHEN deactive_monster_wave_current_group = 1336;
 		CANEFOPJOIP active_gadget = 3;
 		DJMLCLPPPFJ deactive_gadget = 10;
 		EBBOOGNAIMF active_monster_group = 6;
-		FCPMBNDLHMI change_gadget_state = 12;
-		LJKBHNIFHEN deactive_monster_wave_current_group = 1336;
 		JDAFGMAJIFI active_monster_wave = 4;
 	}
 }
@@ -7224,9 +7622,7 @@ message AGCOGKGHNJB {
 
 message OIBDBOAEJOD {
 	bool JFECAANNLBF = 9;
-	oneof PIDCAOAEOFA {
-		HPGBPIEKPKA effigy_challenge_v_5_social_info = 512;
-	}
+	optional HPGBPIEKPKA effigy_challenge_v_5_social_info = 512;
 }
 
 // CmdID: 26848
@@ -7373,6 +7769,47 @@ message LBLJHOIADCJ {
 	}
 }
 
+enum DAODMOGICBE {
+	DAODMOGICBE_GcgActionNone = 0;
+	DAODMOGICBE_GcgActionSpecialPhase = 1;
+	DAODMOGICBE_GcgActionNextPhase = 2;
+	DAODMOGICBE_GcgActionDraw = 3;
+	DAODMOGICBE_GcgActionRedraw = 4;
+	DAODMOGICBE_GcgActionSelectOnstage = 5;
+	DAODMOGICBE_GcgActionRoll = 6;
+	DAODMOGICBE_GcgActionReroll = 7;
+	DAODMOGICBE_GcgActionAttack = 8;
+	DAODMOGICBE_GcgActionPlayCard = 9;
+	DAODMOGICBE_GcgActionPass = 10;
+	DAODMOGICBE_GcgActionReboot = 11;
+	DAODMOGICBE_GcgActionGameOver = 12;
+	DAODMOGICBE_GcgActionTrigger = 13;
+	DAODMOGICBE_GcgActionPhaseExit = 14;
+	DAODMOGICBE_GcgActionCustom = 15;
+	DAODMOGICBE_GcgActionNotifyCost = 16;
+	DAODMOGICBE_GcgActionAfterOperation = 17;
+	DAODMOGICBE_GcgActionUseSkill = 18;
+	DAODMOGICBE_GcgActionNotifySkillPreview = 19;
+	DAODMOGICBE_GcgActionPreviewAttack = 20;
+	DAODMOGICBE_GcgActionPreviewAfterAttack = 21;
+	DAODMOGICBE_GcgActionSendMessage = 22;
+	DAODMOGICBE_GcgActionWaitingCharacter = 23;
+	DAODMOGICBE_GcgActionTriggerSkill = 24;
+	DAODMOGICBE_GcgActionBeforeNextOperation = 25;
+	DAODMOGICBE_GcgActionRemoveCharacterCard = 26;
+	DAODMOGICBE_GcgActionOnstageCheck = 27;
+	DAODMOGICBE_GcgActionRecordBeforeOperationDiceNum = 28;
+	DAODMOGICBE_GcgActionCreateAutoOperation = 29;
+	DAODMOGICBE_GcgActionStartControllerTimer = 30;
+	DAODMOGICBE_GcgActionUseVehicleSkill = 31;
+	DAODMOGICBE_GcgActionPreviewUseVehicleSkill = 32;
+	DAODMOGICBE_GcgActionDiscover = 33;
+	DAODMOGICBE_GcgActionAutoBattleCardPlayCard = 35;
+	DAODMOGICBE_GcgActionChangeCharacterIndex = 36;
+	DAODMOGICBE_GcgActionDiscoverRefresh = 37;
+	DAODMOGICBE_GcgActionReplaceCharacter = 38;
+}
+
 // CmdID: 3809
 message OAAKICJBCMG {
 	int32 KBFHMOHPAPJ = 15;
@@ -7393,6 +7830,46 @@ message MMJKNLKKECI {
 message MEHEJKIOLCA {
 	BKJNICKOBNO EBHAODFJENG = 7;
 	BKJNICKOBNO BOAPODCLLFP = 11;
+}
+
+enum DFFCILAMNNO {
+	DFFCILAMNNO_ChangeHpNone = 0;
+	DFFCILAMNNO_ChangeHpSubAvatar = 1;
+	DFFCILAMNNO_ChangeHpSubMonster = 2;
+	DFFCILAMNNO_ChangeHpSubGear = 3;
+	DFFCILAMNNO_ChangeHpSubEnvir = 4;
+	DFFCILAMNNO_ChangeHpSubFall = 5;
+	DFFCILAMNNO_ChangeHpSubDrawn = 6;
+	DFFCILAMNNO_ChangeHpSubAbyss = 7;
+	DFFCILAMNNO_ChangeHpSubAbility = 8;
+	DFFCILAMNNO_ChangeHpSubSummon = 9;
+	DFFCILAMNNO_ChangeHpSubScript = 10;
+	DFFCILAMNNO_ChangeHpSubGm = 11;
+	DFFCILAMNNO_ChangeHpSubKillSelf = 12;
+	DFFCILAMNNO_ChangeHpSubClimateCold = 13;
+	DFFCILAMNNO_ChangeHpSubStormLightning = 14;
+	DFFCILAMNNO_ChangeHpSubKillServerGadget = 15;
+	DFFCILAMNNO_ChangeHpSubReplace = 16;
+	DFFCILAMNNO_ChangeHpSubPlayerLeave = 17;
+	DFFCILAMNNO_ChangeHpAttackByEnergy = 18;
+	DFFCILAMNNO_ChangeHpAttackByRecycle = 19;
+	DFFCILAMNNO_ChangeHpSubPlayerBack = 20;
+	DFFCILAMNNO_ChangeHpSubUgc = 21;
+	DFFCILAMNNO_ChangeHpSubDirtyWaterErosion = 22;
+	DFFCILAMNNO_ChangeHpSubDestroySelf = 23;
+	DFFCILAMNNO_ChangeHpSubLiquidPhlogiston = 24;
+	DFFCILAMNNO_ChangeHpSubLevelForceDie = 25;
+	DFFCILAMNNO_ChangeHpByLua = 51;
+	DFFCILAMNNO_ChangeHpAddAbility = 101;
+	DFFCILAMNNO_ChangeHpAddItem = 102;
+	DFFCILAMNNO_ChangeHpAddRevive = 103;
+	DFFCILAMNNO_ChangeHpAddUpgrade = 104;
+	DFFCILAMNNO_ChangeHpAddStatue = 105;
+	DFFCILAMNNO_ChangeHpAddBackground = 106;
+	DFFCILAMNNO_ChangeHpAddGm = 107;
+	DFFCILAMNNO_ChangeHpAddTrialAvatarActivity = 108;
+	DFFCILAMNNO_ChangeHpAddRouguelikeSpring = 109;
+	DFFCILAMNNO_ChangeHpAddEffigyChallengeV5 = 110;
 }
 
 message FOILBEGDFGL {
@@ -7513,6 +7990,13 @@ message IJKOIIGMEHF {
 	uint32 FEAEEJDHFOO = 1;
 }
 
+enum BFEEEDLHNAC {
+	BFEEEDLHNAC_InBattleMechanicusStageNone = 0;
+	BFEEEDLHNAC_InBattleMechanicusStageBuild = 1;
+	BFEEEDLHNAC_InBattleMechanicusStageCardFlip = 2;
+	BFEEEDLHNAC_InBattleMechanicusStageKill = 3;
+}
+
 message MBCMBACNOJI {
 	uint32 JNMCNLMGOLM = 5;
 	uint32 OBJFNHMLCAO = 10;
@@ -7562,8 +8046,8 @@ message GCACPLPJNNO {
 
 message HMJHDEOHBGA {
 	oneof IEFLLEAGMBH {
-		uint32 hash = 2;
 		string str = 1;
+		uint32 hash = 2;
 	}
 }
 
@@ -7665,6 +8149,16 @@ message DNJIODMDEBG {
 message LLNHHOMFFAP {
 	uint32 HFBFIKBGFLB = 4;
 	bool GOMHPGFLBNA = 15;
+}
+
+enum GMHCMPOJNNA {
+	GMHCMPOJNNA_DraftFailUnknown = 0;
+	GMHCMPOJNNA_DraftActivityNotOpen = 1;
+	GMHCMPOJNNA_DraftActivityPlayNotOpen = 2;
+	GMHCMPOJNNA_DraftSceneNotMeet = 3;
+	GMHCMPOJNNA_DraftWorldNotMeet = 4;
+	GMHCMPOJNNA_DraftPlayLimitNotMeet = 5;
+	GMHCMPOJNNA_DraftActivityConfigNotFound = 6;
 }
 
 // CmdID: 4046
@@ -7788,8 +8282,8 @@ message LFBCNIMIJMO {
 	uint64 NAGOFHBMDIL = 2;
 	uint32 EEBBJEJCJJB = 1;
 	oneof MBDFLBIAPEF {
-		IPFEMPKPDJI material = 5;
 		CDPOHKJCDIJ furniture = 7;
+		IPFEMPKPDJI material = 5;
 		CLLOFCDNLPD equip = 6;
 	}
 }
@@ -7837,6 +8331,11 @@ message MIDAKMMCOCO {
 
 // CmdID: 26659
 message ELGGEAKKCPN {
+	message KBOJIFPDKLM {
+		string EOPFFLDLKHI = 6;
+		repeated uint32 OPAGJFMJBMH = 10;
+		repeated PLDGDNHCDKP KDKMJDFFIPJ = 1;
+	}
 	repeated KBOJIFPDKLM IHNFCKNNFPO = 12;
 }
 
@@ -7918,6 +8417,15 @@ message PIEKMHFFADD {
 message COGEMHFOLFJ {
 	bool DDNLEPBCHFM = 9;
 	uint32 PAFHLNODIBD = 12;
+}
+
+enum JCPIEBAJBJO {
+	JCPIEBAJBJO_MsgUnknown = 0;
+	JCPIEBAJBJO_MsgBlockRefreshCountdown = 1;
+	JCPIEBAJBJO_MsgAvatarReviveByStatue = 2;
+	JCPIEBAJBJO_MsgDailyTaskRewardMaxNum = 3;
+	JCPIEBAJBJO_MsgRoutineTypeNotOpen = 4;
+	JCPIEBAJBJO_MsgRoutineTypeRewardMaxNum = 5;
 }
 
 // CmdID: 24473
@@ -8074,6 +8582,14 @@ message HJDNPDFHKMN {
 	uint32 FOHICPACOEN = 8;
 }
 
+enum MEEDLKCBHOF {
+	MEEDLKCBHOF_WindFieldDungeonFailNone = 0;
+	MEEDLKCBHOF_WindFieldDungeonFailCancel = 1;
+	MEEDLKCBHOF_WindFieldDungeonFailTimeout = 2;
+	MEEDLKCBHOF_WindFieldDungeonFailAllAvatarDie = 3;
+	MEEDLKCBHOF_WindFieldDungeonFailLuaInterrupt = 4;
+}
+
 // CmdID: 2868
 message MNAJMOINGGJ {
 	uint32 ABFAKFABADF = 11;
@@ -8082,6 +8598,10 @@ message MNAJMOINGGJ {
 
 // CmdID: 4510
 message DJHJKOBHBCK {
+	message FHJCBIEOCIB {
+		repeated uint32 FKACELABCEN = 2;
+		uint32 LCFGLIHMLEL = 7;
+	}
 	repeated FHJCBIEOCIB LKNPIIGLBHG = 13;
 	bool GKKCADINONN = 14;
 }
@@ -8117,9 +8637,7 @@ message HKOAPPHAEGJ {
 	repeated uint32 AHNAGLEIACK = 1;
 	uint32 HIHONAKHBFJ = 6;
 	uint32 KDJCMAMPBCL = 9;
-	oneof IKACACBKLEO {
-		MEPIJOEPCGD ugc_team_info = 382;
-	}
+	optional MEPIJOEPCGD ugc_team_info = 382;
 }
 
 // CmdID: 20976
@@ -8194,9 +8712,9 @@ message MDDFBDCKCOO {
 	uint32 MLJFJMKDLOF = 2;
 	AHGDIGOOPFI IEFLLEAGMBH = 13;
 	oneof MBDFLBIAPEF {
-		JLCPFIHBBFO normal = 439;
 		GHODAJLNHCP countdown = 2014;
 		CKHCOIKLJNG timer = 871;
+		JLCPFIHBBFO normal = 439;
 	}
 }
 
@@ -8213,6 +8731,10 @@ message LJANLAAJAMP {
 
 // CmdID: 21526
 message ADDEOADPCLK {
+	enum LJAFOEFBDLN {
+		LJAFOEFBDLN_LuaOptionNone = 0;
+		LJAFOEFBDLN_LuaOptionPlayerInput = 1;
+	}
 	string DBMECPENCOM = 10;
 	LJAFOEFBDLN GPBCCBAKLAB = 11;
 }
@@ -8265,6 +8787,12 @@ message NCEBBBCPGPB {
 	int32 KBFHMOHPAPJ = 12;
 }
 
+enum CJJGOMAIKCK {
+	CJJGOMAIKCK_None = 0;
+	CJJGOMAIKCK_Sail = 1;
+	CJJGOMAIKCK_Battle = 2;
+}
+
 // CmdID: 25494
 message DIELONJEEEE {
 	uint32 NCEKLKIPGKA = 1;
@@ -8308,6 +8836,11 @@ message GAMFIDJHFKL {
 message PEDPNLCLEJB {
 	repeated HEBOEGPCALJ MHNPHKLHHGO = 14;
 	int32 MKDDPCKGGEK = 1;
+}
+
+enum HFNLEDAAMMN {
+	HFNLEDAAMMN_None = 0;
+	HFNLEDAAMMN_OceanCurrent = 1;
 }
 
 message OKFFHNBFAPP {
@@ -8468,6 +9001,12 @@ message OHPCGFPJOIP {
 	repeated uint32 EFPPMMMMOCK = 4;
 }
 
+enum PCHPDILEMGG {
+	PCHPDILEMGG_StoreNone = 0;
+	PCHPDILEMGG_StorePack = 1;
+	PCHPDILEMGG_StoreDepot = 2;
+}
+
 // CmdID: 27848
 message LFBFFKJLHJE {
 	GNIOKFIALMI FLNAGGAJHFM = 6;
@@ -8516,6 +9055,12 @@ message LPANKHOHMDL {
 // CmdID: 27501
 message JAPFAHGNPBN {
 	int32 KBFHMOHPAPJ = 6;
+}
+
+enum ABCPGHHGHJM {
+	ABCPGHHGHJM_GetUgcNone = 0;
+	ABCPGHHGHJM_Mine = 1;
+	ABCPGHHGHJM_Publish = 2;
 }
 
 // CmdID: 9815
@@ -8626,7 +9171,20 @@ message LCDJAEMBCEJ {
 	int32 KBFHMOHPAPJ = 2;
 }
 
+enum NBNIJGDLCDI {
+	NBNIJGDLCDI_ThemeParkSimRedpointNone = 0;
+	NBNIJGDLCDI_ThemeParkSimRedpointBuffRefresh = 1;
+	NBNIJGDLCDI_ThemeParkSimRedpointEmployeeRefresh = 2;
+	NBNIJGDLCDI_ThemeParkSimRedpointEmployeeRefreshDetail = 3;
+}
+
 message GPIMLMHMLGK {
+	enum AGDELDIJIKE {
+		AGDELDIJIKE_Close = 0;
+		AGDELDIJIKE_CondNotMeet = 1;
+		AGDELDIJIKE_CondMeet = 2;
+		AGDELDIJIKE_Accept = 3;
+	}
 	repeated ABHMANAAGGJ APPKJIHNAPE = 9;
 	repeated uint32 CIOEFBAKLOC = 5;
 	repeated uint32 JBNOOLNLILJ = 3;
@@ -8797,6 +9355,10 @@ message KBPFLDAJDIM {
 
 // CmdID: 24210
 message BHICEOIKNIC {
+	message JIEDGIOHLAH {
+		uint32 LNNNLDHNCCE = 13;
+		uint32 FEAEEJDHFOO = 5;
+	}
 	repeated JIEDGIOHLAH OHFJNNNOFIA = 4;
 	uint32 EHOHOFKPJEP = 7;
 }
@@ -8876,6 +9438,12 @@ message AGOCPLKIOMD {
 	float JCBPNKONMFP = 7;
 }
 
+enum MHOKMPHNCJK {
+	MHOKMPHNCJK_Idle = 0;
+	MHOKMPHNCJK_ChangingAvatar = 1;
+	MHOKMPHNCJK_Ready = 2;
+}
+
 // CmdID: 1008
 message LNNIKPAPLIO {
 	repeated uint32 DADLJHHKAIH = 6;
@@ -8935,6 +9503,16 @@ message BKPGAMFBEPN {
 	map<uint32, uint32> PBKEGGBONPH = 6;
 }
 
+enum AJMMBHPPBEL {
+	AJMMBHPPBEL_GadgetBornNone = 0;
+	AJMMBHPPBEL_GadgetBornInAir = 1;
+	AJMMBHPPBEL_GadgetBornPlayer = 2;
+	AJMMBHPPBEL_GadgetBornMonsterHit = 3;
+	AJMMBHPPBEL_GadgetBornMonsterDie = 4;
+	AJMMBHPPBEL_GadgetBornGadget = 5;
+	AJMMBHPPBEL_GadgetBornGround = 6;
+}
+
 // CmdID: 3250
 message HPMCJDBLEIH {
 	uint32 NNPJCDKOOMG = 12;
@@ -8957,6 +9535,12 @@ message ADIONOALCNO {
 
 // CmdID: 6831
 message CCLJBDGMEHL {
+	enum BOLDDDMHDDF {
+		BOLDDDMHDDF_Default = 0;
+		BOLDDDMHDDF_Clear = 1;
+		BOLDDDMHDDF_Distance = 2;
+		BOLDDDMHDDF_Finish = 3;
+	}
 	BOLDDDMHDDF CLBANAHDPFN = 12;
 	bool HMOIDLLFBKL = 13;
 	uint32 LMEENECPMEF = 4;
@@ -8977,6 +9561,13 @@ message DLEEJEJLPGC {
 message ELLCJJGJMDP {
 	uint32 APLAAGNAPCB = 9;
 	bool GMHCKFIMCGP = 15;
+}
+
+enum KEAPDBKMFJE {
+	KEAPDBKMFJE_RogueDiaryAvatarDisableNone = 0;
+	KEAPDBKMFJE_RogueDiaryAvatarDisableDeath = 1;
+	KEAPDBKMFJE_RogueDiaryAvatarDisableTired = 2;
+	KEAPDBKMFJE_RogueDiaryAvatarDisableDuplicated = 3;
 }
 
 // CmdID: 20022
@@ -9003,6 +9594,13 @@ message PLJPJIDPBGM {
 
 message LAMAOFGCGIJ {
 	repeated ELPHEKGBELD GECCJFECAOO = 1;
+}
+
+enum CDKJNAHDDGO {
+	CDKJNAHDDGO_GcgSettleOptNone = 0;
+	CDKJNAHDDGO_GcgSettleOptExit = 1;
+	CDKJNAHDDGO_GcgSettleOptContinue = 2;
+	CDKJNAHDDGO_GcgSettleOptRestart = 3;
 }
 
 // CmdID: 29699
@@ -9084,6 +9682,21 @@ message FJBFCGIGIBH {
 	repeated uint32 IHNHNCIBCIM = 2;
 	bool AECODGPMAFC = 10;
 	int32 KBFHMOHPAPJ = 7;
+}
+
+enum AKOMBOALKKK {
+	AKOMBOALKKK_PlayerDieNone = 0;
+	AKOMBOALKKK_PlayerDieKillByMonster = 1;
+	AKOMBOALKKK_PlayerDieKillByGear = 2;
+	AKOMBOALKKK_PlayerDieFall = 3;
+	AKOMBOALKKK_PlayerDieDrawn = 4;
+	AKOMBOALKKK_PlayerDieAbyss = 5;
+	AKOMBOALKKK_PlayerDieGm = 6;
+	AKOMBOALKKK_PlayerDieClimateCold = 7;
+	AKOMBOALKKK_PlayerDieStormLighting = 8;
+	AKOMBOALKKK_PlayerDieDirtyWaterErosion = 9;
+	AKOMBOALKKK_PlayerDieLiquidPhlogiston = 10;
+	AKOMBOALKKK_PlayerDieLevelForceDie = 11;
 }
 
 message LEMKBDCIFMN {
@@ -9218,6 +9831,12 @@ message EHONOJMJIBN {
 	repeated PFAKLDFOJNB BDOOFKCGEGM = 6;
 	bool DDNLEPBCHFM = 9;
 	uint32 HHDPJFFECJP = 11;
+}
+
+enum CFFDKBGFKOF {
+	CFFDKBGFKOF_WidgetCreatorTypeNone = 0;
+	CFFDKBGFKOF_WidgetCreatorTypeRetract = 1;
+	CFFDKBGFKOF_WidgetCreatorTypeRetractAndCreate = 2;
 }
 
 // CmdID: 3913
@@ -9374,6 +9993,11 @@ message MKIFNGFEKBI {
 
 // CmdID: 21398
 message BAMFAGDLOAM {
+	enum NAIKLEADNBH {
+		NAIKLEADNBH_Null = 0;
+		NAIKLEADNBH_Active = 1;
+		NAIKLEADNBH_Passive = 2;
+	}
 	BKJNICKOBNO BOAPODCLLFP = 8;
 	BKJNICKOBNO EBHAODFJENG = 3;
 	uint32 NCEKLKIPGKA = 10;
@@ -9710,6 +10334,11 @@ message EKHBEEIIPFO {
 }
 
 message JJJFJGAMKDL {
+	message KMCPDBPLNJF {
+		uint32 LEJGOFDOMEE = 4;
+		bool KFKKFPPHAJA = 10;
+		uint32 JAMBAFEHGJE = 13;
+	}
 	repeated KMCPDBPLNJF EPGDMBBAGFM = 11;
 	bool DDNLEPBCHFM = 15;
 }
@@ -9791,6 +10420,13 @@ message DNBPKKIEBMD {
 	uint32 HADMGONDJBF = 15;
 }
 
+enum ALAMNHIDDEE {
+	ALAMNHIDDEE_UgcVoteNone = 0;
+	ALAMNHIDDEE_UgcVotePositive = 1;
+	ALAMNHIDDEE_UgcVoteNeutral = 2;
+	ALAMNHIDDEE_UgcVoteNegative = 3;
+}
+
 message AGDBAODKHDD {
 	map<string, string> KNIKPPNMLKG = 3;
 }
@@ -9805,9 +10441,7 @@ message MFBEBFGCHCG {
 	OFMAJELOAIN LOBDJPHHKPK = 4;
 	uint64 LIGCILNAOCC = 10;
 	int32 KBFHMOHPAPJ = 8;
-	oneof LAEOFKJMJED {
-		CMECIDEFDLK lan_v_5_card_brief_info = 1763;
-	}
+	optional CMECIDEFDLK lan_v_5_card_brief_info = 1763;
 }
 
 message OKFFPNLAMFM {
@@ -10157,9 +10791,9 @@ message OIHEGAJLEBF {
 	bool DDNLEPBCHFM = 3;
 	uint32 DKMPCBHBGGF = 8;
 	oneof MBDFLBIAPEF {
-		GOJMLFKBNBL music_info = 7;
 		BAGGEEJBHFB balloon_info = 6;
 		PLDGMOKHJAJ fall_info = 5;
+		GOJMLFKBNBL music_info = 7;
 	}
 }
 
@@ -10234,6 +10868,12 @@ message EPBADKDHELB {
 message IDLCDOJKADH {
 	repeated uint32 BAEEIMCLJOB = 15;
 	repeated uint32 PJBHLMGDBBG = 3;
+}
+
+enum PLJICLHEEFC {
+	PLJICLHEEFC_LifeByOwnerNone = 0;
+	PLJICLHEEFC_LifeByOwnerV2 = 1;
+	PLJICLHEEFC_LifeByOwnerV3 = 2;
 }
 
 // CmdID: 24796
@@ -10394,6 +11034,14 @@ message BMIGIDOAJAE {
 message CHFNDAKLOPI {
 	uint32 AHMFDIDHPNO = 1;
 	bool BLLKGDFGNML = 15;
+}
+
+enum JINPODBINKI {
+	JINPODBINKI_ExpeditionNone = 0;
+	JINPODBINKI_ExpeditionStarted = 1;
+	JINPODBINKI_ExpeditionFinished = 2;
+	JINPODBINKI_ExpeditionRewarded = 3;
+	JINPODBINKI_ExpeditionLocked = 4;
 }
 
 message LPIBLNGJFKH {
@@ -10607,6 +11255,12 @@ message DLEKIKAOGEG {
 	uint32 NCEKLKIPGKA = 4;
 }
 
+enum PLDBHCNNKFK {
+	PLDBHCNNKFK_Idle = 0;
+	PLDBHCNNKFK_ChangingAvatar = 1;
+	PLDBHCNNKFK_Ready = 2;
+}
+
 // CmdID: 22996
 message PMGBFDNOGLH {
 	HHIEDDKADNC HPGLLEHJJIN = 5;
@@ -10619,6 +11273,12 @@ message PMGBFDNOGLH {
 
 // CmdID: 7685
 message KKBBMHBLJLJ {
+	enum HHBJECLFOPN {
+		HHBJECLFOPN_ItemExceedLimitMsgDefault = 0;
+		HHBJECLFOPN_ItemExceedLimitMsgText = 1;
+		HHBJECLFOPN_ItemExceedLimitMsgDialog = 2;
+		HHBJECLFOPN_ItemExceedLimitMsgDialogNonblock = 3;
+	}
 	repeated uint32 PCGENDIHEGK = 12;
 	repeated uint32 CNKPHAJILOM = 2;
 	bool EMGGPCPDGPI = 11;
@@ -10656,6 +11316,13 @@ message PJPLPKKGLPM {
 message FGJLHFPPKAO {
 	map<uint32, CKIBFDGEILD> MDMAHLHPPJA = 12;
 	uint32 KLACGGIEFHF = 11;
+}
+
+enum MHNOMBONJGC {
+	MHNOMBONJGC_None = 0;
+	MHNOMBONJGC_Fail = 1;
+	MHNOMBONJGC_Succ = 2;
+	MHNOMBONJGC_Pause = 3;
 }
 
 // CmdID: 673
@@ -10730,6 +11397,15 @@ message EHCONGNEFKK {
 
 // CmdID: 26388
 message ANPJGALPGGB {
+	enum DJEHMPOFOBJ {
+		DJEHMPOFOBJ_RentSucc = 0;
+		DJEHMPOFOBJ_RentLimit = 1;
+		DJEHMPOFOBJ_RentRepeated = 2;
+	}
+	message FJMFPICBCFK {
+		HHDAKFMJJPL IKDJALIJLNH = 13;
+		repeated CIGOOBEJNIP CDMDEHLMNKK = 8;
+	}
 	repeated FJMFPICBCFK KLIIOEPMHAK = 9;
 	int32 KBFHMOHPAPJ = 1;
 }
@@ -10869,6 +11545,11 @@ message HMPMMOFBMMH {
 
 // CmdID: 28725
 message HGMFPJONMNP {
+	enum KAFPBKGHCOK {
+		KAFPBKGHCOK_TimeOut = 0;
+		KAFPBKGHCOK_SettlePlayEnd = 1;
+		KAFPBKGHCOK_SettlePlayerQuit = 2;
+	}
 	repeated EGMDGMKELMI NHMCMLLAEGG = 7;
 	repeated EFPJOFAOBMP GJOLPLEOKBC = 1;
 	repeated uint32 CKFJNDGCECO = 2;
@@ -11234,6 +11915,13 @@ message HIFHKOBKIAH {
 	uint32 JNMCNLMGOLM = 4;
 }
 
+enum CBIPOGAHNIJ {
+	CBIPOGAHNIJ_GalleryNone = 0;
+	CBIPOGAHNIJ_GalleryPrestart = 1;
+	CBIPOGAHNIJ_GalleryStart = 2;
+	CBIPOGAHNIJ_GalleryInit = 3;
+}
+
 message AMOPLIFJHAN {
 	uint32 DHDPIBMKIEG = 8;
 	uint32 HHDPJFFECJP = 5;
@@ -11318,8 +12006,8 @@ message AFKPEPOCHMF {
 	uint32 MDKCJILHJPD = 7;
 	bool GBHHPLCOEOA = 15;
 	oneof MBDFLBIAPEF {
-		KACGEAHHOHN revenue_bonus_info = 1654;
 		MPEKOJMMJKG action_points_no_cost_info = 285;
+		KACGEAHHOHN revenue_bonus_info = 1654;
 	}
 }
 
@@ -11334,6 +12022,15 @@ message CPDGJINNDMI {
 	uint32 DIIALADEOAN = 11;
 	bool EIOFBPEBMKG = 7;
 	bool DDNLEPBCHFM = 13;
+}
+
+enum EOLHDDOAPPI {
+	EOLHDDOAPPI_None = 0;
+	EOLHDDOAPPI_ReadySelectAvatar = 1;
+	EOLHDDOAPPI_ReadySelectCard = 2;
+	EOLHDDOAPPI_ReadyEnterFight = 3;
+	EOLHDDOAPPI_AllFinish = 4;
+	EOLHDDOAPPI_WaitAllFinish = 5;
 }
 
 // CmdID: 2228
@@ -11640,6 +12337,12 @@ message FDCPFFHIMPM {
 	uint32 JBNMDBENHEA = 15;
 }
 
+enum GFCDCEBNEBP {
+	GFCDCEBNEBP_SealBattleKeepAlive = 0;
+	GFCDCEBNEBP_SealBattleKillMonster = 1;
+	GFCDCEBNEBP_SealBattleEnergyCharge = 2;
+}
+
 // CmdID: 8345
 message KIFLFGNLINM {
 	repeated FDHIKHPBPIP JPPLAFJKCFG = 2;
@@ -11679,9 +12382,24 @@ message ABPHCOLHAHJ {
 	uint64 JBKIFNNMECH = 5;
 }
 
+enum JPHKIAKPOGL {
+	JPHKIAKPOGL_Idle = 0;
+	JPHKIAKPOGL_ChangingAvatar = 1;
+	JPHKIAKPOGL_Ready = 2;
+}
+
 // CmdID: 4748
 message FEJNPIMMCLG {
+	message JDJIPIFENMP {
+		uint32 DHHLBOKGLEO = 10;
+		uint32 BCAPFMMENPH = 9;
+	}
 	repeated JDJIPIFENMP JAKGAODIOCM = 1;
+}
+
+enum ELALPFLEDHK {
+	ELALPFLEDHK_None = 0;
+	ELALPFLEDHK_ESkillShared = 1;
 }
 
 // CmdID: 6025
@@ -11796,6 +12514,10 @@ message DNNILJCLHGA {
 }
 
 message DIECKCACFND {
+	enum FNDMOPJOPDP {
+		FNDMOPJOPDP_LockNone = 0;
+		FNDMOPJOPDP_LockQuest = 1;
+	}
 	FBMAALEAPDP BKCNOBCOCJM = 5;
 	BKJNICKOBNO BOAPODCLLFP = 11;
 	uint32 MLKHIODLAOB = 12;
@@ -12008,6 +12730,14 @@ message PDKKNABHNMF {
 	uint32 ADBADBIHCFO = 12;
 }
 
+enum HMLEDHNBNLP {
+	HMLEDHNBNLP_BrickBreakerStagePrepare = 0;
+	HMLEDHNBNLP_BrickBreakerStagePick = 1;
+	HMLEDHNBNLP_BrickBreakerStageGame = 2;
+	HMLEDHNBNLP_BrickBreakerStagePlay = 3;
+	HMLEDHNBNLP_BrickBreakerStageSettle = 4;
+}
+
 message DLDADMEMOGA {
 	int32 PIDCAOAEOFA = 14;
 	JONKPHFBHGO IEFLLEAGMBH = 3;
@@ -12041,6 +12771,32 @@ message JNMIHMPCFNE {
 	uint32 MBIMACPAFHA = 7;
 	uint32 JDEDAKPMMAG = 13;
 	uint32 IPNGMECLABL = 8;
+}
+
+enum PLDGDNHCDKP {
+	PLDGDNHCDKP_Editor = 0;
+	PLDGDNHCDKP_Ios = 1;
+	PLDGDNHCDKP_Android = 2;
+	PLDGDNHCDKP_Pc = 3;
+	PLDGDNHCDKP_Ps4 = 4;
+	PLDGDNHCDKP_Server = 5;
+	PLDGDNHCDKP_CloudAndroid = 6;
+	PLDGDNHCDKP_CloudIos = 7;
+	PLDGDNHCDKP_Ps5 = 8;
+	PLDGDNHCDKP_CloudWeb = 9;
+	PLDGDNHCDKP_CloudTv = 10;
+	PLDGDNHCDKP_CloudMac = 11;
+	PLDGDNHCDKP_CloudPc = 12;
+	PLDGDNHCDKP_CloudThirdPartyMobile = 13;
+	PLDGDNHCDKP_CloudThirdPartyPc = 14;
+	PLDGDNHCDKP_CloudWebAndroid = 15;
+	PLDGDNHCDKP_CloudWebIos = 16;
+	PLDGDNHCDKP_CloudWebPc = 17;
+	PLDGDNHCDKP_CloudWebMac = 18;
+	PLDGDNHCDKP_CloudWebTouch = 19;
+	PLDGDNHCDKP_CloudWebKeyboard = 20;
+	PLDGDNHCDKP_XboxScarlett = 21;
+	PLDGDNHCDKP_OpenHarmony = 22;
 }
 
 message LLFIFBEONMC {
@@ -12096,6 +12852,15 @@ message OMHKCICPLED {
 	bool MEDOBCKGFKJ = 7;
 	bool ADLAMEEIPAK = 10;
 	uint32 LHIGNNFAPBC = 1;
+}
+
+enum BKPJBHOIPCL {
+	BKPJBHOIPCL_HideAndSeekStagePrepare = 0;
+	BKPJBHOIPCL_HideAndSeekStagePick = 1;
+	BKPJBHOIPCL_HideAndSeekStageGame = 2;
+	BKPJBHOIPCL_HideAndSeekStageHide = 3;
+	BKPJBHOIPCL_HideAndSeekStageSeek = 4;
+	BKPJBHOIPCL_HideAndSeekStageSettle = 5;
 }
 
 // CmdID: 3638
@@ -12154,6 +12919,12 @@ message BAIIOCGDMFN {
 // CmdID: 8344
 message AMIEKHPMMKI {
 	int32 KBFHMOHPAPJ = 8;
+}
+
+enum JDILNEJHAAA {
+	JDILNEJHAAA_AreaPlayNone = 0;
+	JDILNEJHAAA_AreaPlayClimate = 1;
+	JDILNEJHAAA_AreaPlayRegionalPlay = 2;
 }
 
 // CmdID: 4431
@@ -12222,6 +12993,17 @@ message LOKADHHCBHF {
 // CmdID: 22383
 message KBKIBLGOOLH {
 	fixed32 NDDMJOEDLKN = 9;
+}
+
+enum AHNFEKGDHAL {
+	AHNFEKGDHAL_EnterUgcDungeonNone = 0;
+	AHNFEKGDHAL_EnterUgcDungeonTrialInEditDungeon = 1;
+	AHNFEKGDHAL_EnterUgcDungeonTrialInWorld = 2;
+	AHNFEKGDHAL_EnterUgcDungeonPlay = 3;
+	AHNFEKGDHAL_EnterUgcDungeonOfficial = 4;
+	AHNFEKGDHAL_EnterUgcDungeonByGm = 5;
+	AHNFEKGDHAL_EnterUgcDungeonByEdit = 6;
+	AHNFEKGDHAL_EnterUgcDungeonTrialOneRoom = 7;
 }
 
 // CmdID: 21743
@@ -12406,6 +13188,11 @@ message CFGIMFHFMDJ {
 
 // CmdID: 6196
 message JIEAOFJMMBJ {
+	enum IELINAABJFG {
+		IELINAABJFG_StatusFail = 0;
+		IELINAABJFG_StatusSucc = 1;
+		IELINAABJFG_StatusPartial = 2;
+	}
 	repeated int64 PHCEPPOPFIJ = 14;
 	repeated BKJNICKOBNO NMIKOIAKNPD = 15;
 	repeated int32 EEBPNGJNHAE = 1;
@@ -12601,6 +13388,11 @@ message JNJBBMLACNA {
 
 message NHKPMLIANBM {
 	repeated NEAFCDKKLBK NBECPFMBPPO = 8;
+}
+
+enum JLEGKEBBLLH {
+	JLEGKEBBLLH_None = 0;
+	JLEGKEBBLLH_Transculent = 1;
 }
 
 // CmdID: 7858
@@ -12830,6 +13622,13 @@ message NOEDIAFJIDB {
 }
 
 message GJICMHIKICB {
+	enum JIBNKLNCDAP {
+		JIBNKLNCDAP_ActionTypeNone = 0;
+		JIBNKLNCDAP_ActionTypeLaunchBall = 1;
+		JIBNKLNCDAP_ActionTypeDestroyBall = 2;
+		JIBNKLNCDAP_ActionTypeFallingObject = 3;
+		JIBNKLNCDAP_ActionTypeMissile = 4;
+	}
 	KIOBCODPHLM GGIEBGNLNOF = 8;
 	KIOBCODPHLM BOAPODCLLFP = 7;
 	KIOBCODPHLM OIICNHPEAAD = 15;
@@ -12917,10 +13716,22 @@ message LDKFPFPBFIP {
 	bool FENPCOEMOOC = 12;
 }
 
+enum JPFKABBPKMC {
+	JPFKABBPKMC_LunaRiteHintStatusDefault = 0;
+	JPFKABBPKMC_LunaRiteHintStatusNoCount = 1;
+	JPFKABBPKMC_LunaRiteHintStatusFinish = 2;
+}
+
 // CmdID: 23043
 message NNLCIHBEKDI {
 	EDPKFAAJHPM HOKNEJIKBPE = 2;
 	int32 KBFHMOHPAPJ = 4;
+}
+
+enum AHGDIGOOPFI {
+	AHGDIGOOPFI_CustomGalleryScoreBoardNormal = 0;
+	AHGDIGOOPFI_CustomGalleryScoreBoardCountdown = 1;
+	AHGDIGOOPFI_CustomGalleryScoreBoardTimer = 2;
 }
 
 message NHBBEBMMBLA {
@@ -12962,6 +13773,14 @@ message HAFLKILOIFP {
 
 // CmdID: 26129
 message KOJHNOFKAAF {
+	message BKAHEOLPAJI {
+		uint32 LEKAGDJDGOH = 1;
+		bool BCKKHOIFDEO = 12;
+	}
+	message KGEEBNJFGLJ {
+		bool BCKKHOIFDEO = 7;
+		uint32 BNKNALMDJIA = 5;
+	}
 	KGEEBNJFGLJ MEADEFJJCDP = 2;
 	BKAHEOLPAJI MOCFCPAGIHF = 7;
 	uint32 KNGCJDEAHMB = 5;
@@ -12990,9 +13809,9 @@ message BJOFGHDGPNL {
 
 message HJIEEDDHPEN {
 	oneof MBDFLBIAPEF {
+		HPAHBDKJOJN chess = 13;
 		LJMLKADCCOE counter = 7;
 		BEKLMCBAOGE equip = 14;
-		HPAHBDKJOJN chess = 13;
 	}
 }
 
@@ -13294,8 +14113,8 @@ message CEOONMJKECE {
 message IGADODBKKGN {
 	uint32 EEBBJEJCJJB = 1;
 	oneof MBDFLBIAPEF {
-		PLIOMDIGGNL weapon = 3;
 		DPEBBHAAKGO reliquary = 2;
+		PLIOMDIGGNL weapon = 3;
 	}
 }
 
@@ -13336,6 +14155,21 @@ message OCBIAAILBCA {
 
 // CmdID: 6483
 message HMLCIADKMPA {
+	enum DCKBBNJMIHL {
+		DCKBBNJMIHL_PlayerJudge = 0;
+		DCKBBNJMIHL_PlayerEnterOptionRefuse = 1;
+		DCKBBNJMIHL_PlayerEnterOptionDirect = 2;
+		DCKBBNJMIHL_SystemJudge = 3;
+		DCKBBNJMIHL_HostInMatch = 4;
+		DCKBBNJMIHL_PsPlayerNotAcceptOthers = 5;
+		DCKBBNJMIHL_OpenStateNotOpen = 6;
+		DCKBBNJMIHL_HostInEditMode = 7;
+		DCKBBNJMIHL_PriorCheck = 8;
+		DCKBBNJMIHL_PlayerOffline = 9;
+		DCKBBNJMIHL_XboxPlayerNotAcceptOthers = 10;
+		DCKBBNJMIHL_PlayerNotAcceptOtherPlatform = 11;
+		DCKBBNJMIHL_XboxOnly = 12;
+	}
 	string JFIDPNLMFDP = 3;
 	bool IMODNHFNCFA = 12;
 	DCKBBNJMIHL CLBANAHDPFN = 8;
@@ -13353,6 +14187,23 @@ message ONAOFBGIGGG {
 	bool EIOFBPEBMKG = 15;
 	bool LHGDLDNNIBF = 10;
 	uint32 DIIALADEOAN = 8;
+}
+
+enum OFGNBHMJOLI {
+	OFGNBHMJOLI_PropChangeNone = 0;
+	OFGNBHMJOLI_PropChangeStatueRecover = 1;
+	OFGNBHMJOLI_PropChangeEnergyBall = 2;
+	OFGNBHMJOLI_PropChangeAbility = 3;
+	OFGNBHMJOLI_PropChangeLevelup = 4;
+	OFGNBHMJOLI_PropChangeItem = 5;
+	OFGNBHMJOLI_PropChangeAvatarCard = 6;
+	OFGNBHMJOLI_PropChangeCityLevelup = 7;
+	OFGNBHMJOLI_PropChangeAvatarUpgrade = 8;
+	OFGNBHMJOLI_PropChangeAvatarPromote = 9;
+	OFGNBHMJOLI_PropChangePlayerAddExp = 10;
+	OFGNBHMJOLI_PropChangeFinishQuest = 11;
+	OFGNBHMJOLI_PropChangeGm = 12;
+	OFGNBHMJOLI_PropChangeManualAdjustWorldLevel = 13;
 }
 
 // CmdID: 5170
@@ -13436,6 +14287,10 @@ message LAIDDJCICEA {
 }
 
 message JHOOICLBAKM {
+	enum NNFJKHDINMD {
+		NNFJKHDINMD_ObstacleShapeCapsule = 0;
+		NNFJKHDINMD_ObstacleShapeBox = 1;
+	}
 	LKLHKKGDANP CEKEKMONJOH = 15;
 	BKJNICKOBNO OJNLDBDHPPL = 9;
 	OOEPBLLLDGP HEOIHDDFALJ = 8;
@@ -13459,6 +14314,13 @@ message ACJCOMNIDOF {
 	uint32 MPHCBEHAMOJ = 13;
 	bool EIOFBPEBMKG = 10;
 	uint32 ACINOMMICFP = 9;
+}
+
+enum IAFBJDPPLKG {
+	IAFBJDPPLKG_None = 0;
+	IAFBJDPPLKG_Close = 1;
+	IAFBJDPPLKG_Open = 2;
+	IAFBJDPPLKG_OnlyRecommendPropHighlight = 3;
 }
 
 // CmdID: 27047
@@ -13623,9 +14485,7 @@ message CCIPIFBBLLA {
 message NPDANIDLDCN {
 	GLLJCPJNGBI FFELEJLLDFD = 6;
 	uint32 APLAAGNAPCB = 13;
-	oneof MBDFLBIAPEF {
-		HMBCFMMBCGL ugc_avatar_info = 1170;
-	}
+	optional HMBCFMMBCGL ugc_avatar_info = 1170;
 }
 
 // CmdID: 22131
@@ -13636,6 +14496,10 @@ message LOBFJBKMCMO {
 
 // CmdID: 23176
 message PGKEJAEDDOP {
+	enum EKOLDOBINEK {
+		EKOLDOBINEK_None = 0;
+		EKOLDOBINEK_Effect = 1;
+	}
 	BKJNICKOBNO EBHAODFJENG = 13;
 	BKJNICKOBNO BOAPODCLLFP = 9;
 	uint32 PHCEPPOPFIJ = 5;
@@ -13669,6 +14533,13 @@ message KPFJEONCEFN {
 // CmdID: 26873
 message CALDFODEJHJ {
 	uint32 APGDDJAFEKJ = 3;
+}
+
+enum OFCOMGMMNLG {
+	OFCOMGMMNLG_None = 0;
+	OFCOMGMMNLG_Low = 1;
+	OFCOMGMMNLG_Mid = 2;
+	OFCOMGMMNLG_High = 3;
 }
 
 message CHGAIHNNEAO {
@@ -13734,6 +14605,20 @@ message IFFHHDMLKIG {
 // CmdID: 275
 message GMHDBAACAAD {
 	NDGCPICHGMG FGKOCLBIPBL = 9;
+}
+
+enum OIPEILIHDBF {
+	OIPEILIHDBF_Default = 0;
+	OIPEILIHDBF_Die = 1;
+	OIPEILIHDBF_Surrender = 2;
+	OIPEILIHDBF_Disconnected = 3;
+	OIPEILIHDBF_RoundLimit = 4;
+	OIPEILIHDBF_Gm = 5;
+	OIPEILIHDBF_NoPlayer = 6;
+	OIPEILIHDBF_GiveUp = 7;
+	OIPEILIHDBF_InitTimeout = 8;
+	OIPEILIHDBF_Effect = 9;
+	OIPEILIHDBF_ExpireTimeout = 10;
 }
 
 // CmdID: 21478
@@ -13912,6 +14797,10 @@ message DCOLCFFKKCN {
 }
 
 message CDINOLICPNN {
+	message OPFGKPEDAFI {
+		repeated uint32 FKACELABCEN = 6;
+		uint32 MBNDMCGABNE = 4;
+	}
 	repeated uint32 GMNJEGPOCGP = 3;
 	DLKIMDDHIEI GJAIMOBAGMH = 7;
 	repeated uint32 HDNLDOGLMOL = 9;
@@ -13930,6 +14819,14 @@ message CDINOLICPNN {
 // CmdID: 3937
 message FKIANENADGL {
 	int32 KBFHMOHPAPJ = 6;
+}
+
+enum KIKHFPPEIJI {
+	KIKHFPPEIJI_ThemeParkSimActionNone = 0;
+	KIKHFPPEIJI_ThemeParkSimActionFacilityUpgrade = 1;
+	KIKHFPPEIJI_ThemeParkSimActionFacilityExpand = 2;
+	KIKHFPPEIJI_ThemeParkSimActionHireEmployee = 3;
+	KIKHFPPEIJI_ThemeParkSimActionAvatarQuest = 4;
 }
 
 message FBPEMPPBNMN {
@@ -14345,9 +15242,7 @@ message MLAIGBDMBMH {
 }
 
 message EHNOLFDJJAO {
-	oneof GIOALGJMDEP {
-		HJDLFDOLIDM detail_ability_info = 6;
-	}
+	optional HJDLFDOLIDM detail_ability_info = 6;
 }
 
 // CmdID: 29202
@@ -14381,6 +15276,10 @@ message AENIDAJLBKA {
 	uint32 BAMIAFOGANB = 11;
 }
 
+enum CJGGKCGPJKN {
+	CJGGKCGPJKN_MarkTipsDungeonElementTrial = 0;
+}
+
 message KGKBMJOMMCO {
 	bytes OJCACGONKLN = 7;
 	INNPEONGPPN LMEGPCLJODA = 14;
@@ -14400,9 +15299,7 @@ message HKMMJBBHEPH {
 	uint32 GJGKGDECDJN = 9;
 	bool AHKOCIGMBOB = 1;
 	bool COOAFOOKKLO = 10;
-	oneof MBDFLBIAPEF {
-		FKOMLDGGHAD offering_pari_detail_data = 442;
-	}
+	optional FKOMLDGGHAD offering_pari_detail_data = 442;
 }
 
 // CmdID: 6607
@@ -14509,6 +15406,13 @@ message GCCIDFJJBAH {
 	uint32 POEJCHFENFO = 2;
 }
 
+enum FNDNNHKGDBI {
+	FNDNNHKGDBI_DungeonCandidateTplrNormal = 0;
+	FNDNNHKGDBI_DungeonCandidateTplrDie = 1;
+	FNDNNHKGDBI_DungeonCandidateTplrBeKick = 2;
+	FNDNNHKGDBI_DungeonCandidateDisconnect = 3;
+}
+
 // CmdID: 26189
 message CKOKBGCBKBN {
 	IPMNPJIJAOE MBDFLBIAPEF = 11;
@@ -14546,6 +15450,13 @@ message DELBDGGOKGD {
 // CmdID: 21746
 message EMCJDMGMKNE {
 	int32 KBFHMOHPAPJ = 12;
+}
+
+enum MADBGOGBGKH {
+	MADBGOGBGKH_DungeonTeamBuilderDismissNone = 0;
+	MADBGOGBGKH_DungeonTeamBuilderDismissNormal = 1;
+	MADBGOGBGKH_DungeonTeamBuilderDismissOwnerLeave = 2;
+	MADBGOGBGKH_DungeonTeamBuilderDismissActivityClose = 3;
 }
 
 message HKFMMLBIILB {
@@ -14944,6 +15855,25 @@ message HGDLKINPLDE {
 	uint32 NCEKLKIPGKA = 11;
 }
 
+enum IHMFDNGHHOH {
+	IHMFDNGHHOH_GalleryStopNone = 0;
+	IHMFDNGHHOH_GalleryStopTimeup = 1;
+	IHMFDNGHHOH_GalleryStopClientInterrupt = 2;
+	IHMFDNGHHOH_GalleryStopLuaInterruptSuccess = 3;
+	IHMFDNGHHOH_GalleryStopLuaInterruptFail = 4;
+	IHMFDNGHHOH_GalleryStopOwnerLeaveScene = 5;
+	IHMFDNGHHOH_GalleryStopPlayInitFailed = 6;
+	IHMFDNGHHOH_GalleryStopOtherPlayerEnter = 7;
+	IHMFDNGHHOH_GalleryStopAvatarDie = 8;
+	IHMFDNGHHOH_GalleryStopFinished = 9;
+	IHMFDNGHHOH_GalleryStopFungusAllDie = 10;
+	IHMFDNGHHOH_GalleryStopLifeCountZero = 11;
+	IHMFDNGHHOH_GalleryStopActivityClosed = 12;
+	IHMFDNGHHOH_GalleryStopLeaveRegionFail = 13;
+	IHMFDNGHHOH_GalleryStopHeartBloodUsedOut = 14;
+	IHMFDNGHHOH_GalleryStopGuardianStoneDie = 15;
+}
+
 message LAOELPBDJKO {
 	repeated IGDJENIAGMK BDOOFKCGEGM = 3;
 	uint32 ELAJBDEFLEG = 12;
@@ -15033,6 +15963,23 @@ message AAPNKBGPCKO {
 	uint32 OMDENJBNDKA = 6;
 	uint32 ABNGMCPFOKH = 13;
 	uint32 HIHONAKHBFJ = 14;
+}
+
+enum FELPOJFEMPA {
+	FELPOJFEMPA_GcgLevelNone = 0;
+	FELPOJFEMPA_GcgLevelConst = 1;
+	FELPOJFEMPA_GcgLevelWeek = 2;
+	FELPOJFEMPA_GcgLevelWorld = 3;
+	FELPOJFEMPA_GcgLevelBoss = 4;
+	FELPOJFEMPA_GcgLevelCharacter = 5;
+	FELPOJFEMPA_GcgLevelBreak = 6;
+	FELPOJFEMPA_GcgLevelQuest = 7;
+	FELPOJFEMPA_GcgLevelGuideGroup = 8;
+	FELPOJFEMPA_GcgLevelOther = 9;
+	FELPOJFEMPA_GcgLevelJourney = 10;
+	FELPOJFEMPA_GcgLevelPve = 11;
+	FELPOJFEMPA_GcgLevelPveInfinite = 12;
+	FELPOJFEMPA_GcgLevelPvePuzzle = 13;
 }
 
 message LIMBDMPMHAJ {
@@ -15160,6 +16107,11 @@ message HJMNEDLEBGD {
 
 // CmdID: 27034
 message CNOOABDBNIA {
+	enum PBOOOBFBFMD {
+		PBOOOBFBFMD_TimeOut = 0;
+		PBOOOBFBFMD_SettlePlayEnd = 1;
+		PBOOOBFBFMD_SettlePlayerQuit = 2;
+	}
 	repeated uint32 CKFJNDGCECO = 1;
 	repeated IOBBHCDPIBI NHMCMLLAEGG = 15;
 	repeated EFPJOFAOBMP GJOLPLEOKBC = 13;
@@ -15250,6 +16202,12 @@ message ILJKIKCKLFF {
 	int32 KBFHMOHPAPJ = 4;
 	uint32 OIAKIBDAKBK = 7;
 	uint32 HHDPJFFECJP = 9;
+}
+
+enum PIEKFOCBGAI {
+	PIEKFOCBGAI_FisnEscapeNone = 0;
+	PIEKFOCBGAI_FishEscapeShocked = 1;
+	PIEKFOCBGAI_FishEscapeUnhook = 2;
 }
 
 // CmdID: 1688
@@ -15345,6 +16303,13 @@ message LGLKHDEBALJ {
 	uint32 HHDPJFFECJP = 3;
 }
 
+enum NFICFMLKKAN {
+	NFICFMLKKAN_MailCollectibleUnkonw = 0;
+	NFICFMLKKAN_MailNotCollectible = 1;
+	NFICFMLKKAN_MailCollectibleUncollected = 2;
+	NFICFMLKKAN_MailCollectibleCollected = 3;
+}
+
 message GLKJKDENBIA {
 	uint32 HIDPAHIIICL = 1;
 	uint32 ADIDNHFKCJG = 2;
@@ -15354,6 +16319,12 @@ message GLKJKDENBIA {
 message DPGBJPBFFFB {
 	repeated KIKHFPPEIJI ONHFCJDKMFO = 12;
 	bool FGHAFPJNHLP = 6;
+}
+
+enum LCLBCAACJNC {
+	LCLBCAACJNC_AuditNone = 0;
+	LCLBCAACJNC_AuditWaiting = 1;
+	LCLBCAACJNC_AuditFailed = 2;
 }
 
 // CmdID: 22596
@@ -15444,6 +16415,13 @@ message ECFONBINIMI {
 message IIFDPMOFBIE {
 	repeated BNIJLPACKAL MKAPHLMAMFF = 5;
 	int32 KBFHMOHPAPJ = 2;
+}
+
+enum BNKFAHFCHBA {
+	BNKFAHFCHBA_TryCustomDungeonNone = 0;
+	BNKFAHFCHBA_TryCustomDungeonRoom = 1;
+	BNKFAHFCHBA_TryCustomDungeonAll = 2;
+	BNKFAHFCHBA_TryCustomDungeonOfficialPlay = 3;
 }
 
 message BHJDGEGLHMK {
@@ -15624,6 +16602,17 @@ message CKBJCLKJEFA {
 	uint32 EAJIMNJFILF = 5;
 }
 
+enum IEDMBLJNFBE {
+	IEDMBLJNFBE_ServerLogNone = 0;
+	IEDMBLJNFBE_ServerLogAbility = 1;
+	IEDMBLJNFBE_ServerLogLevel = 2;
+	IEDMBLJNFBE_ServerLogEntity = 3;
+	IEDMBLJNFBE_ServerLogLua = 4;
+	IEDMBLJNFBE_ServerLogDailytask = 5;
+	IEDMBLJNFBE_ServerLogQuest = 6;
+	IEDMBLJNFBE_ServerLogActivity = 7;
+}
+
 // CmdID: 7545
 message BLDPHBFPLPG {
 	repeated NHOIDJPNGNK DFLHEBCMIPJ = 13;
@@ -15777,6 +16766,38 @@ message FEBJEANKMMN {
 }
 
 message PDFNINKKKNG {
+	enum KIBGPBDLJAP {
+		KIBGPBDLJAP_None = 0;
+		KIBGPBDLJAP_Offline = 1;
+		KIBGPBDLJAP_Loading = 2;
+		KIBGPBDLJAP_Entered = 3;
+		KIBGPBDLJAP_Left = 4;
+	}
+	message LNEDLGHFGGN {
+		repeated uint32 JOFEHOOKHON = 13;
+		uint32 GFOGKFGAHBP = 5;
+		uint32 LAELFNCCIKI = 10;
+		uint32 DJPOFPEOMKD = 11;
+		uint32 FPCHHJGJDKK = 7;
+		uint32 FEAEEJDHFOO = 15;
+		uint32 MPDFNGEAGAA = 3;
+		uint32 BPDODKEMKHO = 12;
+		bool MDGALPPOHPA = 2;
+		uint32 OGKANLFBBBA = 6;
+	}
+	message PDPCNBKNMOJ {
+		uint32 FPCHHJGJDKK = 14;
+		uint32 FEAEEJDHFOO = 9;
+	}
+	message MEAPCGIALOM {
+		repeated uint32 ONMNLFPJGMA = 2;
+		repeated uint32 JOPGMDJIJOH = 7;
+		repeated PDPCNBKNMOJ ICGBIEBMBCD = 1;
+		uint32 JNMCNLMGOLM = 3;
+		bool LILDBJPJBIJ = 9;
+		uint32 FPDDLHHPPGG = 10;
+		uint32 ILOLCFDCDMH = 6;
+	}
 	repeated uint32 FHGLFGKNHFI = 1;
 	repeated uint32 LBOCDPDHACE = 9;
 	repeated LNEDLGHFGGN DBGPLFHLLIF = 15;
@@ -15878,13 +16899,19 @@ message BDMMJAJHIIP {
 }
 
 message KGJBFKEJHBB {
-	oneof HCOPOOODHCO {
-		JGOIHADNPNM discover = 11;
-	}
+	optional JGOIHADNPNM discover = 11;
 }
 
 // CmdID: 20468
 message JHGFDBFAIMO {
+	enum MKHMJOJFKDJ {
+		MKHMJOJFKDJ_ReasonNone = 0;
+		MKHMJOJFKDJ_ReasonGameMax = 1;
+		MKHMJOJFKDJ_ReasonClientVersionNotLastest = 2;
+		MKHMJOJFKDJ_ReasonResourceNotComplete = 3;
+		MKHMJOJFKDJ_ReasonTimeout = 4;
+		MKHMJOJFKDJ_ReasonOpponentClientVersionNotLastest = 5;
+	}
 	MKHMJOJFKDJ CLBANAHDPFN = 1;
 }
 
@@ -16154,6 +17181,12 @@ message AKLHJAGGLMO {
 	uint32 NCEKLKIPGKA = 6;
 }
 
+enum CBGHJMBHPKJ {
+	CBGHJMBHPKJ_VehicleInteractNone = 0;
+	CBGHJMBHPKJ_VehicleInteractIn = 1;
+	CBGHJMBHPKJ_VehicleInteractOut = 2;
+}
+
 message CJMONNAJECP {
 	repeated JAIHGMFKKCO EBEKPAPGAJB = 4;
 }
@@ -16180,6 +17213,12 @@ message JHBBGHJOCMB {
 }
 
 message NHGMDPMIIPD {
+	enum CEAMCDJKIPO {
+		CEAMCDJKIPO_MissionInvalid = 0;
+		CEAMCDJKIPO_MissionUnfinished = 1;
+		CEAMCDJKIPO_MissionFinished = 2;
+		CEAMCDJKIPO_MissionPointTaken = 3;
+	}
 	uint32 LDPNNLDNGKO = 9;
 	uint32 IKDFALFGOPG = 4;
 	uint32 NGNDFDELFHL = 1;
@@ -16234,10 +17273,10 @@ message ADNKKMCBOJN {
 message ODOCFNCAMPB {
 	uint32 ELJHCLPOGAG = 5;
 	oneof CEKJGNCOPAK {
-		ECBIOMNOPII gadget_state_change = 13;
-		JCAFBBIKPOF monster_group_deactive = 12;
 		HIKCMBKPIBP gadget_deactive = 9;
+		JCAFBBIKPOF monster_group_deactive = 12;
 		EBBEKAEEMPN monster_wave_deactive = 1;
+		ECBIOMNOPII gadget_state_change = 13;
 	}
 }
 
@@ -16259,6 +17298,17 @@ message CMALOMAIJLK {
 	repeated int32 IJCJMHNBNMG = 10;
 	repeated FDHIKHPBPIP OCNLNHHPJFL = 3;
 	int32 KBFHMOHPAPJ = 5;
+}
+
+enum KCGAPLHADIF {
+	KCGAPLHADIF_None = 0;
+	KCGAPLHADIF_Normal = 1;
+	KCGAPLHADIF_Condense = 2;
+	KCGAPLHADIF_ReunionPrivilege = 3;
+	KCGAPLHADIF_OpActivity = 4;
+	KCGAPLHADIF_Material = 5;
+	KCGAPLHADIF_Fragile = 6;
+	KCGAPLHADIF_Timing = 7;
 }
 
 message LHLAOKDKCLK {
@@ -16360,6 +17410,15 @@ message DEMANIMGFAN {
 	bool CFKOLGAGADA = 14;
 }
 
+enum OBJOBINLOLN {
+	OBJOBINLOLN_None = 0;
+	OBJOBINLOLN_ActivitySettle = 1;
+	OBJOBINLOLN_CycleRefresh = 2;
+	OBJOBINLOLN_ForceCond = 3;
+	OBJOBINLOLN_QuestOccupied = 4;
+	OBJOBINLOLN_RepeatAccept = 5;
+}
+
 // CmdID: 27443
 message FEIKJIIPFEH {
 	repeated PLIICLCCLKE BCNLDJMPNLP = 1;
@@ -16370,6 +17429,12 @@ message FEIKJIIPFEH {
 message PAOILBLNDFF {
 	repeated OLBNGLALPLO KNGJEBDEMEB = 15;
 	uint32 LIDKMHGENDO = 14;
+}
+
+enum OFMAJELOAIN {
+	OFMAJELOAIN_None = 0;
+	OFMAJELOAIN_MusicGame = 1;
+	OFMAJELOAIN_LanV5CardGame = 2;
 }
 
 // CmdID: 29638
@@ -16439,6 +17504,11 @@ message ILCNNDFEBPK {
 	uint32 NBJHBMBNABG = 12;
 	uint32 NDDMJOEDLKN = 6;
 	uint32 PMOOPDEOILB = 7;
+}
+
+enum GBLACDNPGNK {
+	GBLACDNPGNK_None = 0;
+	GBLACDNPGNK_Layout = 1;
 }
 
 // CmdID: 7138
@@ -16628,9 +17698,7 @@ message NKBGCBMPFFI {
 	uint64 LIGCILNAOCC = 5;
 	OFMAJELOAIN LOBDJPHHKPK = 10;
 	int32 KBFHMOHPAPJ = 6;
-	oneof ELJIFDKINMN {
-		ANNMDBBBONE music_record = 11;
-	}
+	optional ANNMDBBBONE music_record = 11;
 }
 
 // CmdID: 9031
@@ -16729,6 +17797,12 @@ message JCCFNPIKAAC {
 
 // CmdID: 22099
 message KBLNOICCPNE {
+	message GLAIPBNOKNM {
+		uint32 DEGHBMLKLLF = 3;
+		uint32 FEAEEJDHFOO = 15;
+		uint32 IJAFJGLIDHC = 8;
+		uint32 GDLKONCBIFC = 6;
+	}
 	repeated GLAIPBNOKNM DBGPLFHLLIF = 14;
 	int32 KBFHMOHPAPJ = 12;
 	uint32 JNMCNLMGOLM = 5;
@@ -16741,6 +17815,18 @@ message DEEJLJIJNGO {
 	uint32 JBNMDBENHEA = 1;
 	uint32 JNMCNLMGOLM = 4;
 	bool ODFCBOHJMOI = 14;
+}
+
+enum DMGBDAEDBKB {
+	DMGBDAEDBKB_ReportReasonSubtypeNone = 0;
+	DMGBDAEDBKB_ReportReasonSubtypeInvalidNickname = 1;
+	DMGBDAEDBKB_ReportReasonSubtypeInvalidSignature = 2;
+	DMGBDAEDBKB_ReportReasonSubtypeInvalidArrangement = 3;
+	DMGBDAEDBKB_ReportReasonSubtypeInvalidChat = 4;
+	DMGBDAEDBKB_ReportReasonSubtypeInvalidAvatarName = 5;
+	DMGBDAEDBKB_ReportReasonSubtypeInvalidOther = 6;
+	DMGBDAEDBKB_ReportReasonSubtypeInvalidLittleDrillName = 7;
+	DMGBDAEDBKB_ReportReasonSubtypeInvalidUgc = 8;
 }
 
 message MOMLHCFHPIH {
@@ -16757,6 +17843,13 @@ message MOMLHCFHPIH {
 // CmdID: 24782
 message PIMOFJBPNJG {
 	int32 KBFHMOHPAPJ = 8;
+}
+
+enum PPJGCLDHBOG {
+	PPJGCLDHBOG_None = 0;
+	PPJGCLDHBOG_Normal = 1;
+	PPJGCLDHBOG_Template = 2;
+	PPJGCLDHBOG_Exam = 3;
 }
 
 // CmdID: 29312
@@ -17021,6 +18114,23 @@ message KGBHEBHMEBO {
 	int32 KBFHMOHPAPJ = 13;
 }
 
+enum KLDIDLADEPC {
+	KLDIDLADEPC_ProtEntityNone = 0;
+	KLDIDLADEPC_ProtEntityAvatar = 1;
+	KLDIDLADEPC_ProtEntityMonster = 2;
+	KLDIDLADEPC_ProtEntityNpc = 3;
+	KLDIDLADEPC_ProtEntityGadget = 4;
+	KLDIDLADEPC_ProtEntityRegion = 5;
+	KLDIDLADEPC_ProtEntityWeapon = 6;
+	KLDIDLADEPC_ProtEntityWeather = 7;
+	KLDIDLADEPC_ProtEntityScene = 8;
+	KLDIDLADEPC_ProtEntityTeam = 9;
+	KLDIDLADEPC_ProtEntityMpLevel = 11;
+	KLDIDLADEPC_ProtEntityPlayTeamEntity = 12;
+	KLDIDLADEPC_ProtEntityEyePoint = 13;
+	KLDIDLADEPC_ProtEntityMax = 14;
+}
+
 // CmdID: 24929
 message DPFPGEMHFHO {
 	uint32 ALAEBEGJFJE = 5;
@@ -17036,6 +18146,11 @@ message BGHHBEHBGLL {
 
 // CmdID: 4767
 message BFKPDMHJKCH {
+	message MPKLGOFCNMM {
+		uint32 FEAEEJDHFOO = 15;
+		bool PGBHADNANGH = 6;
+		uint32 NBIOLNFOMIN = 1;
+	}
 	repeated MPKLGOFCNMM KGLODEPLEIF = 11;
 }
 
@@ -17060,9 +18175,7 @@ message NHKLEDODPJN {
 	OFMAJELOAIN LOBDJPHHKPK = 1;
 	int32 KBFHMOHPAPJ = 13;
 	uint64 LIGCILNAOCC = 15;
-	oneof LAEOFKJMJED {
-		DKKOKFONDEL music_brief_info = 8;
-	}
+	optional DKKOKFONDEL music_brief_info = 8;
 }
 
 message EPBDFFCPCBN {
@@ -17172,6 +18285,16 @@ message DPIBBINEIKC {
 // CmdID: 8505
 message NLBCOFMPAFL {
 	int32 KBFHMOHPAPJ = 6;
+}
+
+enum CCPHAHEPOIP {
+	CCPHAHEPOIP_SalvageEscortStopNone = 0;
+	CCPHAHEPOIP_SalvageEscortStopSuccess = 1;
+	CCPHAHEPOIP_SalvageEscortStopDump = 2;
+	CCPHAHEPOIP_SalvageEscortStopTime = 3;
+	CCPHAHEPOIP_SalvageEscortStopInterrupt = 4;
+	CCPHAHEPOIP_SalvageEscortStopLeave = 5;
+	CCPHAHEPOIP_SalvageEscortStopFull = 6;
 }
 
 // CmdID: 2659
@@ -17444,6 +18567,15 @@ message OCLIDAHICNA {
 	uint32 PKLBBOCOFAM = 3;
 }
 
+enum KEDABEOKFAN {
+	KEDABEOKFAN_None = 0;
+	KEDABEOKFAN_Succ = 1;
+	KEDABEOKFAN_Fail = 2;
+	KEDABEOKFAN_Timeout = 3;
+	KEDABEOKFAN_Cancel = 4;
+	KEDABEOKFAN_Exit = 5;
+}
+
 // CmdID: 7825
 message JMCPOGKFJGL {
 	int32 KBFHMOHPAPJ = 10;
@@ -17471,6 +18603,18 @@ message PBIHIOPHCKC {
 message IJDIHJAFGGB {
 	map<uint32, uint32> DBHMPPENEIO = 2;
 	uint32 KAOEAEOJLNL = 8;
+}
+
+enum JMDNIFNDPLM {
+	JMDNIFNDPLM_GcgDiceSideInvalid = 0;
+	JMDNIFNDPLM_GcgDiceSideCryo = 1;
+	JMDNIFNDPLM_GcgDiceSideHydro = 2;
+	JMDNIFNDPLM_GcgDiceSidePyro = 3;
+	JMDNIFNDPLM_GcgDiceSideElectro = 4;
+	JMDNIFNDPLM_GcgDiceSideGeo = 5;
+	JMDNIFNDPLM_GcgDiceSideDendro = 6;
+	JMDNIFNDPLM_GcgDiceSideAnemo = 7;
+	JMDNIFNDPLM_GcgDiceSidePaimon = 8;
 }
 
 // CmdID: 7544
@@ -17817,6 +18961,23 @@ message FMLMONEJOAI {
 	OFMAJELOAIN LOBDJPHHKPK = 1;
 }
 
+enum OCDHLIJEMDL {
+	OCDHLIJEMDL_PuzzleFighterCounterNone = 0;
+	OCDHLIJEMDL_PuzzleFighterCounterSubHpByEliminate = 1;
+	OCDHLIJEMDL_PuzzleFighterCounterSubHpBySkill = 2;
+	OCDHLIJEMDL_PuzzleFighterCounterSubHpByClearAll = 3;
+	OCDHLIJEMDL_PuzzleFighterCounterBarrier = 4;
+	OCDHLIJEMDL_PuzzleFighterCounterHealHpBySkill = 5;
+	OCDHLIJEMDL_PuzzleFighterCounterAddBarrierToOppo = 6;
+	OCDHLIJEMDL_PuzzleFighterCounterAddEnergy = 7;
+	OCDHLIJEMDL_PuzzleFighterCounterHealHp = 8;
+	OCDHLIJEMDL_PuzzleFighterCounterNormalDamage = 9;
+	OCDHLIJEMDL_PuzzleFighterCounterBurnDamage = 10;
+	OCDHLIJEMDL_PuzzleFighterCounterBrickQueueChange = 11;
+	OCDHLIJEMDL_PuzzleFighterCounterBarrierDef = 12;
+	OCDHLIJEMDL_PuzzleFighterCounterPreviewSubHp = 13;
+}
+
 message AEODLAMCCEJ {
 	map<uint32, uint32> CDKCDLOIPKJ = 10;
 	uint32 FLADBKHLCAB = 2;
@@ -17895,6 +19056,15 @@ message DENPJOFJMCH {
 	uint32 EPNEJEDNEFN = 5;
 }
 
+enum IANKBKEGAIJ {
+	IANKBKEGAIJ_FireworksReformParamNone = 0;
+	IANKBKEGAIJ_FireworksReformParamColor = 1;
+	IANKBKEGAIJ_FireworksReformParamHeight = 2;
+	IANKBKEGAIJ_FireworksReformParamSize = 3;
+	IANKBKEGAIJ_FireworksReformParamDensity = 4;
+	IANKBKEGAIJ_FireworksReformParamRotation = 5;
+}
+
 // CmdID: 4819
 message JJBPHIOMENA {
 	BKJNICKOBNO BOAPODCLLFP = 2;
@@ -17964,6 +19134,14 @@ message MHOBJAKACIO {
 	uint32 JEOHHIBJOHF = 9;
 }
 
+enum PNADHOGPFFI {
+	PNADHOGPFFI_UgcRecordUsageNone = 0;
+	PNADHOGPFFI_UgcRecordUsageImport = 1;
+	PNADHOGPFFI_UgcRecordUsagePlay = 2;
+	PNADHOGPFFI_UgcRecordUsageTrial = 3;
+	PNADHOGPFFI_UgcRecordUsageCompare = 4;
+}
+
 // CmdID: 9835
 message OMELPGMOMIE {
 	BKJNICKOBNO MBAHBAILDPK = 9;
@@ -18015,6 +19193,12 @@ message IJFOKAOKLBO {
 }
 
 message LEOOKCKOBCE {
+	enum PGOEAPEHONB {
+		PGOEAPEHONB_Invalid = 0;
+		PGOEAPEHONB_Unfinished = 1;
+		PGOEAPEHONB_Finished = 2;
+		PGOEAPEHONB_RewardTaken = 3;
+	}
 	uint32 EFHBCKMNJJN = 10;
 	uint32 NGNDFDELFHL = 14;
 	uint32 DJNPEHGBEJE = 9;
@@ -18110,6 +19294,11 @@ message NECFFMKENHB {
 
 // CmdID: 22006
 message HIFNGIENMLN {
+	enum EJLAJKNLBDB {
+		EJLAJKNLBDB_OpTypeNone = 0;
+		EJLAJKNLBDB_OpTypeRelogin = 1;
+		EJLAJKNLBDB_OpTypeMpRelogin = 2;
+	}
 	EBBHGPOINEP OIFPIBPMBBL = 14;
 	string KCIDPLDMBOF = 10;
 	string CHBICKGNDLB = 4;
@@ -18180,63 +19369,63 @@ message BFJAFLKDPEL {
 	uint32 EHOHOFKPJEP = 6;
 	uint32 KJFDCFOEDDN = 4;
 	oneof OHDIGCJHMLO {
-		EKPFHEGDJCF aka_fes_rhythm_info = 1096;
-		HGHECMJHKCG salvage_prevent_info = 97;
-		CKAIODPIJMM fungus_fighter_v_3_info = 71;
-		CKDFNIOAPAG irodori_master_info = 345;
-		EDMMMIOAEPE coin_collect_info = 1833;
-		HPGFCKFALOB effigy_challenge_info = 418;
-		CCALDMPKBAM char_amusement_info = 1000;
-		GIHJBOOIIOH bullet_info = 10;
-		KCAHOABHIHA quick_time_combat_info = 739;
-		LEMKBDCIFMN flower_info = 8;
-		OBNCEMOCBBF salvage_escort_info = 1093;
-		DGIGHFGDADK photo_info = 1360;
-		JBDHKLCPDGD island_party_raft_info = 800;
-		ALJINKABGDG team_chain_info = 524;
-		INDCCEBKDDA boat_multi_info = 1111;
-		GGNANKLDBMF sorush_trial_photo_match_info = 1485;
-		AOCOMFNHFHC muqadas_potion_info = 1021;
-		EKCECJAGNBJ home_seek_furniture_info = 1204;
-		DNNGDIMHFGH treasure_hunt_v_4_info = 225;
-		MFNLPDJPLPI duel_heart_info = 305;
-		CEOEEFGIOOC fall_info = 15;
-		IGAGFPJKIJO sandworm_info = 1132;
 		GAOLBJLFNKJ fungus_fighter_capture_info = 1253;
-		KKHIHNMAEOH instable_spray_info = 344;
-		HLGADKIDNGN filmfest_battle_info = 100;
-		ANDFFPGLPPH auto_time_stop_info = 523;
-		NMCGEODAMKJ fungus_fighter_v_2_info = 900;
-		NGGEODMMBMM buoyant_combat_info = 1064;
-		AJFGFNFJJCH journey_dice_info = 1600;
-		ANIJCNBLDFO broken_floor_info = 1;
-		EIJIJEBFEFG fungus_fighter_training_info = 413;
-		NJGHHBCIEMG sorush_trial_hitman_info = 949;
-		KCBCLNPEBIJ wind_field_info = 287;
-		NDPCLBBHJLD balloon_info = 2;
-		MIGHCMOPBFM target_shooting_info = 1217;
-		AFNKGGLCNLF animal_view_info = 1231;
-		IJONEAJEJEI box_match_info = 1368;
-		PLHNILAGIMN slime_cannon_info = 883;
-		MEBHALLKEGI summer_time_v_2_boat_info = 461;
-		BCCEJCMAEBE hide_and_seek_v_4_info = 1170;
-		PFAHGMFFDKL handball_info = 1784;
-		BOCDNHGKLPD flight_gear_info = 1921;
-		HKINMPACIBE hide_and_seek_info = 11;
-		DAPLDPPCFKO home_balloon_info = 1381;
-		HKFMMLBIILB luminance_stone_challenge_info = 1177;
-		JNCPGKHJDNI sumo_info = 827;
+		MFNLPDJPLPI duel_heart_info = 305;
 		BALNDJJIGJC crystal_link_info = 1766;
-		IIHPMCDFJLH treasure_seelie_info = 667;
+		BCCEJCMAEBE hide_and_seek_v_4_info = 1170;
+		CEOEEFGIOOC fall_info = 15;
 		MKIFNGFEKBI aka_fes_archaeology_info = 1554;
-		PONMBAGAAHG island_party_down_hill_info = 636;
 		MDNDCMJDONH island_party_sail_info = 956;
+		PONMBAGAAHG island_party_down_hill_info = 636;
+		IGAGFPJKIJO sandworm_info = 1132;
+		GGNANKLDBMF sorush_trial_photo_match_info = 1485;
+		HPGFCKFALOB effigy_challenge_info = 418;
+		EIJIJEBFEFG fungus_fighter_training_info = 413;
+		DGIGHFGDADK photo_info = 1360;
+		KCBCLNPEBIJ wind_field_info = 287;
+		HKFMMLBIILB luminance_stone_challenge_info = 1177;
 		HADMLPNIIAB bounce_conjuring_info = 1917;
-		LHNGBJGNMNK pacman_info = 107;
-		LJMOAPGNMGB vintage_hunting_info = 798;
+		EKCECJAGNBJ home_seek_furniture_info = 1204;
+		PFAHGMFFDKL handball_info = 1784;
+		ALJINKABGDG team_chain_info = 524;
+		CCALDMPKBAM char_amusement_info = 1000;
 		EIKEKGJDPMH filmfest_sniper_info = 1163;
+		NJGHHBCIEMG sorush_trial_hitman_info = 949;
+		DAPLDPPCFKO home_balloon_info = 1381;
+		EKPFHEGDJCF aka_fes_rhythm_info = 1096;
+		AOCOMFNHFHC muqadas_potion_info = 1021;
+		OBNCEMOCBBF salvage_escort_info = 1093;
+		LEMKBDCIFMN flower_info = 8;
+		CKDFNIOAPAG irodori_master_info = 345;
+		AFNKGGLCNLF animal_view_info = 1231;
 		LAFAHGDLEPH remus_arena_info = 1657;
+		IJONEAJEJEI box_match_info = 1368;
+		JNCPGKHJDNI sumo_info = 827;
+		PLHNILAGIMN slime_cannon_info = 883;
+		HLGADKIDNGN filmfest_battle_info = 100;
+		ANIJCNBLDFO broken_floor_info = 1;
 		GAMLPPAKBIE inspiration_spurt_info = 692;
+		NMCGEODAMKJ fungus_fighter_v_2_info = 900;
+		INDCCEBKDDA boat_multi_info = 1111;
+		AJFGFNFJJCH journey_dice_info = 1600;
+		LJMOAPGNMGB vintage_hunting_info = 798;
+		LHNGBJGNMNK pacman_info = 107;
+		JBDHKLCPDGD island_party_raft_info = 800;
+		HKINMPACIBE hide_and_seek_info = 11;
+		NDPCLBBHJLD balloon_info = 2;
+		MEBHALLKEGI summer_time_v_2_boat_info = 461;
+		MIGHCMOPBFM target_shooting_info = 1217;
+		ANDFFPGLPPH auto_time_stop_info = 523;
+		IIHPMCDFJLH treasure_seelie_info = 667;
+		EDMMMIOAEPE coin_collect_info = 1833;
+		BOCDNHGKLPD flight_gear_info = 1921;
+		HGHECMJHKCG salvage_prevent_info = 97;
+		KCAHOABHIHA quick_time_combat_info = 739;
+		CKAIODPIJMM fungus_fighter_v_3_info = 71;
+		GIHJBOOIIOH bullet_info = 10;
+		DNNGDIMHFGH treasure_hunt_v_4_info = 225;
+		KKHIHNMAEOH instable_spray_info = 344;
+		NGGEODMMBMM buoyant_combat_info = 1064;
 	}
 }
 
@@ -18322,6 +19511,12 @@ message EOKJLIFLPKL {
 }
 
 message EBPMDPPLPBO {
+	enum AGAGJJLDEHO {
+		AGAGJJLDEHO_Invalid = 0;
+		AGAGJJLDEHO_InProgress = 1;
+		AGAGJJLDEHO_Complete = 2;
+		AGAGJJLDEHO_RewardTaken = 3;
+	}
 	uint32 DODBIKKLGAC = 3;
 	uint32 HFJAPPKBOIN = 14;
 	uint32 DJNPEHGBEJE = 6;
@@ -18384,6 +19579,12 @@ message MMEPFLEECKA {
 }
 
 message PLMAKOMEBKD {
+	enum JIMPCOMHFMA {
+		JIMPCOMHFMA_Inner = 0;
+		JIMPCOMHFMA_TileBound = 1;
+		JIMPCOMHFMA_TileBoundUnconnect = 2;
+		JIMPCOMHFMA_TileBoundOveride = 3;
+	}
 	repeated int32 IHMDDNCJCEO = 2;
 	repeated JIMPCOMHFMA NKCNPIDBLLN = 12;
 	int32 PIDJIKHNNAI = 3;
@@ -18413,6 +19614,19 @@ message ICELECIKEIH {
 
 // CmdID: 9957
 message HGCNCCBMCFC {
+	message OLPGFDOAAGM {
+		uint32 MNMJFNJIIIC = 1;
+	}
+	message KPNLFPMEOGJ {
+		BKJNICKOBNO JCFJCLPBJCL = 15;
+		uint32 FCKIINIAJKG = 3;
+		uint32 BIBCDNFNJED = 2;
+	}
+	message IGEEMGKAKKH {
+		bytes PEDGMAEHOCF = 9;
+		uint32 LAKLEJGEIKA = 2;
+		uint32 ABFAKFABADF = 15;
+	}
 	oneof PJGFNICNNCA {
 		IGEEMGKAKKH area_notify = 3;
 		KPNLFPMEOGJ add_wind_bullet_notify = 6;
@@ -18670,6 +19884,12 @@ message EJFONDEBCAM {
 	uint32 PKADKEJNOCG = 13;
 }
 
+enum GJNOPAJOLHG {
+	GJNOPAJOLHG_LunaRiteHintTypeNone = 0;
+	GJNOPAJOLHG_LunaRiteHintTypeRune = 1;
+	GJNOPAJOLHG_LunaRiteHintTypeChest = 2;
+}
+
 // CmdID: 24583
 message PFNABBFEDPJ {
 	repeated JJFHOCPEPOI MIKHMGMDLEB = 12;
@@ -18776,6 +19996,13 @@ message JLHOKLFHDOP {
 	uint32 APBNAANDHOH = 3;
 }
 
+enum JKEBAHKBAIE {
+	JKEBAHKBAIE_ClientInputNone = 0;
+	JKEBAHKBAIE_ClientInputKeybordMouse = 1;
+	JKEBAHKBAIE_ClientInputGamepad = 2;
+	JKEBAHKBAIE_ClientInputTouchPanel = 3;
+}
+
 // CmdID: 789
 message NCEFFONPEOA {
 	uint32 PHCEPPOPFIJ = 5;
@@ -18785,6 +20012,13 @@ message NCEFFONPEOA {
 message BPEBMDDFIEF {
 	uint32 HGBNDIACGKJ = 11;
 	uint32 KCJDFNJOMON = 5;
+}
+
+enum JHKFNMOEMJC {
+	JHKFNMOEMJC_HitColliderInvalid = 0;
+	JHKFNMOEMJC_HitColliderHitBox = 1;
+	JHKFNMOEMJC_HitColliderWetHitBox = 2;
+	JHKFNMOEMJC_HitColliderHeadBox = 3;
 }
 
 // CmdID: 23333
@@ -18907,6 +20141,13 @@ message BNHLLFKGBCD {
 	int32 KBFHMOHPAPJ = 7;
 }
 
+enum GFFGFIFCMMK {
+	GFFGFIFCMMK_HomeFieldStatueNone = 0;
+	GFFGFIFCMMK_HomeFieldStatueSeed = 1;
+	GFFGFIFCMMK_HomeFieldStatueSprout = 2;
+	GFFGFIFCMMK_HomeFieldStatueGather = 3;
+}
+
 // CmdID: 8658
 message ENPJKLLHOOL {
 	uint32 DPIMJCAHCBK = 7;
@@ -19001,6 +20242,27 @@ message KACGEAHHOHN {
 }
 
 message OPKKDIJPKAB {
+	enum AOCMKNHCHHF {
+		AOCMKNHCHHF_SettleReasonNone = 0;
+		AOCMKNHCHHF_SettleReasonSucc = 1;
+		AOCMKNHCHHF_SettleReasonPlayerNotEnough = 2;
+	}
+	message AFDLNMCIABB {
+		repeated uint32 APAJBOBKIMJ = 12;
+		uint32 FPCHHJGJDKK = 7;
+		int32 IBBLMEHPJFF = 15;
+	}
+	message MCBNIKNELHM {
+		repeated EFPJOFAOBMP IHNHNCIBCIM = 12;
+		repeated uint32 ACKKEHLBAEP = 15;
+		string NAEAEMHLLPJ = 7;
+		string HAGNDOMAHBH = 1;
+		FNHFAHIDMLM NJFOCEHBCGE = 4;
+		string JDPLNENIKCP = 6;
+		uint32 DIIALADEOAN = 5;
+		uint32 MEPMOFBJODF = 11;
+		uint32 FEAEEJDHFOO = 13;
+	}
 	repeated AFDLNMCIABB GJJLELOJPCM = 3;
 	repeated uint32 FMNJDGHPIPJ = 9;
 	repeated MCBNIKNELHM IEFLCCBMFPD = 2;
@@ -19037,6 +20299,12 @@ message EDJEIFIMGPM {
 	uint32 JKGKGMEBJCJ = 1;
 	uint32 NCEKLKIPGKA = 8;
 	uint32 CBMKICMLEAE = 3;
+}
+
+enum IJANHJNMJCC {
+	IJANHJNMJCC_DungeonCandidateTpdrNormal = 0;
+	IJANHJNMJCC_DungeonCandidateTpdrDie = 1;
+	IJANHJNMJCC_DungeonCandidateTpdrDisconnect = 2;
 }
 
 // CmdID: 25090
@@ -19078,28 +20346,28 @@ message GHKNEIFKGIE {
 	uint32 CGHGBGLKLNM = 28;
 	uint32 ALCBHEHLCON = 1;
 	oneof EFNMHCIKJEE {
-		DAMOIFFBPMK weather = 17;
-		NOAPJBLLLPK statue_gadget = 19;
-		KNMDLDANLIE shell_info = 47;
 		KGDFNIONLEJ custom_gadget_tree_info = 60;
+		LJGHBCAEEHM gather_gadget = 13;
+		NGEAEBDJEON blossom_chest = 41;
+		DGNEFNAIEIM general_reward = 43;
+		KNMDLDANLIE shell_info = 47;
+		GCFLHIEMCHE vehicle_info = 46;
 		NLBCFEGHMJG worktop = 14;
 		KIDGNMHLHGL client_gadget = 15;
+		ANLMCHNKGFH foundation_info = 45;
+		DAMOIFFBPMK weather = 17;
+		NOAPJBLLLPK statue_gadget = 19;
+		DLAKABIBKGF roguelike_gadget_info = 61;
+		KDEHKMNBHML deshret_obelisk_gadget_info = 63;
+		LNPNHNKPBIC boss_chest = 20;
+		BPFABKGABGN coin_collect_operator_info = 64;
+		NJAFHGCGMGG mp_play_reward = 42;
+		EGPAKABKCOD trifle_gadget = 67;
+		NPCBKODINIJ offering_info = 44;
+		GLKJKDENBIA ability_gadget = 18;
 		LPLIGABJIPA screen_info = 48;
 		IFDLABGMKDC night_crow_gadget_info = 62;
-		LJGHBCAEEHM gather_gadget = 13;
-		ANLMCHNKGFH foundation_info = 45;
-		GLKJKDENBIA ability_gadget = 18;
-		LNPNHNKPBIC boss_chest = 20;
-		NJAFHGCGMGG mp_play_reward = 42;
-		BPFABKGABGN coin_collect_operator_info = 64;
-		EGPAKABKCOD trifle_gadget = 67;
 		DDMLJNJPEAL fish_pool_info = 59;
-		DLAKABIBKGF roguelike_gadget_info = 61;
-		GCFLHIEMCHE vehicle_info = 46;
-		KDEHKMNBHML deshret_obelisk_gadget_info = 63;
-		DGNEFNAIEIM general_reward = 43;
-		NGEAEBDJEON blossom_chest = 41;
-		NPCBKODINIJ offering_info = 44;
 	}
 }
 
@@ -19107,10 +20375,10 @@ message GHKNEIFKGIE {
 message ACANHAAIBMN {
 	bool DHLJOJOMJJJ = 14;
 	oneof LFKAOJKLJFG {
-		string psn_id = 15;
 		string online_id = 7;
-		uint32 target_uid = 12;
+		string psn_id = 15;
 		string xbox_user_id = 6;
+		uint32 target_uid = 12;
 	}
 }
 
@@ -19186,6 +20454,11 @@ message EFLFFFADKMD {
 	repeated uint32 AIKALKCGKLK = 7;
 	repeated uint32 GKLBGILCCIF = 4;
 	uint32 EAOKGLECECP = 11;
+}
+
+enum ELIJPDOLMLP {
+	ELIJPDOLMLP_TransmitNone = 0;
+	ELIJPDOLMLP_TransmitQuest = 1;
 }
 
 // CmdID: 24323
@@ -19314,6 +20587,13 @@ message JCDECFJMGGP {
 	float CNMHBFFFOEF = 1;
 }
 
+enum MEBJGMFCJJE {
+	MEBJGMFCJJE_Invalid = 0;
+	MEBJGMFCJJE_UnableToBegin = 1;
+	MEBJGMFCJJE_Begin = 2;
+	MEBJGMFCJJE_End = 3;
+}
+
 // CmdID: 2415
 message HAPLMINPBGB {
 	uint32 AMNNNOIBDNH = 1;
@@ -19383,10 +20663,26 @@ message AOKCDCCFEAD {
 }
 
 message CKDMKKNJBNN {
+	message OPAFGOCLPPI {
+		repeated uint32 HGOAADCBNGO = 1;
+		uint32 KNHKHNJMGDC = 2;
+	}
+	message DKMGBNJMBOH {
+		uint32 FGBOMJPKGDB = 1;
+	}
+	message HMCMOCAIIPI {
+		bool GMHCKFIMCGP = 1;
+	}
+	message DMBDCNNFGEB {
+		repeated AIKMFCMIJBG NKALIEJDGBM = 1;
+	}
+	message HPMGEJINOLJ {
+		MHOKMPHNCJK HHPKKEFFHLH = 1;
+	}
 	oneof BHAFAFKACDM {
-		DMBDCNNFGEB set_team_op = 5;
 		DKMGBNJMBOH kick_op = 3;
 		OPAFGOCLPPI invite_op = 1;
+		DMBDCNNFGEB set_team_op = 5;
 		GECPGHHJMLN leave_op = 2;
 		HMCMOCAIIPI reply_op = 4;
 		HPMGEJINOLJ set_player_state_op = 6;
@@ -19529,6 +20825,12 @@ message MJDHGEGGEKI {
 	uint32 DIIALADEOAN = 10;
 }
 
+enum DOJJKENLHLF {
+	DOJJKENLHLF_ReportUgcReasonNone = 0;
+	DOJJKENLHLF_ReportUgcReasonInvalidNickname = 1;
+	DOJJKENLHLF_ReportUgcReasonInvalidBeatmap = 2;
+}
+
 // CmdID: 20088
 message NCNIEELFGFF {
 	int32 KBFHMOHPAPJ = 15;
@@ -19583,8 +20885,22 @@ message PLHNILAGIMN {
 	uint32 DIIALADEOAN = 8;
 }
 
+enum CDDBBCBDKGG {
+	CDDBBCBDKGG_AvatarExpeditionNone = 0;
+	CDDBBCBDKGG_AvatarExpeditionDoing = 1;
+	CDDBBCBDKGG_AvatarExpeditionFinishWaitReward = 2;
+	CDDBBCBDKGG_AvatarExpeditionCallbackWaitReward = 3;
+	CDDBBCBDKGG_AvatarExpeditionLocked = 4;
+}
+
 // CmdID: 466
 message LJEBKMENBMK {
+	message NIFGDIDNKBH {
+		uint32 MOPBGHCAKAJ = 7;
+		fixed32 LBHHIMMNGFK = 4;
+		uint32 GIMGIKKFLBB = 9;
+		uint32 GMFGKAHLIDN = 2;
+	}
 	repeated NIFGDIDNKBH KCKOFJPAFJB = 1;
 	int32 KBFHMOHPAPJ = 9;
 }
@@ -19661,10 +20977,33 @@ message KENDIEINDBE {
 	uint32 FEAEEJDHFOO = 13;
 }
 
+enum GIGBBCBLGFH {
+	GIGBBCBLGFH_EnterNone = 0;
+	GIGBBCBLGFH_EnterSelf = 1;
+	GIGBBCBLGFH_EnterGoto = 2;
+	GIGBBCBLGFH_EnterJump = 3;
+	GIGBBCBLGFH_EnterOther = 4;
+	GIGBBCBLGFH_EnterBack = 5;
+	GIGBBCBLGFH_EnterDungeon = 6;
+	GIGBBCBLGFH_EnterDungeonReplay = 7;
+	GIGBBCBLGFH_EnterGotoByPortal = 8;
+	GIGBBCBLGFH_EnterSelfHome = 9;
+	GIGBBCBLGFH_EnterOtherHome = 10;
+	GIGBBCBLGFH_EnterGotoRecreate = 11;
+	GIGBBCBLGFH_EnterGotoByTpl = 12;
+}
+
 // CmdID: 27897
 message IIKNHDOFKNK {
 	bool DOOCEJNFDMI = 13;
 	int32 KBFHMOHPAPJ = 8;
+}
+
+enum KCHPEONLNBC {
+	KCHPEONLNBC_None = 0;
+	KCHPEONLNBC_Formal = 1;
+	KCHPEONLNBC_Trial = 2;
+	KCHPEONLNBC_Mirror = 3;
 }
 
 // CmdID: 5248
@@ -19710,9 +21049,9 @@ message BAIFNDIGEIG {
 message IPGDCJHOPEO {
 	bool JNEFHDHFEAH = 15;
 	oneof MBDFLBIAPEF {
-		uint32 rent_avatar_id = 2;
 		uint32 avatar_id = 3;
 		uint32 trial_config_id = 1;
+		uint32 rent_avatar_id = 2;
 	}
 }
 
@@ -19876,6 +21215,10 @@ message CBFDBOKODFO {
 
 // CmdID: 885
 message GGIPKPNMIEG {
+	message BGCPDANOIIJ {
+		bool AIBMJJPHKHC = 1;
+		uint32 JNMCNLMGOLM = 3;
+	}
 	repeated BGCPDANOIIJ FMKCCDKCCJK = 11;
 }
 
@@ -19966,6 +21309,11 @@ message LAFOEOPDCFH {
 
 // CmdID: 6177
 message CHPDJMBJDHH {
+	enum FGBAKPFOGEM {
+		FGBAKPFOGEM_StatusFail = 0;
+		FGBAKPFOGEM_StatusSucc = 1;
+		FGBAKPFOGEM_StatusPartial = 2;
+	}
 	repeated MKECAKMCIDO NJHHNEDOAAE = 7;
 	repeated BKJNICKOBNO DMOIFFAAGJH = 2;
 	repeated MKECAKMCIDO ENIDIDFJFDO = 12;
@@ -19989,9 +21337,9 @@ message KGEKENNODDB {
 message LJMOAPGNMGB {
 	uint32 HHDPJFFECJP = 6;
 	oneof OHDIGCJHMLO {
-		KKEOACMGPCK first_stage_info = 5;
-		NLFAELPEJCL second_stage_info = 14;
 		BJEHPEANIHC third_stage_info = 15;
+		NLFAELPEJCL second_stage_info = 14;
+		KKEOACMGPCK first_stage_info = 5;
 	}
 }
 
@@ -20098,6 +21446,11 @@ message FHANJCGLOBC {
 
 // CmdID: 9549
 message AEHALKCNFFM {
+	enum AIFEAFNNNML {
+		AIFEAFNNNML_PlaySoundNone = 0;
+		AIFEAFNNNML_PlaySoundStart = 1;
+		AIFEAFNNNML_PlaySoundStop = 2;
+	}
 	BKJNICKOBNO KPINLCAJFLO = 8;
 	string DMFBJEGJAGD = 14;
 	AIFEAFNNNML OEEDKPEBFJA = 15;
@@ -20342,6 +21695,13 @@ message OACMJKLNIPC {
 	uint32 FNHCLDMEGAK = 1;
 }
 
+enum JAPCNCBNOIO {
+	JAPCNCBNOIO_CompoundBoostTakeStatusNone = 0;
+	JAPCNCBNOIO_CompoundBoostTakeStatusBoostOnly = 1;
+	JAPCNCBNOIO_CompoundBoostTakeStatusBoostAndTake = 2;
+	JAPCNCBNOIO_CompoundBoostTakeStatusBagFull = 3;
+}
+
 // CmdID: 20642
 message DEMOPKHPPDB {
 	repeated FKPHHEKPILP MJHOJLACPIE = 3;
@@ -20380,9 +21740,7 @@ message IKGDGIMJPCK {
 		uint32 instanced_modifier_id = 2;
 		uint32 instanced_ability_id = 1;
 	}
-	oneof OHDIGCJHMLO {
-		COPCKPNNHED draw_play_info = 100;
-	}
+	optional COPCKPNNHED draw_play_info = 100;
 }
 
 // CmdID: 6461
@@ -20625,6 +21983,12 @@ message ICPALAPDHNM {
 	int32 KBFHMOHPAPJ = 9;
 }
 
+enum PAPPBPNALNI {
+	PAPPBPNALNI_GcgSkillHpChangeNone = 0;
+	PAPPBPNALNI_GcgSkillHpChangeDamage = 1;
+	PAPPBPNALNI_GcgSkillHpChangeHeal = 2;
+}
+
 // CmdID: 25204
 message COLPAJAIPEO {
 	repeated uint32 JOIJJEJLABM = 832;
@@ -20669,6 +22033,11 @@ message FCNBEGOIGNN {
 
 // CmdID: 1913
 message IIDNIIONBCE {
+	enum DIENHNINIBP {
+		DIENHNINIBP_Continue = 0;
+		DIENHNINIBP_PerformerNotEnough = 1;
+		DIENHNINIBP_InviterQuit = 2;
+	}
 	uint32 CMKMLBDIOGC = 10;
 	DIENHNINIBP NNINHPMNMAD = 5;
 }
@@ -20705,9 +22074,7 @@ message DNNGDIMHFGH {
 
 // CmdID: 6902
 message BCAGNNHLNGN {
-	oneof MBDFLBIAPEF {
-		uint32 red_point = 1848;
-	}
+	optional uint32 red_point = 1848;
 }
 
 // CmdID: 6429
@@ -20812,6 +22179,10 @@ message EDPKFAAJHPM {
 
 // CmdID: 27043
 message GPFEHAOFHDD {
+	enum NNFJLMFDILK {
+		NNFJLMFDILK_Others = 0;
+		NNFJLMFDILK_LockOrStar = 1;
+	}
 	repeated LFBCNIMIJMO OCNLNHHPJFL = 3;
 	NNFJLMFDILK CLBANAHDPFN = 7;
 	PCHPDILEMGG KHFMJKJAAKD = 11;
@@ -20845,8 +22216,8 @@ message EBGBPCPCJMB {
 		DKKOKFONDEL music_brief_info = 342;
 	}
 	oneof OOOMIDHNALO {
-		ANNMDBBBONE music_record = 7;
 		FBGAMLJFJCE lan_v_5_card_record = 1;
+		ANNMDBBBONE music_record = 7;
 	}
 }
 
@@ -21058,6 +22429,11 @@ message IJNBCJAHIFJ {
 
 // CmdID: 28825
 message IHBIIMNOFKN {
+	enum JABNNPCGODA {
+		JABNNPCGODA_NotOpenMusicGameBook = 0;
+		JABNNPCGODA_NotUseInstrument = 1;
+		JABNNPCGODA_NotCanBeInvited = 2;
+	}
 	map<uint32, JABNNPCGODA> JCNOBFDOCKK = 14;
 	uint64 ACMAEFFAKOD = 6;
 	uint32 MNLDFJEGAPB = 15;
@@ -21444,6 +22820,13 @@ message NKMCPIDANJK {
 	repeated CFMBBLCKJHK JMCJCNPNPJN = 3;
 }
 
+enum EPAPANLMKMK {
+	EPAPANLMKMK_InBattleMechanicusCardChallengeNone = 0;
+	EPAPANLMKMK_InBattleMechanicusCardChallengeOnGoing = 1;
+	EPAPANLMKMK_InBattleMechanicusCardChallengeFail = 2;
+	EPAPANLMKMK_InBattleMechanicusCardChallengeSuccess = 3;
+}
+
 // CmdID: 25263
 message OPPPNAHFLHO {
 	repeated uint32 LIBDFLBMPON = 11;
@@ -21509,6 +22892,11 @@ message GLMKNFGLPLO {
 
 // CmdID: 2336
 message HFMJDDIAFGK {
+	enum APCFFJDMPOD {
+		APCFFJDMPOD_StatusFail = 0;
+		APCFFJDMPOD_StatusSucc = 1;
+		APCFFJDMPOD_StatusPartial = 2;
+	}
 	repeated BKJNICKOBNO NMIKOIAKNPD = 13;
 	int32 KBFHMOHPAPJ = 12;
 	APCFFJDMPOD KNLHOJKIDMN = 7;
@@ -21843,6 +23231,14 @@ message FHAHMEGJIEH {
 	uint32 EEBPNGJNHAE = 1;
 }
 
+enum DFNPJFBKINH {
+	DFNPJFBKINH_RogueCellNone = 0;
+	DFNPJFBKINH_RogueCellBattle = 1;
+	DFNPJFBKINH_RogueCellSuccess = 2;
+	DFNPJFBKINH_RogueCellFinish = 3;
+	DFNPJFBKINH_RogueCellTakenChest = 4;
+}
+
 message PBOLMOGJEAP {
 	uint32 BGBFEECKGEN = 14;
 	bool INKKMPBIFIJ = 12;
@@ -21878,6 +23274,11 @@ message MAKEDOHOHAB {
 message LBDMKKGKPIO {
 	repeated PBAJKCGJBLB OBEBKCIDNJH = 13;
 	int32 KBFHMOHPAPJ = 11;
+}
+
+enum JOOEEIGJLEM {
+	JOOEEIGJLEM_Attach = 0;
+	JOOEEIGJLEM_Detach = 1;
 }
 
 message IHEHDIDPDHP {
@@ -21976,6 +23377,16 @@ message LJHGPKHAKGG {
 	repeated uint32 COFCNCFIMHC = 7;
 }
 
+enum BBIKHPMBINN {
+	BBIKHPMBINN_None = 0;
+	BBIKHPMBINN_Init = 1;
+	BBIKHPMBINN_LevelReward = 2;
+	BBIKHPMBINN_CardCost = 3;
+	BBIKHPMBINN_ChanceEffect = 4;
+	BBIKHPMBINN_Gm = 5;
+	BBIKHPMBINN_BonusRebate = 6;
+}
+
 message FCAGFALKALM {
 	AGELHCGGFEG NDLCICJKHIG = 2;
 	repeated uint32 GMNAKGCKFON = 1;
@@ -22004,9 +23415,9 @@ message CEAOAGHEMBB {
 	uint32 JLDMLNDIEGP = 7;
 	oneof FLNAGGAJHFM {
 		JGJBBEDOIEK monster = 11;
-		KCKAEHMLHLM npc = 12;
 		IJKOIIGMEHF avatar = 10;
 		GHKNEIFKGIE gadget = 13;
+		KCKAEHMLHLM npc = 12;
 	}
 }
 
@@ -22130,9 +23541,7 @@ message LOCEGMFAEIN {
 
 message NKCGIMBPNEF {
 	uint32 JNMCNLMGOLM = 4;
-	oneof MBDFLBIAPEF {
-		BHJDGEGLHMK tower_challenge_extra_brief = 627;
-	}
+	optional BHJDGEGLHMK tower_challenge_extra_brief = 627;
 }
 
 // CmdID: 6665
@@ -22366,6 +23775,12 @@ message LENGCBJJBAJ {
 	fixed64 PDJPKOJMFIL = 1;
 }
 
+enum AJFJEBIOLCK {
+	AJFJEBIOLCK_MonsterBornNone = 0;
+	AJFJEBIOLCK_MonsterBornDefault = 1;
+	AJFJEBIOLCK_MonsterBornRandom = 2;
+}
+
 // CmdID: 21754
 message NEFOJKCGHAI {
 	bool JFECAANNLBF = 4;
@@ -22414,6 +23829,15 @@ message KIABAILIGML {
 	repeated uint32 KJDMPINKJLD = 6;
 	uint32 DJNPEHGBEJE = 7;
 	uint32 JNMCNLMGOLM = 11;
+}
+
+enum LJBNFPFHBHO {
+	LJBNFPFHBHO_LogLevelNone = 0;
+	LJBNFPFHBHO_LogLevelDebug = 1;
+	LJBNFPFHBHO_LogLevelInfo = 2;
+	LJBNFPFHBHO_LogLevelWarning = 3;
+	LJBNFPFHBHO_LogLevelError = 4;
+	LJBNFPFHBHO_LogLevelRedAlertSilent = 5;
 }
 
 // CmdID: 23600
@@ -22475,6 +23899,12 @@ message NOCPMOLECHH {
 message HKKCMNDBOME {
 	HHDAKFMJJPL KNEMFCHBOHH = 6;
 	int32 KBFHMOHPAPJ = 2;
+}
+
+enum OEFGIENKMLG {
+	OEFGIENKMLG_EditUgcDungeonEdit = 0;
+	OEFGIENKMLG_EditUgcDungeonAudit = 1;
+	OEFGIENKMLG_EditUgcDungeonPublished = 2;
 }
 
 // CmdID: 29622
@@ -22678,20 +24108,30 @@ message FEBHHBHHAMG {
 	uint32 NCEKLKIPGKA = 12;
 }
 
+enum CEONJKEEIOC {
+	CEONJKEEIOC_Npc = 0;
+	CEONJKEEIOC_Quest = 1;
+	CEONJKEEIOC_Special = 2;
+	CEONJKEEIOC_Mine = 3;
+	CEONJKEEIOC_Collection = 4;
+	CEONJKEEIOC_Monster = 5;
+	CEONJKEEIOC_FishPool = 6;
+}
+
 message PMBFBAJNJNE {
 	oneof BHAFAFKACDM {
-		JOFFKOMMKIP op_select_on_stage = 2;
-		GLNKEGDJFCM op_play_card = 8;
 		MOELLDPGBKI op_redraw = 13;
-		LJBFPDJNONC op_reboot = 7;
-		JMHBMNLLAIO op_surrender = 15;
-		JAEFGPACNEF op_discover = 1;
 		ODJGLEBFNIP op_attack = 14;
-		IGDBBKHFGEI op_change_character_index = 3;
-		KLACFPGNCBI op_discover_refresh = 9;
-		PHABCPMMBBD op_reroll = 10;
-		IALIEKLOJHL op_vehicle = 11;
 		FIHCBGPFPOL op_pass = 6;
+		JAEFGPACNEF op_discover = 1;
+		LJBFPDJNONC op_reboot = 7;
+		PHABCPMMBBD op_reroll = 10;
+		GLNKEGDJFCM op_play_card = 8;
+		IGDBBKHFGEI op_change_character_index = 3;
+		JOFFKOMMKIP op_select_on_stage = 2;
+		IALIEKLOJHL op_vehicle = 11;
+		JMHBMNLLAIO op_surrender = 15;
+		KLACFPGNCBI op_discover_refresh = 9;
 	}
 }
 
@@ -22709,9 +24149,9 @@ message AMNIHDMLBOL {
 	uint32 ELJHCLPOGAG = 10;
 	oneof PAKDNBOJNMD {
 		AGOCPLKIOMD cylinder_size = 1217;
-		BKJNICKOBNO cubic_size = 1749;
-		float sphere_radius = 1459;
 		BPLPACIHGKH polygon_size = 144;
+		float sphere_radius = 1459;
+		BKJNICKOBNO cubic_size = 1749;
 	}
 }
 
@@ -22734,6 +24174,14 @@ message IANLGDADPAJ {
 message IJHKBHABPFM {
 	repeated KMIFIOIFHIJ LFFCAMJFOCF = 10;
 	uint32 MHLKEIAGAPF = 2;
+}
+
+enum MJGPJNNNLIL {
+	MJGPJNNNLIL_None = 0;
+	MJGPJNNNLIL_SwitchControl = 1;
+	MJGPJNNNLIL_ShootTimeout = 2;
+	MJGPJNNNLIL_RunningTimeout = 3;
+	MJGPJNNNLIL_RunningReconnect = 4;
 }
 
 // CmdID: 23144
@@ -22975,6 +24423,12 @@ message CGEEOGIMLAO {
 
 // CmdID: 9118
 message EJFDJDPOFNM {
+	enum HILODPKKDIO {
+		HILODPKKDIO_Add = 0;
+		HILODPKKDIO_Mod = 1;
+		HILODPKKDIO_Del = 2;
+		HILODPKKDIO_Get = 3;
+	}
 	FKPHHEKPILP JCMALIAJHAM = 6;
 	FKPHHEKPILP CKEFJBAELEG = 15;
 }
@@ -23271,9 +24725,7 @@ message BNKLFOELKGE {
 // CmdID: 1607
 message CAPJAHFICFF {
 	int32 KBFHMOHPAPJ = 13;
-	oneof IKACACBKLEO {
-		uint32 red_point = 212;
-	}
+	optional uint32 red_point = 212;
 }
 
 // CmdID: 29906
@@ -23379,6 +24831,13 @@ message KBBHGJDEEID {
 	uint32 EICEOJKIOHH = 8;
 }
 
+enum LAABJIICDOL {
+	LAABJIICDOL_None = 0;
+	LAABJIICDOL_AllAvatarSelected = 1;
+	LAABJIICDOL_ChanceForbidden = 2;
+	LAABJIICDOL_CandidateAvatarNumZero = 3;
+}
+
 message FIMCMPGMHJE {
 	repeated FNKMCANKNIC JKNENFACMDM = 9;
 	uint32 BHPGNLANJAN = 2;
@@ -23410,9 +24869,9 @@ message NINMPPHFAAC {
 	oneof MBDFLBIAPEF {
 		bool is_show_brief_card_event_case = 1641;
 		uint32 bgm_id = 2011;
-		uint32 red_point = 372;
 		bool is_show_animation = 1258;
 		bool is_show_detail_build = 1338;
+		uint32 red_point = 372;
 	}
 }
 
@@ -23454,146 +24913,146 @@ message OHLDBCCFHGI {
 	bool GHGIHGOMECJ = 1278;
 	bool JLMMBBBKFBP = 10;
 	oneof MBDFLBIAPEF {
-		DGBCFNDFCLP watergun_info = 1945;
-		GECOLHCOIHE mikawa_flower_detail_info = 270;
-		AGCOGKGHNJB irodori_info = 604;
-		HNKJPLLKFJI muqadas_potion_info = 1075;
-		PMNHNHLKPJL photo_undersea_info = 1193;
-		MKPJAAGCECE catcafe_detail_info = 704;
-		MIJPHNMDDNI nahida_birth_detail_info = 115;
+		MNMLPEAIANO monster_vs_monster_detail_info = 1201;
+		KHDHOGMJMGB gacha_info = 1680;
+		OGHONELFBFN great_festival_v_2_detail_info = 1491;
 		DEDGICDDBBK potion_info = 738;
-		ACNBOABIMHK rock_board_explore_info = 1162;
-		MKNKHKNLJEN fishing_joy_detail_info = 1151;
-		APHOFDCPHHO char_amusement_info = 818;
-		IDJLLNDHCDG lost_samachurl_info = 732;
-		GKINEHFJIBE expedition_info = 428;
+		DIBIOOIHPHO fungus_fighter_v_2_info = 1586;
+		MMFIJLAPIFM michiae_matsuri_info = 1106;
+		GFCJILCGKAD crucible_info = 14;
+		DANCKIJHIEF bird_ball_detail_info = 804;
+		HGMMFLNIKFM ugc_info = 1758;
+		JAGIGMPCGGI electrohercules_battle_info = 1259;
+		LFEJCGFHBEN quick_time_combat_info = 1264;
+		AOKFNHFFDLB animal_view_info = 1214;
+		IDFHBAMANLF auto_time_stop_detail_info = 1160;
 		EKJCPCELHME hide_and_seek_v_4_detail_info = 1250;
-		LLIGNMAEAGC summer_time_info = 1620;
-		FCCIPJIGLGF mvm_2_detail_info = 839;
-		CHJNGKDLFIJ lantern_rite_v_4_info = 1000;
+		MAJEDLILDBA effigy_challenge_info = 1103;
+		GAKMGFJBHPB sandworm_cannon_detail_info = 737;
+		AGCOGKGHNJB irodori_info = 604;
 		KFEIEOAFKMN team_chain_info = 1043;
 		FPJENHBEJHC aka_fes_info = 1090;
-		PGJNCKFOCFP party_detail_info = 1181;
-		OKOFNMFNMFC rainbow_prince_detail_info = 207;
-		AAMBOCJJFBC diversity_battle_detail_info = 1134;
-		NFDJDFNLBLG fish_blaster_info = 353;
-		KOKNHGFBLLL roguelike_dungoen_info = 1341;
-		BFMFHIKCCOI dig_info = 1391;
-		CMGHDPHIBNI blessing_v_2_info = 186;
-		CBEEDMIKBIB bartender_info = 1979;
-		OFOBABIELLF acrobatics_battle_detail_info = 1666;
-		LJFOKPLAPBK music_game_info = 1552;
-		INAKDLBINID island_party_info = 174;
-		IEJNMDCMEEL salesman_info = 9;
-		IBGIPAMIMMJ fairy_tales_detail_info = 1107;
-		NCJDJGFMKHO ad_shooting_detail_info = 480;
-		CFJBAMPDAEJ gcg_auto_battle_card_detail_info = 2009;
-		MNPFGDAGFLM treasure_seelie_info = 1733;
-		NCNDFPLEOMJ challneler_slab_info = 1170;
-		KDDICMGBEBL sumo_info = 1560;
-		JGAFNBMCGPJ blessing_info = 1476;
-		OLANEGBGEAP arena_challenge_info = 1917;
-		MNMLPEAIANO monster_vs_monster_detail_info = 1201;
-		GGPIJDCLPML recharge_disk_detail_info = 907;
-		LAOELPBDJKO crystal_link_info = 1927;
-		MMFIJLAPIFM michiae_matsuri_info = 1106;
-		DJIHGEGAIHJ bomber_dodoco_detail_info = 258;
-		KKLDAMPBLEN mist_trial_activity_info = 769;
-		CBAHPBEKPCH autochess_info = 635;
-		BKAFHMPHDGK treasure_hunt_v_4_info = 1153;
-		HNHEPJGKEPM bounce_conjuring_info = 1569;
-		AOKFNHFFDLB animal_view_info = 1214;
-		EIFMEOBMDEG summer_time_v_2_info = 1066;
-		BJCPCDEPPKD goal_challenge_info = 485;
-		HGMMFLNIKFM ugc_info = 1758;
-		GAILMNMFMMD arena_challenge_v_5_detail_info = 1618;
-		DANCKIJHIEF bird_ball_detail_info = 804;
-		LBKLDBHJBAE fleur_fair_v_2_info = 1723;
-		GMAACBIHGFH find_hilichurl_info = 1504;
-		JMBFIEHLKED gcg_festival_info = 1454;
-		KHDHOGMJMGB gacha_info = 1680;
-		MJFJJIICMBM luminance_stone_challenge_info = 1338;
-		MAJEDLILDBA effigy_challenge_info = 1103;
-		IJBIGFEJGFA delivery_info = 1740;
-		ODBALBCAAAN blitz_rush_info = 1507;
-		KFNCFLMDCMJ ley_line_challenge_detail_info = 1557;
-		ONKNPDOOPLI sorush_trial_info = 404;
-		OPFEHOCFNBE ugc_v_2_info = 197;
-		DMNKDBPHPOI wind_field_info = 339;
-		DMEBPBAMKKN instable_spray_info = 1300;
-		BMCOKNHJJKM gear_info = 1248;
-		CNNNPLPPKKM bullet_hell_detail_info = 833;
-		OHDFHKMFOMJ fleur_fair_info = 1959;
-		ILFLBNNCFAG sea_lamp_info = 724;
-		CKIBDNJDBNN effigy_challenge_v_4_info = 76;
-		MPHOPIONEBH moonfin_trial_info = 825;
-		LEOOGMLAELI effigy_info = 434;
-		EKAEIJDEHNM tanuki_travel_activity_info = 112;
-		NIKGDAKOHAE toy_battle_info = 111;
-		LFEJCGFHBEN quick_time_combat_info = 1264;
-		LMAOCEPCCEH poetry_festival_detail_info = 1838;
-		DOHOOEBFECL limited_time_reward_area_banner_info = 1405;
-		PLGAEGGFDDD hachi_info = 256;
-		LIFCNNJAKMF duel_heart_info = 819;
-		KCGBNNOHJPM spice_info = 1483;
-		MPCFKCONEJE collect_underwater_info = 237;
-		FDCPFFHIMPM gain_buff_detail_info = 921;
-		DCEJGCKPJEM water_spirit_info = 972;
-		LIHKCPDFOPP stamina_fight_info = 415;
-		BKPGAMFBEPN brick_breaker_info = 616;
-		BIGLFNIKBJO fungus_fighter_v_3_info = 152;
-		KOLPAEDLOPH boltbug_abyss_detail_info = 1478;
-		IDFHBAMANLF auto_time_stop_detail_info = 1160;
-		HFALLPBBHLM lantern_rite_v_5_detail_info = 410;
-		FMPOPOAKIHD natlan_race_info = 1382;
-		GFCJILCGKAD crucible_info = 14;
-		PCJMNDCDHGL sam_lamp_info = 12;
-		HPGLJBMLCJF photo_info = 2004;
-		ACGCEDMEOJI natlan_tour_detail_info = 1628;
-		AFNINHBLIDA electrohercules_battle_v_3_detail_info = 1487;
-		NCKDIGAKKJK journey_info = 747;
-		JAGIGMPCGGI electrohercules_battle_info = 1259;
-		NFOKIGFLKBJ graven_innocence_info = 1485;
-		NAADIOPGPBP alchemy_sim_detail_info = 682;
-		AENIDAJLBKA plant_flower_info = 1718;
-		AIFBBGFCMHJ monster_chess_detail_info = 881;
-		KFKBHGJHDMJ slime_cannon_detail_info = 446;
-		MCBCPLDLFHA flight_info = 1924;
-		GLKNOCDOLHM lantern_rite_activity_info = 324;
-		DFDGLGGAKNF vintage_info = 71;
-		NLHNNKLMBNP fontaine_gather_info = 884;
-		OGHONELFBFN great_festival_v_2_detail_info = 1491;
-		BCAEHKHACKJ trial_avatar_info = 3;
-		OOMAFPCMACC luna_rite_info = 1404;
-		NBCNPCBLCPK hide_and_seek_info = 807;
-		LEOGCOOCAPN natlan_arena_detail_info = 1781;
-		MKPKPDHGFLP echo_shell_info = 539;
-		CHMPBDHEPOG natlan_drill_info = 1598;
-		OHHGHBKPMBK gcg_pve_infinite_info = 1211;
-		PCKIHIHEEFB ceremony_info = 405;
-		CHGAIHNNEAO winter_camp_info = 1124;
-		FCNCJJEDLAH coin_collect_info = 1329;
-		HBHBAGFBEAJ gcg_pve_puzzle_info = 462;
-		OFGPMEHEBPF holiday_resort_detail_info = 1435;
-		GHCKKDOJKCJ rogue_diary_info = 973;
 		ICMHAGMPFAF gcg_pve_info = 1306;
-		GGGDAKIPAEP sea_lamp_v_3_info = 1931;
-		OEBFJNMAMGD cooperate_challenge_detail_info = 64;
-		GPJFGHINBIH cook_game_detail_info = 22;
-		ALEIGHEDKCP aster_info = 240;
-		IJICGJOLILL buoyant_combat_info = 1990;
-		BAGCBEKJEFK fungus_fighter_info = 1420;
-		OHILDFGKAMC effigy_challenge_v_5_detail_info = 110;
-		GAKMGFJBHPB sandworm_cannon_detail_info = 737;
-		DCMKCECFEOP tower_challenge_detail_info = 853;
-		JEJEEAANABP treasure_map_info = 1198;
-		FECCLGIDJBG filmfest_detail_info = 1964;
-		DIBIOOIHPHO fungus_fighter_v_2_info = 1586;
-		DDGIBDANMFM activity_multi_character_info = 387;
-		LJHGPKHAKGG theme_park_sim_detail_info = 1582;
+		KOLPAEDLOPH boltbug_abyss_detail_info = 1478;
+		PCKIHIHEEFB ceremony_info = 405;
+		ILFLBNNCFAG sea_lamp_info = 724;
+		JGAFNBMCGPJ blessing_info = 1476;
+		KOKNHGFBLLL roguelike_dungoen_info = 1341;
+		OHDFHKMFOMJ fleur_fair_info = 1959;
+		NFOKIGFLKBJ graven_innocence_info = 1485;
 		OFICDJNMLLM chess_info = 1983;
+		OOMAFPCMACC luna_rite_info = 1404;
 		NNLDILNDECF dragon_spine_info = 208;
+		ACNBOABIMHK rock_board_explore_info = 1162;
+		LBKLDBHJBAE fleur_fair_v_2_info = 1723;
+		MNPFGDAGFLM treasure_seelie_info = 1733;
+		MPHOPIONEBH moonfin_trial_info = 825;
+		FCNCJJEDLAH coin_collect_info = 1329;
+		NCKDIGAKKJK journey_info = 747;
 		HJICOLFINGA penumbra_adventure_info = 1708;
+		MKPJAAGCECE catcafe_detail_info = 704;
+		OHILDFGKAMC effigy_challenge_v_5_detail_info = 110;
+		DCMKCECFEOP tower_challenge_detail_info = 853;
+		BKAFHMPHDGK treasure_hunt_v_4_info = 1153;
+		DFDGLGGAKNF vintage_info = 71;
+		MCBCPLDLFHA flight_info = 1924;
+		PLGAEGGFDDD hachi_info = 256;
+		GPJFGHINBIH cook_game_detail_info = 22;
+		NCNDFPLEOMJ challneler_slab_info = 1170;
+		HNHEPJGKEPM bounce_conjuring_info = 1569;
+		CHJNGKDLFIJ lantern_rite_v_4_info = 1000;
+		OPFEHOCFNBE ugc_v_2_info = 197;
+		ACGCEDMEOJI natlan_tour_detail_info = 1628;
+		CFJBAMPDAEJ gcg_auto_battle_card_detail_info = 2009;
+		GHCKKDOJKCJ rogue_diary_info = 973;
+		CBAHPBEKPCH autochess_info = 635;
+		AIFBBGFCMHJ monster_chess_detail_info = 881;
+		BIGLFNIKBJO fungus_fighter_v_3_info = 152;
+		NAADIOPGPBP alchemy_sim_detail_info = 682;
+		NCJDJGFMKHO ad_shooting_detail_info = 480;
+		NFDJDFNLBLG fish_blaster_info = 353;
+		DMNKDBPHPOI wind_field_info = 339;
+		LMAOCEPCCEH poetry_festival_detail_info = 1838;
+		GAILMNMFMMD arena_challenge_v_5_detail_info = 1618;
+		ONKNPDOOPLI sorush_trial_info = 404;
+		DDGIBDANMFM activity_multi_character_info = 387;
+		CMGHDPHIBNI blessing_v_2_info = 186;
+		LJHGPKHAKGG theme_park_sim_detail_info = 1582;
+		KFNCFLMDCMJ ley_line_challenge_detail_info = 1557;
+		CKIBDNJDBNN effigy_challenge_v_4_info = 76;
+		OHHGHBKPMBK gcg_pve_infinite_info = 1211;
+		NLHNNKLMBNP fontaine_gather_info = 884;
+		LJFOKPLAPBK music_game_info = 1552;
+		FDCPFFHIMPM gain_buff_detail_info = 921;
+		HNKJPLLKFJI muqadas_potion_info = 1075;
+		OFOBABIELLF acrobatics_battle_detail_info = 1666;
+		CNNNPLPPKKM bullet_hell_detail_info = 833;
+		DCEJGCKPJEM water_spirit_info = 972;
+		OFGPMEHEBPF holiday_resort_detail_info = 1435;
+		BJCPCDEPPKD goal_challenge_info = 485;
+		KKLDAMPBLEN mist_trial_activity_info = 769;
+		OLANEGBGEAP arena_challenge_info = 1917;
+		PCJMNDCDHGL sam_lamp_info = 12;
+		KCGBNNOHJPM spice_info = 1483;
+		GGGDAKIPAEP sea_lamp_v_3_info = 1931;
+		MPCFKCONEJE collect_underwater_info = 237;
+		DJIHGEGAIHJ bomber_dodoco_detail_info = 258;
+		FMPOPOAKIHD natlan_race_info = 1382;
+		LIHKCPDFOPP stamina_fight_info = 415;
+		PGJNCKFOCFP party_detail_info = 1181;
+		AAMBOCJJFBC diversity_battle_detail_info = 1134;
+		NIKGDAKOHAE toy_battle_info = 111;
+		DGBCFNDFCLP watergun_info = 1945;
+		LIFCNNJAKMF duel_heart_info = 819;
+		LEOGCOOCAPN natlan_arena_detail_info = 1781;
+		KDDICMGBEBL sumo_info = 1560;
+		DMEBPBAMKKN instable_spray_info = 1300;
+		GMAACBIHGFH find_hilichurl_info = 1504;
+		EKAEIJDEHNM tanuki_travel_activity_info = 112;
+		JEJEEAANABP treasure_map_info = 1198;
+		HPGLJBMLCJF photo_info = 2004;
+		LAOELPBDJKO crystal_link_info = 1927;
+		HFALLPBBHLM lantern_rite_v_5_detail_info = 410;
+		LEOOGMLAELI effigy_info = 434;
+		BAGCBEKJEFK fungus_fighter_info = 1420;
+		MKPKPDHGFLP echo_shell_info = 539;
+		FECCLGIDJBG filmfest_detail_info = 1964;
+		GKINEHFJIBE expedition_info = 428;
+		KFKBHGJHDMJ slime_cannon_detail_info = 446;
+		IEJNMDCMEEL salesman_info = 9;
+		GECOLHCOIHE mikawa_flower_detail_info = 270;
+		LLIGNMAEAGC summer_time_info = 1620;
+		ODBALBCAAAN blitz_rush_info = 1507;
+		IBGIPAMIMMJ fairy_tales_detail_info = 1107;
+		CBEEDMIKBIB bartender_info = 1979;
+		BCAEHKHACKJ trial_avatar_info = 3;
+		ALEIGHEDKCP aster_info = 240;
+		MJFJJIICMBM luminance_stone_challenge_info = 1338;
+		MKNKHKNLJEN fishing_joy_detail_info = 1151;
+		AFNINHBLIDA electrohercules_battle_v_3_detail_info = 1487;
+		HBHBAGFBEAJ gcg_pve_puzzle_info = 462;
+		MIJPHNMDDNI nahida_birth_detail_info = 115;
+		IDJLLNDHCDG lost_samachurl_info = 732;
+		CHGAIHNNEAO winter_camp_info = 1124;
+		GLKNOCDOLHM lantern_rite_activity_info = 324;
+		IJBIGFEJGFA delivery_info = 1740;
+		AENIDAJLBKA plant_flower_info = 1718;
+		BFMFHIKCCOI dig_info = 1391;
+		NBCNPCBLCPK hide_and_seek_info = 807;
+		BMCOKNHJJKM gear_info = 1248;
+		PMNHNHLKPJL photo_undersea_info = 1193;
+		CHMPBDHEPOG natlan_drill_info = 1598;
+		FCCIPJIGLGF mvm_2_detail_info = 839;
+		APHOFDCPHHO char_amusement_info = 818;
+		EIFMEOBMDEG summer_time_v_2_info = 1066;
+		OEBFJNMAMGD cooperate_challenge_detail_info = 64;
+		DOHOOEBFECL limited_time_reward_area_banner_info = 1405;
+		INAKDLBINID island_party_info = 174;
+		BKPGAMFBEPN brick_breaker_info = 616;
+		JMBFIEHLKED gcg_festival_info = 1454;
+		GGPIJDCLPML recharge_disk_detail_info = 907;
+		IJICGJOLILL buoyant_combat_info = 1990;
+		OKOFNMFNMFC rainbow_prince_detail_info = 207;
 	}
 }
 
@@ -24133,8 +25592,8 @@ message AGPKBDAMPDH {
 	OFMAJELOAIN LOBDJPHHKPK = 2;
 	uint64 LIGCILNAOCC = 7;
 	oneof PKNHCAAFJBB {
-		CMECIDEFDLK lan_v_5_card_brief_info = 1567;
 		DKKOKFONDEL music_brief_info = 1751;
+		CMECIDEFDLK lan_v_5_card_brief_info = 1567;
 	}
 }
 
@@ -24209,6 +25668,11 @@ message KNPBIEFAOCG {
 
 // CmdID: 2361
 message DLAJGCEJJKI {
+	enum LABJOINPAAK {
+		LABJOINPAAK_StatusFail = 0;
+		LABJOINPAAK_StatusSucc = 1;
+		LABJOINPAAK_StatusPartial = 2;
+	}
 	repeated GDBMDLHAAHN JPOINJAFPON = 3;
 	repeated GDBMDLHAAHN JPABDEADKHL = 14;
 	repeated BKJNICKOBNO NMIKOIAKNPD = 9;
@@ -24539,13 +26003,23 @@ message CKDCINIJBCI {
 }
 
 message ANPAAHOIBCN {
+	enum IJJODBMMNCA {
+		IJJODBMMNCA_None = 0;
+		IJJODBMMNCA_CreateConnect = 1;
+		IJJODBMMNCA_StartGame = 2;
+		IJJODBMMNCA_Ping = 3;
+		IJJODBMMNCA_FinishGame = 4;
+		IJJODBMMNCA_SnapShot = 5;
+		IJJODBMMNCA_Action = 6;
+		IJJODBMMNCA_SnapShotForDebugLog = 7;
+	}
 	int32 KBFHMOHPAPJ = 1;
 	oneof KHEJEDNODPP {
 		BKBAJCCBADE sync_create_connect = 4;
-		LNCGGOEDFLB sync_ping = 6;
-		OPGKABEIIPK sync_snap_shot = 2;
 		DOEDLPCLFCA sync_action = 5;
+		OPGKABEIIPK sync_snap_shot = 2;
 		PNOONBBPBML sync_finish_game = 13;
+		LNCGGOEDFLB sync_ping = 6;
 	}
 }
 
@@ -24592,6 +26066,11 @@ message OMCHIDPFPKN {
 }
 
 message CKAIODPIJMM {
+	message CEKLPCDLLBF {
+		uint64 AMLAOLFGOAN = 5;
+		bool OMIAKLCLDIA = 14;
+		uint32 CDDNKHDNNGJ = 13;
+	}
 	repeated CEKLPCDLLBF DBBOIOPPCAM = 7;
 	string HGLJCIMJCMM = 8;
 	uint64 MLLJKNHCIKK = 11;
@@ -24662,6 +26141,10 @@ message NDMCKPJKCDC {
 }
 
 message INIGNNEIJLL {
+	message FCIFNKNGIFI {
+		bool IPIFCJFGKHL = 2;
+		uint32 IAONPGPJOJO = 1;
+	}
 	FCIFNKNGIFI DMCDLKPHPIN = 2;
 	AJMMBHPPBEL HGJLNHJEDIB = 1;
 }
@@ -24731,6 +26214,11 @@ message OMJCLCGONCL {
 
 // CmdID: 22446
 message MIACOOBNDCP {
+	enum IGLJIFHAKNG {
+		IGLJIFHAKNG_TypeNone = 0;
+		IGLJIFHAKNG_TypePack = 1;
+		IGLJIFHAKNG_TypeEvent = 2;
+	}
 	repeated uint32 NJCJIEDKMGN = 1;
 }
 
@@ -24790,6 +26278,12 @@ message OINHEIMDLED {
 	bool EIOFBPEBMKG = 15;
 	uint32 DIIALADEOAN = 8;
 	uint32 JNMCNLMGOLM = 11;
+}
+
+enum CLDLDPKDGBP {
+	CLDLDPKDGBP_Past = 0;
+	CLDLDPKDGBP_Inprocess = 1;
+	CLDLDPKDGBP_Future = 2;
 }
 
 message EPAEIDEMHMI {
@@ -25061,6 +26555,10 @@ message EAMPCGOCJBI {
 
 // CmdID: 4067
 message OIFHDHMJKLP {
+	enum OBMBIMDHAGK {
+		OBMBIMDHAGK_GcgHintNone = 0;
+		OBMBIMDHAGK_GcgHintGameNotFound = 1;
+	}
 	OBMBIMDHAGK KFLNACDNBFP = 15;
 }
 
@@ -25111,6 +26609,12 @@ message BJLPGFAFKOL {
 	bool HMOIDLLFBKL = 7;
 	uint32 BLOFLLAFDBL = 1;
 	uint32 LLNNEDOOENM = 9;
+}
+
+enum JHDJADDBHBA {
+	JHDJADDBHBA_GadgetMarkUpdateOpNone = 0;
+	JHDJADDBHBA_GadgetMarkUpdateOpAdd = 1;
+	JHDJADDBHBA_GadgetMarkUpdateOpRemove = 2;
 }
 
 // CmdID: 27955
@@ -25296,6 +26800,17 @@ message COBAMAEBLJG {
 	uint32 JAMBAFEHGJE = 9;
 }
 
+enum MOFMHICHPFF {
+	MOFMHICHPFF_None = 0;
+	MOFMHICHPFF_Succ = 1;
+	MOFMHICHPFF_Fail = 2;
+}
+
+enum EGNIJEADFGC {
+	EGNIJEADFGC_RogueEliteNormal = 0;
+	EGNIJEADFGC_RogueEliteHard = 1;
+}
+
 // CmdID: 28459
 message PPCJBIJLMAG {
 	uint32 OBNGKNGICGM = 12;
@@ -25389,10 +26904,16 @@ message HLKBOFOCEGD {
 }
 
 message MHDLAPJKGNK {
+	message FNFDIIDJLLE {
+		repeated BKJNICKOBNO BFFOBNKJEHM = 12;
+	}
+	message KMOFBKCBGCP {
+		uint32 NCEKLKIPGKA = 15;
+	}
 	oneof LLANJLIGELL {
-		OJKDHDAFMPD add_signal = 15;
 		KMOFBKCBGCP catch_seed = 6;
 		FNFDIIDJLLE refresh_seed = 3;
+		OJKDHDAFMPD add_signal = 15;
 	}
 }
 
@@ -25582,12 +27103,12 @@ message CLDEKCPAFHI {
 message FBJDMBOGMFL {
 	bool OIOFDNCIHKE = 246;
 	oneof CEKJGNCOPAK {
-		HFMPBJDHGHG client_detector_info = 2601;
 		KGEEGIMEEMN location_info = 970;
-		KPELJCBBMBO thunder_bird_feather_info = 1248;
+		HFMPBJDHGHG client_detector_info = 2601;
+		DFCNELBLPEB creator_info = 1810;
 		INHEOPJGPOJ camera_info = 1366;
 		AMDJOLHLCJK sorush_info = 1750;
-		DFCNELBLPEB creator_info = 1810;
+		KPELJCBBMBO thunder_bird_feather_info = 1248;
 	}
 }
 
@@ -25624,11 +27145,23 @@ message ADOCDKDJFCE {
 }
 
 message IJOGNBOBNDJ {
+	message PEBGIAKBJBJ {
+		map<uint32, uint32> ADFMJFBOBMC = 1;
+		uint32 GLHCFGLMKHP = 2;
+	}
+	message EKPCKPJIMJK {
+		uint32 HKHJAEBFHEF = 1;
+	}
+	message NKEAFKFLMIA {
+		map<uint32, uint32> ADFMJFBOBMC = 1;
+		uint32 HGGFIGEBBDD = 2;
+		uint32 GLHCFGLMKHP = 3;
+	}
 	bool ONKADFKJMNI = 1;
 	oneof KFFFFKILKPN {
-		PEBGIAKBJBJ count_down_delete = 2;
-		EKPCKPJIMJK date_delete = 3;
 		NKEAFKFLMIA delay_week_count_down_delete = 4;
+		EKPCKPJIMJK date_delete = 3;
+		PEBGIAKBJBJ count_down_delete = 2;
 	}
 }
 
@@ -25649,6 +27182,11 @@ message JEJEEAANABP {
 	uint32 ABDOJHIBJJD = 9;
 	bool FJOJIHGJNLJ = 4;
 	uint32 CDGHKMKDHPF = 12;
+}
+
+enum HEEBBGIOCGF {
+	HEEBBGIOCGF_FreiendDisconnect = 0;
+	HEEBBGIOCGF_FriendOnline = 1;
 }
 
 message AOLCFIOALNP {
@@ -25690,6 +27228,13 @@ message OLPDKILLKKG {
 message APAIGFMLKBE {
 	repeated FDHIKHPBPIP JJOJHCLLPMD = 14;
 	uint32 IFMAGHBJPIG = 11;
+}
+
+enum LNJILLNPHDH {
+	LNJILLNPHDH_None = 0;
+	LNJILLNPHDH_FormalMirror = 1;
+	LNJILLNPHDH_TrialMirror = 2;
+	LNJILLNPHDH_RentMirror = 3;
 }
 
 message NKLPENOJGAL {
@@ -26160,6 +27705,16 @@ message DHOPFPNBEIH {
 	uint32 EIGDCHCBKGN = 10;
 }
 
+enum FAOHMJLBDHF {
+	FAOHMJLBDHF_FoundationOpNone = 0;
+	FAOHMJLBDHF_FoundationOpBuild = 1;
+	FAOHMJLBDHF_FoundationOpDemolition = 2;
+	FAOHMJLBDHF_FoundationOpRebuild = 3;
+	FAOHMJLBDHF_FoundationOpRotate = 4;
+	FAOHMJLBDHF_FoundationOpLock = 5;
+	FAOHMJLBDHF_FoundationOpUnlock = 6;
+}
+
 message FELEIIKMALL {
 	string JDPLNENIKCP = 5;
 	string HAGNDOMAHBH = 2;
@@ -26226,6 +27781,15 @@ message EBKNOHCGMJJ {
 }
 
 message EKDMOCCFMFJ {
+	enum DCMGFDFGENI {
+		DCMGFDFGENI_ActionTypeNone = 0;
+		DCMGFDFGENI_ActionTypePlayerMove = 1;
+		DCMGFDFGENI_ActionTypeSpawnWave = 2;
+		DCMGFDFGENI_ActionTypeAddObstacle = 3;
+		DCMGFDFGENI_ActionTypeRemoveObstacle = 4;
+		DCMGFDFGENI_ActionTypeTeamScore = 5;
+		DCMGFDFGENI_ActionTypeCollectObstacles = 6;
+	}
 	HLKHIOLLPKB BOAPODCLLFP = 5;
 	repeated uint32 NEJEHBJKOEG = 10;
 	HLKHIOLLPKB LKBEDGMKPDE = 8;
@@ -26254,6 +27818,14 @@ message BADOADOLAJF {
 	string NAEAEMHLLPJ = 13;
 	uint32 CLEGINOPJGM = 4;
 	uint32 FEAEEJDHFOO = 11;
+}
+
+enum ACACDOEDMJM {
+	ACACDOEDMJM_DungeonTeamBuilderPlayerLeaveNone = 0;
+	ACACDOEDMJM_DungeonTeamBuilderPlayerLeaveNormal = 1;
+	ACACDOEDMJM_DungeonTeamBuilderPlayerLeaveKick = 2;
+	ACACDOEDMJM_DungeonTeamBuilderPlayerLeaveDisconnect = 3;
+	ACACDOEDMJM_DungeonTeamBuilderPlayerLeaveJumpScene = 4;
 }
 
 // CmdID: 25438
@@ -26451,6 +28023,11 @@ message OKJLPHOHAOM {
 
 // CmdID: 4677
 message ENBBGJJPFBI {
+	enum KHFIAPCIDOA {
+		KHFIAPCIDOA_Invalid = 0;
+		KHFIAPCIDOA_Enter = 1;
+		KHFIAPCIDOA_Leave = 2;
+	}
 	string NAEAEMHLLPJ = 7;
 	KHFIAPCIDOA CLBANAHDPFN = 2;
 }
@@ -26523,6 +28100,16 @@ message FKCLOFIIFBO {
 	uint32 APODBFIBKPE = 6;
 }
 
+enum CAEGMOOCMAK {
+	CAEGMOOCMAK_SalvagePreventStopNone = 0;
+	CAEGMOOCMAK_SalvagePreventStopSuccess = 1;
+	CAEGMOOCMAK_SalvagePreventStopArrival = 2;
+	CAEGMOOCMAK_SalvagePreventStopInterrupt = 3;
+	CAEGMOOCMAK_SalvagePreventStopLeave = 4;
+	CAEGMOOCMAK_SalvagePreventStopFull = 5;
+	CAEGMOOCMAK_SalvagePreventStopAway = 6;
+}
+
 // CmdID: 27364
 message GPGIHKNLCOD {
 	repeated NEMIAOLPKHF DNCPCFPHNOB = 4;
@@ -26574,6 +28161,13 @@ message ENFFFCHBKAB {
 	uint32 ILIDAONKGCK = 15;
 	uint32 ILBCPIFLANH = 13;
 	uint32 INMKDFGOPMI = 3;
+}
+
+enum JAFCKINHEON {
+	JAFCKINHEON_None = 0;
+	JAFCKINHEON_Leave = 1;
+	JAFCKINHEON_Pending = 2;
+	JAFCKINHEON_Idle = 3;
 }
 
 // CmdID: 8917
@@ -26639,6 +28233,17 @@ message FLPIKDCNBCL {
 
 // CmdID: 9421
 message HLHOEJIMAEF {
+	enum GDOLCOABJFM {
+		GDOLCOABJFM_Disconnect = 0;
+		GDOLCOABJFM_ClientReq = 1;
+		GDOLCOABJFM_Timeout = 2;
+		GDOLCOABJFM_AdminReq = 3;
+		GDOLCOABJFM_ServerClose = 4;
+		GDOLCOABJFM_GmClear = 5;
+		GDOLCOABJFM_PlayerTransfer = 6;
+		GDOLCOABJFM_ClientChecksumInvalid = 7;
+		GDOLCOABJFM_MuipMoveSaveWait = 8;
+	}
 	GDOLCOABJFM CLBANAHDPFN = 11;
 }
 
@@ -26832,6 +28437,11 @@ message NJFOLCIGOON {
 
 // CmdID: 24027
 message BHPGAIDMJNN {
+	enum OFJJJEDKJMC {
+		OFJJJEDKJMC_ProjectorOpNone = 0;
+		OFJJJEDKJMC_ProjectorOpCreate = 1;
+		OFJJJEDKJMC_ProjectorOpDestroy = 2;
+	}
 	uint32 NCEKLKIPGKA = 9;
 	uint32 BKIFOPJNBBF = 11;
 }
@@ -26870,6 +28480,13 @@ message KGMENDCGBMI {
 	uint32 IDKKMPOGHOF = 3;
 }
 
+enum PCOFKINKLMF {
+	PCOFKINKLMF_WispCageStateNotExist = 0;
+	PCOFKINKLMF_WispCageStateCreated = 1;
+	PCOFKINKLMF_WispCageStateMaterialDelivered = 2;
+	PCOFKINKLMF_WispCageStateNotTakeReward = 3;
+}
+
 // CmdID: 24332
 message OONGJFKPPCC {
 	uint32 HJMNOLCPOBG = 8;
@@ -26884,6 +28501,11 @@ message MFLMLPDPJCD {
 
 // CmdID: 25554
 message BPDOHADKFOH {
+	enum JNMKCCDHPCB {
+		JNMKCCDHPCB_OpNone = 0;
+		JNMKCCDHPCB_OpActivate = 1;
+		JNMKCCDHPCB_OpDeactivate = 2;
+	}
 	uint32 NCEKLKIPGKA = 15;
 }
 
@@ -26916,6 +28538,11 @@ message JMPJOCCIMNB {
 message CPCKIILBCJE {
 	ONHNJJGIIJE GMLLFBNGLDG = 4;
 	uint32 FGEFADAJCIF = 10;
+}
+
+enum FLLNLAEPDGH {
+	FLLNLAEPDGH_ReceiveOutput = 0;
+	FLLNLAEPDGH_StopForge = 1;
 }
 
 // CmdID: 22350
@@ -26998,13 +28625,13 @@ message CEDCBHNFEKK {
 	uint32 IEFLLEAGMBH = 5;
 	uint32 OGKANLFBBBA = 15;
 	oneof MBDFLBIAPEF {
-		AJBDGBBPFBL element_reliquary_request = 842;
-		IJBMCCCHJPA element_weapon_request = 2029;
-		AIOIBEAPDCO element_reliquary_set_request = 660;
-		PKANJNGNFBL skill_request = 1130;
-		FBHMBDCKHCP reliquary_request = 49;
 		IIIFAEKMNFI reliquary_set_request = 1938;
+		PKANJNGNFBL skill_request = 1130;
+		AJBDGBBPFBL element_reliquary_request = 842;
+		FBHMBDCKHCP reliquary_request = 49;
+		AIOIBEAPDCO element_reliquary_set_request = 660;
 		INHLADKEDIL weapon_request = 883;
+		IJBMCCCHJPA element_weapon_request = 2029;
 	}
 }
 
@@ -27072,6 +28699,11 @@ message PDNKOBFGHHL {
 	uint32 EFHMEGAMHHF = 15;
 	uint32 KDPPPMHAPEI = 5;
 	uint32 CMAAMNEGLDN = 3;
+}
+
+enum GOGPGLGLFCB {
+	GOGPGLGLFCB_Added = 0;
+	GOGPGLGLFCB_Removed = 1;
 }
 
 // CmdID: 25080
@@ -27163,6 +28795,16 @@ message DMNMAGLAMGP {
 	bool GDMEIIGJHBP = 12;
 }
 
+enum IMBLGCMPENG {
+	IMBLGCMPENG_PacmanDungeonStopNone = 0;
+	IMBLGCMPENG_PacmanDungeonStopSuccess = 1;
+	IMBLGCMPENG_PacmanDungeonStopTimeup = 2;
+	IMBLGCMPENG_PacmanDungeonStopClientInterrupt = 3;
+	IMBLGCMPENG_PacmanDungeonStopCancel = 4;
+	IMBLGCMPENG_PacmanDungeonStopActivityClosed = 5;
+	IMBLGCMPENG_PacmanDungeonStopFail = 6;
+}
+
 message DAKNCLDDKGO {
 	uint32 EKGGOENOFKP = 8;
 	bool KFKKFPPHAJA = 13;
@@ -27244,10 +28886,25 @@ message LNLFDAMHBPM {
 	uint32 HHPKKEFFHLH = 6;
 	uint32 HMNLAPOBBFI = 15;
 	oneof MBDFLBIAPEF {
-		CBIJBJJDJFH shop = 1248;
 		FLIOABIKCFD event = 369;
+		CBIJBJJDJFH shop = 1248;
 		IEAPCKFOOCP battle = 1009;
 	}
+}
+
+enum PNINBNHFOFI {
+	PNINBNHFOFI_None = 0;
+	PNINBNHFOFI_DestoryVehcile = 1;
+	PNINBNHFOFI_EnterScene = 2;
+	PNINBNHFOFI_LeaveScene = 3;
+	PNINBNHFOFI_ActiveVehcile = 4;
+	PNINBNHFOFI_EnterVehicle = 5;
+	PNINBNHFOFI_SpeedCheck = 6;
+	PNINBNHFOFI_Gm = 7;
+	PNINBNHFOFI_UseWidgetTp = 8;
+	PNINBNHFOFI_UseWidgetNotTp = 9;
+	PNINBNHFOFI_GalleryVehcileNotTp = 10;
+	PNINBNHFOFI_QuestExec = 11;
 }
 
 message JCAIGOGIKND {
@@ -27271,6 +28928,12 @@ message MFCLBJPJJGA {
 // CmdID: 28546
 message JLPKNMLJBPD {
 	uint32 KAOEAEOJLNL = 7;
+}
+
+enum MDGNBFHIIGN {
+	MDGNBFHIIGN_None = 0;
+	MDGNBFHIIGN_Auto = 1;
+	MDGNBFHIIGN_Custom = 2;
 }
 
 // CmdID: 23782
@@ -27343,6 +29006,18 @@ message IIELMNFOMJF {
 message ILLJNKECLFC {
 	int32 KBFHMOHPAPJ = 8;
 	uint32 HHDPJFFECJP = 6;
+}
+
+enum PJLHPHEGFNP {
+	PJLHPHEGFNP_GcgZoneInvalid = 0;
+	PJLHPHEGFNP_GcgZoneDeck = 1;
+	PJLHPHEGFNP_GcgZoneHand = 2;
+	PJLHPHEGFNP_GcgZoneCharacter = 3;
+	PJLHPHEGFNP_GcgZoneModify = 4;
+	PJLHPHEGFNP_GcgZoneSummon = 5;
+	PJLHPHEGFNP_GcgZoneAssist = 7;
+	PJLHPHEGFNP_GcgZoneOnstage = 8;
+	PJLHPHEGFNP_GcgZoneRule = 9;
 }
 
 // CmdID: 8346
@@ -27421,6 +29096,13 @@ message FFMOMPLAGHI {
 message LEEJJDALEPB {
 	uint32 JNMCNLMGOLM = 9;
 	uint32 BMPGDLLELDA = 13;
+}
+
+enum BIDAALNFBLG {
+	BIDAALNFBLG_SalesmanStatusNone = 0;
+	BIDAALNFBLG_SalesmanStatusUnstarted = 1;
+	BIDAALNFBLG_SalesmanStatusStarted = 2;
+	BIDAALNFBLG_SalesmanStatusDelivered = 3;
 }
 
 // CmdID: 5302
@@ -27563,6 +29245,15 @@ message PLMMPPAPLOK {
 	uint32 DHDPIBMKIEG = 1;
 }
 
+enum ALACDHOONNF {
+	ALACDHOONNF_QuestAbyssWarLevelStatusNone = 0;
+	ALACDHOONNF_QuestAbyssWarLevelStatusNotRefresh = 1;
+	ALACDHOONNF_QuestAbyssWarLevelStatusReadyToAccept = 2;
+	ALACDHOONNF_QuestAbyssWarLevelStatusRunning = 3;
+	ALACDHOONNF_QuestAbyssWarLevelStatusFinish = 4;
+	ALACDHOONNF_QuestAbyssWarLevelStatusUnavaliable = 5;
+}
+
 message NJKIMPADHGA {
 	BKJNICKOBNO BOAPODCLLFP = 7;
 	uint32 ABFAKFABADF = 12;
@@ -27610,6 +29301,19 @@ message EDHNABCEPHI {
 // CmdID: 28666
 message AHMADOLBHDP {
 	uint32 CMJNLNGFKLL = 12;
+}
+
+enum GGEBHECHLFF {
+	GGEBHECHLFF_None = 0;
+	GGEBHECHLFF_Theme = 1;
+	GGEBHECHLFF_Falling = 2;
+	GGEBHECHLFF_Track = 3;
+	GGEBHECHLFF_Connection = 4;
+	GGEBHECHLFF_Fever = 5;
+	GGEBHECHLFF_Background = 6;
+	GGEBHECHLFF_ThemeFollow = 7;
+	GGEBHECHLFF_Instrument = 8;
+	GGEBHECHLFF_MidLineHighlight = 9;
 }
 
 // CmdID: 3021
@@ -27734,9 +29438,9 @@ message LMFDHMOGHJL {
 		float time = 12;
 	}
 	oneof MGLFMLIDPIN {
-		BKJNICKOBNO rotation = 21;
-		OOEPBLLLDGP rotation_speed = 22;
 		OOEPBLLLDGP axis_speed = 23;
+		OOEPBLLLDGP rotation_speed = 22;
+		BKJNICKOBNO rotation = 21;
 	}
 }
 
@@ -27754,6 +29458,10 @@ message LDPBNILNIAE {
 
 // CmdID: 5686
 message CJFFGGFPADG {
+	enum DEDLANNMKEE {
+		DEDLANNMKEE_None = 0;
+		DEDLANNMKEE_DiversityBattleDungeonInfo = 17462;
+	}
 	map<uint32, uint32> NMLEFELMMLD = 9;
 }
 
@@ -27940,6 +29648,11 @@ message AMFGNHGJMCB {
 }
 
 message NMCGEODAMKJ {
+	message BPMCHEIMFIM {
+		uint32 CDDNKHDNNGJ = 13;
+		bool OMIAKLCLDIA = 14;
+		uint64 AMLAOLFGOAN = 5;
+	}
 	string HGLJCIMJCMM = 12;
 	repeated BPMCHEIMFIM DBBOIOPPCAM = 2;
 	uint32 OGAIMFACEEN = 1;
@@ -28072,6 +29785,12 @@ message NNFGOFEANPN {
 	float GJLEKMOKONG = 15;
 	uint32 CBMKICMLEAE = 5;
 	OFGNBHMJOLI CLBANAHDPFN = 12;
+}
+
+enum GPKLHGPCFPK {
+	GPKLHGPCFPK_Noe = 0;
+	GPKLHGPCFPK_Monster = 1;
+	GPKLHGPCFPK_Quest = 2;
 }
 
 // CmdID: 28549
@@ -28334,6 +30053,19 @@ message ICGDGMHMJOI {
 	repeated FEHGNJMADDF OGMAIHCLGND = 7;
 	repeated OLHOMANAHID KAPCMNDJHDN = 8;
 	uint32 HIHONAKHBFJ = 1;
+}
+
+enum LDEMCDPDFPP {
+	LDEMCDPDFPP_MatchNone = 0;
+	LDEMCDPDFPP_MatchFinish = 1;
+	LDEMCDPDFPP_MatchPlayerCancel = 2;
+	LDEMCDPDFPP_MatchTimeout = 3;
+	LDEMCDPDFPP_MatchPlayerConfirm = 4;
+	LDEMCDPDFPP_MatchFailed = 5;
+	LDEMCDPDFPP_MatchSystemError = 6;
+	LDEMCDPDFPP_MatchInterrupted = 7;
+	LDEMCDPDFPP_MatchMpUnavailable = 8;
+	LDEMCDPDFPP_MatchConfirmTimeout = 9;
 }
 
 message EALEBJFPCJK {
@@ -28667,6 +30399,11 @@ message JEJFPDKCFGK {
 	repeated uint32 NANCILNBDJI = 207;
 }
 
+enum GOCKCNIKOFA {
+	GOCKCNIKOFA_InstrumentalEnsembleListener = 0;
+	GOCKCNIKOFA_InstrumentalEnsemblePerformer = 1;
+}
+
 // CmdID: 24960
 message BAIMOCCALJP {
 	repeated FAJBKBFGOJH LECKOGHIFOK = 6;
@@ -28696,6 +30433,10 @@ message FDHPEANPONM {
 }
 
 message CNKKKKOHIPF {
+	enum CICPFMOONKM {
+		CICPFMOONKM_ObstacleShapeCapsule = 0;
+		CICPFMOONKM_ObstacleShapeBox = 1;
+	}
 	BKJNICKOBNO OJNLDBDHPPL = 3;
 	OOEPBLLLDGP HEOIHDDFALJ = 7;
 	BKJNICKOBNO PPIOLFPJFBP = 2;
@@ -28707,6 +30448,17 @@ message CLIEGGFFBKC {
 	repeated string MGIHJLHOJMM = 8;
 }
 
+enum CIEFGKBDALH {
+	CIEFGKBDALH_ReportReasonNone = 0;
+	CIEFGKBDALH_ReportReasonDeceptiveAds = 1;
+	CIEFGKBDALH_ReportReasonAbusing = 2;
+	CIEFGKBDALH_ReportReasonCheat = 3;
+	CIEFGKBDALH_ReportReasonPolitical = 4;
+	CIEFGKBDALH_ReportReasonOther = 5;
+	CIEFGKBDALH_ReportReasonHome = 6;
+	CIEFGKBDALH_ReportReasonFlood = 7;
+}
+
 // CmdID: 5868
 message MGMEOADBFNF {
 	int32 KBFHMOHPAPJ = 15;
@@ -28714,6 +30466,12 @@ message MGMEOADBFNF {
 
 // CmdID: 2734
 message HBHOCDAMJOL {
+	enum DHFAICKHGCO {
+		DHFAICKHGCO_FishNoRewardNone = 0;
+		DHFAICKHGCO_FishNoRewardActivityLimit = 1;
+		DHFAICKHGCO_FishNoRewardBagLimit = 2;
+		DHFAICKHGCO_FishNoRewardPoolLimit = 3;
+	}
 	repeated FDHIKHPBPIP JJOJHCLLPMD = 14;
 	repeated FDHIKHPBPIP HGJCHFJHOKD = 1;
 	repeated FDHIKHPBPIP BNGOAJCDLIH = 7;
@@ -28738,6 +30496,12 @@ message NLMEEGJLNFP {
 // CmdID: 2018
 message PDACLIMAMFJ {
 	uint32 LPCCBLCHHFC = 3;
+}
+
+enum JELBFKBNMGI {
+	JELBFKBNMGI_BattlePassUnlockInvalid = 0;
+	JELBFKBNMGI_BattlePassUnlockFree = 1;
+	JELBFKBNMGI_BattlePassUnlockPaid = 2;
 }
 
 message GBPAJIGJMLE {
@@ -28839,22 +30603,37 @@ message MPNCOCHBMHG {
 
 message POJDOEGKLDO {
 	oneof MBDFLBIAPEF {
+		CDBNFJOHEDH party_level_info = 6160;
+		EKJHJEBDBJN doppelganger_puzzle_level_info = 8224;
+		NBNFOKKGFIP diversity_battle_level_info = 14488;
+		MMDPBDOALNH holiday_resort_adventure_level_info = 3011;
+		ILMNOEIGBGH holiday_resort_sniper_level_info = 10267;
+		GBOOOIDMLLJ inazuma_badminton_level_info = 7474;
+		EALKOHPFODB autochess_level_info = 7258;
+		AIMINOFAKAA dream_switching_level_info = 11844;
+		AECKFOBLENL natlan_drill_battle_level_info = 9428;
 		IPLHHMGDMCN holiday_resort_battle_level_info = 4666;
 		LBJOFFAHAPN holiday_resort_graffiti_level_info = 12372;
-		AECKFOBLENL natlan_drill_battle_level_info = 9428;
-		EKJHJEBDBJN doppelganger_puzzle_level_info = 8224;
-		ILMNOEIGBGH holiday_resort_sniper_level_info = 10267;
-		MMDPBDOALNH holiday_resort_adventure_level_info = 3011;
-		GBOOOIDMLLJ inazuma_badminton_level_info = 7474;
-		NBNFOKKGFIP diversity_battle_level_info = 14488;
-		CDBNFJOHEDH party_level_info = 6160;
-		AIMINOFAKAA dream_switching_level_info = 11844;
-		EALKOHPFODB autochess_level_info = 7258;
 	}
 }
 
 // CmdID: 23028
 message PLAILNHFPCA {
+	enum PFCDEGCPHMK {
+		PFCDEGCPHMK_Invalid = 0;
+		PFCDEGCPHMK_HostNoOtherPlayer = 1;
+		PFCDEGCPHMK_KickByHost = 2;
+		PFCDEGCPHMK_BackToMyWorld = 3;
+		PFCDEGCPHMK_KickByHostLogout = 4;
+		PFCDEGCPHMK_KickByHostBlock = 5;
+		PFCDEGCPHMK_BeBlocked = 6;
+		PFCDEGCPHMK_KickByHostEnterHome = 7;
+		PFCDEGCPHMK_HostSceneInvalid = 8;
+		PFCDEGCPHMK_KickByPlay = 9;
+		PFCDEGCPHMK_KickByIslandPartyGalleryStartFailed = 10;
+		PFCDEGCPHMK_KickByHostAdsBlock = 11;
+		PFCDEGCPHMK_BeAdsBlocked = 12;
+	}
 	PFCDEGCPHMK CLBANAHDPFN = 3;
 }
 
@@ -28906,6 +30685,26 @@ message KKFILLHPMMF {
 	PMGCJMEHJHI DBCLPGCJEJC = 14;
 	int32 KBFHMOHPAPJ = 13;
 	uint32 EDDKEHLLIEI = 12;
+}
+
+enum MKIIBADJJLD {
+	MKIIBADJJLD_InteractNone = 0;
+	MKIIBADJJLD_InteractPickItem = 1;
+	MKIIBADJJLD_InteractGather = 2;
+	MKIIBADJJLD_InteractOpenChest = 3;
+	MKIIBADJJLD_InteractOpenStatue = 4;
+	MKIIBADJJLD_InteractConsum = 5;
+	MKIIBADJJLD_InteractMpPlayReward = 6;
+	MKIIBADJJLD_InteractView = 7;
+	MKIIBADJJLD_InteractGeneralReward = 8;
+	MKIIBADJJLD_InteractMiracleRing = 9;
+	MKIIBADJJLD_InteractFoundation = 10;
+	MKIIBADJJLD_InteractEchoShell = 11;
+	MKIIBADJJLD_InteractHomeGather = 12;
+	MKIIBADJJLD_InteractEnvAnimal = 13;
+	MKIIBADJJLD_InteractQuestGadget = 14;
+	MKIIBADJJLD_InteractUiInteract = 15;
+	MKIIBADJJLD_InteractDeshretObelisk = 16;
 }
 
 // CmdID: 27941
@@ -29091,6 +30890,13 @@ message JIEIBGPCCMN {
 	repeated OIAJHJDMJBI FMKCCDKCCJK = 7;
 }
 
+enum BCKGMBGNLJJ {
+	BCKGMBGNLJJ_SandwormLevelNotOpen = 0;
+	BCKGMBGNLJJ_SandwormLevelPreQuest = 1;
+	BCKGMBGNLJJ_SandwormLevelStart = 2;
+	BCKGMBGNLJJ_SandwormLevelSequelQuest = 3;
+}
+
 // CmdID: 9101
 message MCBCLFFAGDA {
 	repeated AOLCFIOALNP MLBIIONFDJN = 12;
@@ -29190,6 +30996,11 @@ message OKJMJJMKAHA {
 	uint32 EPEBIOOAJHH = 7;
 }
 
+enum DFHJMLOHBMI {
+	DFHJMLOHBMI_EventTriggerNone = 0;
+	DFHJMLOHBMI_EventTriggerEnterForce = 1;
+}
+
 // CmdID: 7280
 message NJPMBGAEIJF {
 	int32 KBFHMOHPAPJ = 9;
@@ -29266,6 +31077,18 @@ message HLICPDLHCHA {
 }
 
 message HHJDCCKJGNA {
+	message FGCFKAELDKL {
+		repeated JOACKONCLIK CGKMIPJOKPI = 12;
+		uint32 INMKDFGOPMI = 15;
+		bool NIKEPGMJKHF = 1;
+		uint32 KIHIJFAGJFJ = 8;
+		uint32 JBNMDBENHEA = 13;
+	}
+	message DNOFPJAHCKM {
+		uint32 MOJBOHOJBEP = 4;
+		uint32 OGKANLFBBBA = 12;
+		uint32 MPDFNGEAGAA = 8;
+	}
 	repeated JOACKONCLIK CCHPKMGPFPA = 4;
 	repeated JOACKONCLIK PIIAABKFDHN = 15;
 	repeated DNOFPJAHCKM JDNDJEEBBKE = 5;
@@ -29491,6 +31314,29 @@ message EBNAHGDMDPJ {
 	uint32 NAGOFHBMDIL = 8;
 }
 
+enum PNHIPHFHADC {
+	PNHIPHFHADC_VisionNone = 0;
+	PNHIPHFHADC_VisionMeet = 1;
+	PNHIPHFHADC_VisionReborn = 2;
+	PNHIPHFHADC_VisionReplace = 3;
+	PNHIPHFHADC_VisionWaypointReborn = 4;
+	PNHIPHFHADC_VisionMiss = 5;
+	PNHIPHFHADC_VisionDie = 6;
+	PNHIPHFHADC_VisionGatherEscape = 7;
+	PNHIPHFHADC_VisionRefresh = 8;
+	PNHIPHFHADC_VisionTransport = 9;
+	PNHIPHFHADC_VisionReplaceDie = 10;
+	PNHIPHFHADC_VisionReplaceNoNotify = 11;
+	PNHIPHFHADC_VisionBorn = 12;
+	PNHIPHFHADC_VisionPickup = 13;
+	PNHIPHFHADC_VisionRemove = 14;
+	PNHIPHFHADC_VisionChangeCostume = 15;
+	PNHIPHFHADC_VisionFishRefresh = 16;
+	PNHIPHFHADC_VisionFishBigShock = 17;
+	PNHIPHFHADC_VisionFishQteSucc = 18;
+	PNHIPHFHADC_VisionCaptureDisappear = 19;
+}
+
 // CmdID: 27890
 message IMPOMEJCJNB {
 	repeated OCJIPFECGHF IPMBOMOIABF = 5;
@@ -29625,6 +31471,13 @@ message OEPGAAAOKIH {
 
 // CmdID: 29939
 message FBINKGBELBG {
+	enum PPFIBEJKFID {
+		PPFIBEJKFID_None = 0;
+		PPFIBEJKFID_DetectorData = 3;
+		PPFIBEJKFID_ClientCollectorData = 7;
+		PPFIBEJKFID_ClientDetectorResult = 5933;
+		PPFIBEJKFID_SkyCrystalDetectorQuickUseResult = 12255;
+	}
 	uint32 OFBNJIJDNIH = 10;
 	int32 KBFHMOHPAPJ = 8;
 	oneof CHIABNHNIAO {
@@ -29653,9 +31506,7 @@ message PMPEIHMBMJE {
 	CGLLCKLAOKB OJMACPAMOLE = 13;
 	int32 KBFHMOHPAPJ = 8;
 	uint32 HCPJDHCNGGP = 2;
-	oneof JHNFBMBOCMD {
-		PLMFJJEKFCM lan_v_5_card_info = 765;
-	}
+	optional PLMFJJEKFCM lan_v_5_card_info = 765;
 }
 
 // CmdID: 5845
@@ -29705,11 +31556,19 @@ message PBCOPCALIBA {
 }
 
 message EIMCFIINCJM {
+	message DAKLHGIALJO {
+		uint32 JAMBAFEHGJE = 7;
+		uint32 KNGCJDEAHMB = 2;
+	}
+	enum BPLNPNMKILB {
+		BPLNPNMKILB_Level = 0;
+		BPLNPNMKILB_Quest = 1;
+	}
 	uint32 EMMFIBJJBBC = 8;
 	oneof CEKJGNCOPAK {
-		uint32 chapter_id = 10;
-		uint32 level = 12;
 		DAKLHGIALJO quest_param = 5;
+		uint32 level = 12;
+		uint32 chapter_id = 10;
 	}
 }
 
@@ -29764,6 +31623,18 @@ message PFAHGMFFDKL {
 	bool HNCPKLLAENI = 6;
 }
 
+enum ACNDAPCKJIK {
+	ACNDAPCKJIK_CodexNone = 0;
+	ACNDAPCKJIK_CodexQuest = 1;
+	ACNDAPCKJIK_CodexWeapon = 2;
+	ACNDAPCKJIK_CodexAnimal = 3;
+	ACNDAPCKJIK_CodexMaterial = 4;
+	ACNDAPCKJIK_CodexBooks = 5;
+	ACNDAPCKJIK_CodexPushtips = 6;
+	ACNDAPCKJIK_CodexView = 7;
+	ACNDAPCKJIK_CodexReliquary = 8;
+}
+
 message LPLIGABJIPA {
 	uint32 BLPGDDEKDMK = 1;
 	uint32 DPKBPHFEOBA = 2;
@@ -29794,6 +31665,12 @@ message NCNKDFCAPFN {
 
 // CmdID: 23672
 message OIIEHKFELCA {
+	enum NEILHMHMIBM {
+		NEILHMHMIBM_TowerSkipFloorStateNone = 0;
+		NEILHMHMIBM_TowerSkipFloorStateCanNotSkip = 1;
+		NEILHMHMIBM_TowerSkipFloorStateHasReward = 2;
+		NEILHMHMIBM_TowerSkipFloorStateTakenReward = 3;
+	}
 	repeated PMLPCPPIOGE BIMHBKPIAOB = 5;
 	BBKENFDOONE HCPKFBLFPJJ = 9;
 	EOCEEKKNGCH CDOGHMECKOO = 294;
@@ -29825,6 +31702,13 @@ message HCMCMFDFHKB {
 	uint32 NAGOFHBMDIL = 2;
 	bool PBPNOLLEHHN = 6;
 	bool HGHDLCFBDDO = 9;
+}
+
+enum CEPOHPPLGGA {
+	CEPOHPPLGGA_None = 0;
+	CEPOHPPLGGA_Success = 1;
+	CEPOHPPLGGA_Failed = 2;
+	CEPOHPPLGGA_Draw = 3;
 }
 
 // CmdID: 2359
@@ -29973,6 +31857,14 @@ message ANOBBCIKIFH {
 	int32 KBFHMOHPAPJ = 1;
 }
 
+enum MHMIMLIKGDB {
+	MHMIMLIKGDB_MonsterChessPhaseNone = 0;
+	MHMIMLIKGDB_MonsterChessPhasePrepare = 1;
+	MHMIMLIKGDB_MonsterChessPhaseUiShow = 2;
+	MHMIMLIKGDB_MonsterChessPhaseFight = 3;
+	MHMIMLIKGDB_MonsterChessPhaseSettle = 4;
+}
+
 // CmdID: 7801
 message COAINIMKFPH {
 	bool OAKENMFFCJM = 3;
@@ -30041,6 +31933,10 @@ message LGHIOGBKABN {
 }
 
 message LBLLKMCBJJH {
+	message NJLHCBJNLNN {
+		repeated FDHIKHPBPIP NGFNPBKJPMN = 1;
+		repeated FDHIKHPBPIP KFADNCIJKKB = 2;
+	}
 	string EHMBDIJBHMF = 2;
 	string FLCJCIKFFOA = 1;
 	uint32 LDEGCFKGDDC = 7;
@@ -30048,9 +31944,7 @@ message LBLLKMCBJJH {
 	uint32 GNBEKLBGCJI = 6;
 	uint32 DMCAKFNJGII = 5;
 	uint32 EPINMJMGOKO = 3;
-	oneof FHNIFFEACJF {
-		NJLHCBJNLNN resin_card = 101;
-	}
+	optional NJLHCBJNLNN resin_card = 101;
 }
 
 // CmdID: 22686
@@ -30132,6 +32026,11 @@ message IMDMKPFHHGD {
 }
 
 message KKBFIMDNANE {
+	enum JBLMBGOIIEN {
+		JBLMBGOIIEN_Invalid = 0;
+		JBLMBGOIIEN_Running = 1;
+		JBLMBGOIIEN_Finished = 2;
+	}
 	map<uint32, uint32> KHOJAMDOHMK = 13;
 	map<uint32, int32> EFABMKGDNNF = 15;
 	map<uint32, int32> NDCPFNPLEDI = 6;
@@ -30151,6 +32050,12 @@ message BMPEAONEELH {
 	uint32 JGKPMFMGHAK = 7;
 	bool IKGDJBGMCNN = 10;
 	uint64 LIGCILNAOCC = 8;
+}
+
+enum JBAEGDGPOEA {
+	JBAEGDGPOEA_None = 0;
+	JBAEGDGPOEA_Prepare = 1;
+	JBAEGDGPOEA_Battle = 2;
 }
 
 message OIFCMHADFBA {
@@ -30275,6 +32180,11 @@ message MHDBNBHELAO {
 	uint32 PEMINCLEJLA = 2;
 	bool DJMDPPKLIAD = 8;
 	bool DDNLEPBCHFM = 7;
+}
+
+enum PLLBPOBLIML {
+	PLLBPOBLIML_QuitFocusDefault = 0;
+	PLLBPOBLIML_QuitFocusMutual = 1;
 }
 
 // CmdID: 20586
@@ -30469,6 +32379,12 @@ message BICJFEELANF {
 	repeated uint32 AKCJIEJMJMN = 8;
 }
 
+enum DKMKNBIHIOG {
+	DKMKNBIHIOG_NeedConfirm = 0;
+	DKMKNBIHIOG_Refuse = 1;
+	DKMKNBIHIOG_Direct = 2;
+}
+
 // CmdID: 6308
 message EPNAJKOBCJL {
 	uint32 JAMJKOOFMFD = 5;
@@ -30476,6 +32392,12 @@ message EPNAJKOBCJL {
 
 // CmdID: 8824
 message AEFLKGFJLDE {
+	enum BKPDODBFENC {
+		BKPDODBFENC_TimeOut = 0;
+		BKPDODBFENC_SettlePlayEnd = 1;
+		BKPDODBFENC_SettlePlayerQuit = 2;
+		BKPDODBFENC_SettleLifeCount = 3;
+	}
 	repeated DLKIMDDHIEI MEGMJHCPJAC = 9;
 	repeated uint32 APEFDACEFGA = 13;
 	BKPDODBFENC CLBANAHDPFN = 14;
@@ -30548,8 +32470,8 @@ message JGJBBEDOIEK {
 	uint32 GGIBPDGCOOM = 9;
 	uint32 ELJHCLPOGAG = 3;
 	oneof EFNMHCIKJEE {
-		OOCKKGJPJEB fish_info = 50;
 		KGDLKFDELLK fishtank_fish_info = 51;
+		OOCKKGJPJEB fish_info = 50;
 	}
 }
 
@@ -30727,10 +32649,10 @@ message DJAEOCOFPPC {
 	uint32 IANFNCGPEKH = 5;
 	uint32 JKIIHCPIMMI = 15;
 	oneof MBDFLBIAPEF {
-		MDPDNDFICIB card_result = 1083;
 		MLKKHNCCICA coin_result = 346;
-		IGECDFJJLHI avatar_available_count_result = 437;
 		BCLFCJKBHAL avatar_result = 289;
+		IGECDFJJLHI avatar_available_count_result = 437;
+		MDPDNDFICIB card_result = 1083;
 	}
 }
 
@@ -30958,6 +32880,32 @@ message PENBEGECMPD {
 	uint32 JNMCNLMGOLM = 13;
 }
 
+enum KHFPBIMKKFJ {
+	KHFPBIMKKFJ_CombatNone = 0;
+	KHFPBIMKKFJ_CombatEvtBeingHit = 1;
+	KHFPBIMKKFJ_CombatAnimatorStateChanged = 2;
+	KHFPBIMKKFJ_CombatFaceToDir = 3;
+	KHFPBIMKKFJ_CombatSetAttackTarget = 4;
+	KHFPBIMKKFJ_CombatRushMove = 5;
+	KHFPBIMKKFJ_CombatAnimatorParameterChanged = 6;
+	KHFPBIMKKFJ_EntityMove = 7;
+	KHFPBIMKKFJ_SyncEntityPosition = 8;
+	KHFPBIMKKFJ_CombatSteerMotionInfo = 9;
+	KHFPBIMKKFJ_CombatForceSetPosInfo = 10;
+	KHFPBIMKKFJ_CombatCompensatePosDiff = 11;
+	KHFPBIMKKFJ_CombatMonsterDoBlink = 12;
+	KHFPBIMKKFJ_CombatFixedRushMove = 13;
+	KHFPBIMKKFJ_CombatSyncTransform = 14;
+	KHFPBIMKKFJ_CombatLightCoreMove = 15;
+	KHFPBIMKKFJ_CombatBeingHealedNtf = 16;
+	KHFPBIMKKFJ_CombatSkillAnchorPositionNtf = 17;
+	KHFPBIMKKFJ_CombatGrapplingHookMove = 18;
+	KHFPBIMKKFJ_CombatSpecialMotionInfo = 19;
+	KHFPBIMKKFJ_CombatFixedAvatarFlashMove = 20;
+	KHFPBIMKKFJ_CombatMultiOverrideAnim = 21;
+	KHFPBIMKKFJ_CombatDebugSyncMotion = 22;
+}
+
 message NBGCKEIFNGN {
 	repeated DEEHHNMCKFA CCNPAKHGECN = 5;
 }
@@ -30969,6 +32917,13 @@ message AJBCDFEHPNO {
 	uint32 ELGKCAPPJBD = 14;
 	uint32 EHBJFCPJKPP = 4;
 	uint32 FIIMOJACIEL = 12;
+}
+
+enum LIHKJOLOIMH {
+	LIHKJOLOIMH_DefaultValue = 0;
+	LIHKJOLOIMH__1 = 1;
+	LIHKJOLOIMH__2 = 2;
+	LIHKJOLOIMH__3 = 3;
 }
 
 // CmdID: 22887
@@ -31033,6 +32988,12 @@ message EOCIAPFPHEG {
 // CmdID: 3594
 message LAKFIACDJKK {
 	uint32 JNMCNLMGOLM = 14;
+}
+
+enum IGAFJHJKFIF {
+	IGAFJHJKFIF_None = 0;
+	IGAFJHJKFIF_Start = 1;
+	IGAFJHJKFIF_Read = 2;
 }
 
 message EOIGLHDAIMO {
@@ -31123,6 +33084,11 @@ message JONJPGDFJAH {
 	repeated uint32 LDMFEBCHMGK = 9;
 	repeated uint32 ACJAGKNKOMD = 15;
 	uint32 JAMBAFEHGJE = 11;
+}
+
+enum CKHJAAHJEID {
+	CKHJAAHJEID_GcgIntentionChangeNone = 0;
+	CKHJAAHJEID_GcgIntentionChangeRm = 1;
 }
 
 // CmdID: 24868
@@ -31226,13 +33192,13 @@ message LEAKOIBCIJG {
 	uint32 NAGOFHBMDIL = 2;
 	uint32 OFNKOOGELKM = 6;
 	oneof MBDFLBIAPEF {
-		DMDIKKGGGCJ hire_level_upgrade_buff_info = 197;
-		MFNONBFHFDC action_points_no_cost_buff_info = 1463;
 		JLJMJMMNPEC no_quest_ap_cost_after_quest_finish_buff_info = 1776;
+		DMDIKKGGGCJ hire_level_upgrade_buff_info = 197;
 		DDCIPEKHCDL revenue_bonus_buff_info = 1395;
-		DPGBJPBFFFB add_total_revenue_after_actions_exec_buff_info = 1823;
 		JEIPLNAEFHJ upgrade_to_bonus_facility_revenue_buff_info = 1675;
+		DPGBJPBFFFB add_total_revenue_after_actions_exec_buff_info = 1823;
 		JMAOPKLNHBL expand_to_reduce_upgrade_cost_buff_info = 1501;
+		MFNONBFHFDC action_points_no_cost_buff_info = 1463;
 	}
 }
 
@@ -31354,6 +33320,25 @@ message PMEFCMMIHGE {
 	KGMENDCGBMI OHDIGCJHMLO = 2;
 }
 
+enum CEIEEBDLBEC {
+	CEIEEBDLBEC_GcgPhaseInvalid = 0;
+	CEIEEBDLBEC_GcgPhaseStart = 1;
+	CEIEEBDLBEC_GcgPhaseDraw = 2;
+	CEIEEBDLBEC_GcgPhaseOnStage = 3;
+	CEIEEBDLBEC_GcgPhaseDice = 4;
+	CEIEEBDLBEC_GcgPhaseMain = 5;
+	CEIEEBDLBEC_GcgPhaseEnd = 6;
+	CEIEEBDLBEC_GcgPhaseDie = 7;
+	CEIEEBDLBEC_GcgPhaseFin = 8;
+	CEIEEBDLBEC_GcgPhasePreMain = 9;
+	CEIEEBDLBEC_GcgPhaseReroll = 10;
+	CEIEEBDLBEC_GcgPhaseRedraw = 11;
+	CEIEEBDLBEC_GcgPhaseDiscover = 12;
+	CEIEEBDLBEC_GcgPhaseAutoBattleCardStart = 13;
+	CEIEEBDLBEC_GcgPhaseAutoBattleCardMain = 14;
+	CEIEEBDLBEC_GcgPhaseAutoBattleCardPreMain = 15;
+}
+
 // CmdID: 9442
 message PGAFIECMIGP {
 	repeated uint32 KDLLOIEOJBP = 1;
@@ -31439,6 +33424,12 @@ message KLMOPOCNOMF {
 	repeated JNBBDEJDENF KAODNCDIAKK = 4;
 }
 
+enum GNLAPAJLJNJ {
+	GNLAPAJLJNJ_None = 0;
+	GNLAPAJLJNJ_MaxDifficulty = 1;
+	GNLAPAJLJNJ_MaxDifficultyExtra = 2;
+}
+
 // CmdID: 26249
 message BJDLNPAJKKC {
 	OFMAJELOAIN LOBDJPHHKPK = 15;
@@ -31477,19 +33468,17 @@ message CHLBBHIJGBI {
 	uint32 HCPJDHCNGGP = 1;
 	bool GIEDFADDLGG = 15;
 	uint32 EIGDCHCBKGN = 4;
-	oneof MBDFLBIAPEF {
-		GHFKIIEHILA bonus_info = 2;
-	}
+	optional GHFKIIEHILA bonus_info = 2;
 }
 
 message PEIMMALLCHD {
 	uint32 DLCMAIDKANC = 6;
 	oneof MBDFLBIAPEF {
+		BLHNKEKIICE stake_play_info = 240;
+		PBKIBKCBLIF balloon_gallery_info = 1280;
 		BIHFFHDFKFO racing_gallery_info = 755;
 		MKHPFDHPOPL seek_furniture_gallery_info = 1638;
-		BLHNKEKIICE stake_play_info = 240;
 		EGBBCIPNKJD explosion_info = 128;
-		PBKIBKCBLIF balloon_gallery_info = 1280;
 	}
 }
 
@@ -31519,6 +33508,13 @@ message AFNINHBLIDA {
 // CmdID: 28606
 message HKMNBOLEGPJ {
 	repeated uint32 IHCIOAOPEEH = 7;
+}
+
+enum PFIHFDOIAIO {
+	PFIHFDOIAIO_CustomDungeonFinishPlayNormal = 0;
+	PFIHFDOIAIO_CustomDungeonFinishPlayTry = 1;
+	PFIHFDOIAIO_CustomDungeonFinishEditTry = 2;
+	PFIHFDOIAIO_CustomDungeonFinishSelfPlayNormal = 3;
 }
 
 // CmdID: 26373
@@ -31873,9 +33869,7 @@ message PLIOMDIGGNL {
 message JGGIMGPIIEF {
 	uint32 HHDPJFFECJP = 7;
 	int32 KBFHMOHPAPJ = 1;
-	oneof JHNFBMBOCMD {
-		JGJMFJIIKEE settle_info = 10;
-	}
+	optional JGJMFJIIKEE settle_info = 10;
 }
 
 // CmdID: 20452
@@ -31903,6 +33897,27 @@ message IJEAPMPJDKL {
 
 // CmdID: 20671
 message LEDOMMIMCGH {
+	enum ACAFKKPLPKB {
+		ACAFKKPLPKB_PlayerJudge = 0;
+		ACAFKKPLPKB_SceneCannotEnter = 1;
+		ACAFKKPLPKB_PlayerCannotEnterMp = 2;
+		ACAFKKPLPKB_SystemJudge = 3;
+		ACAFKKPLPKB_AllowEnterPlayerFull = 4;
+		ACAFKKPLPKB_WorldLevelLowerThanHost = 5;
+		ACAFKKPLPKB_HostInMatch = 6;
+		ACAFKKPLPKB_PlayerInBlacklist = 7;
+		ACAFKKPLPKB_PsPlayerNotAcceptOthers = 8;
+		ACAFKKPLPKB_HostIsBlocked = 9;
+		ACAFKKPLPKB_OtherDataVersionNotLatest = 10;
+		ACAFKKPLPKB_DataVersionNotLatest = 11;
+		ACAFKKPLPKB_PlayerNotInPlayerWorld = 12;
+		ACAFKKPLPKB_MaxPlayer = 13;
+		ACAFKKPLPKB_HostIsAdsBlocked = 14;
+		ACAFKKPLPKB_XboxPlayerNotAcceptOthers = 15;
+		ACAFKKPLPKB_PlayerNotAcceptOtherPlatform = 16;
+		ACAFKKPLPKB_PlayerOffline = 17;
+		ACAFKKPLPKB_XboxOnly = 18;
+	}
 	string JFIDPNLMFDP = 9;
 	bool IMODNHFNCFA = 6;
 	ACAFKKPLPKB CLBANAHDPFN = 13;
@@ -32225,6 +34240,9 @@ message LPKHKGGLAIH {
 }
 
 message HNLACLHLKJC {
+	message HPHIIMHBNKJ {
+		uint32 IEFLLEAGMBH = 3;
+	}
 	string KAIDAFJJMJB = 11;
 	uint32 PGLGBILJOHA = 2;
 	uint32 FEAEEJDHFOO = 1;
@@ -32233,14 +34251,21 @@ message HNLACLHLKJC {
 	uint32 IPKOMGMHKGF = 7;
 	uint32 KLAFFOFKCHG = 4;
 	oneof EBFBCAECMDG {
-		uint32 mentioned_uid = 10;
 		bool is_mention_all = 15;
+		uint32 mentioned_uid = 10;
 	}
 	oneof EFNMHCIKJEE {
 		string text = 707;
-		uint32 icon = 1258;
 		HPHIIMHBNKJ system_hint = 81;
+		uint32 icon = 1258;
 	}
+}
+
+enum HFAGNCPPIDN {
+	HFAGNCPPIDN_DungeonEntryReasonNone = 0;
+	HFAGNCPPIDN_DungeonEntryReasonLevel = 1;
+	HFAGNCPPIDN_DungeonEntryReasonQuest = 2;
+	HFAGNCPPIDN_DungeonEntryReasonMuliple = 3;
 }
 
 // CmdID: 4221
@@ -32272,6 +34297,15 @@ message GMNEBJENHFH {
 // CmdID: 2080
 message IBEELEFPLJE {
 	int32 KBFHMOHPAPJ = 8;
+}
+
+enum BFPEOGCBDAC {
+	BFPEOGCBDAC_None = 0;
+	BFPEOGCBDAC_Dungeon = 1;
+	BFPEOGCBDAC_MpPlay = 2;
+	BFPEOGCBDAC_Mechanicus = 3;
+	BFPEOGCBDAC_General = 4;
+	BFPEOGCBDAC_Gcg = 5;
 }
 
 message HGBLCNEGJPP {
@@ -32315,6 +34349,11 @@ message AEFLKKNAEAO {
 }
 
 message KMFCJBLCLNF {
+	enum PIDEGDNACHJ {
+		PIDEGDNACHJ_Unlock = 0;
+		PIDEGDNACHJ_Lock = 1;
+		PIDEGDNACHJ_Taken = 2;
+	}
 	uint32 DJNPEHGBEJE = 6;
 }
 
@@ -32343,6 +34382,12 @@ message AGFJNDBIHLL {
 	int32 KBFHMOHPAPJ = 4;
 	uint32 OEBBKGKNDLI = 14;
 	uint32 FDLEEHCMMBL = 13;
+}
+
+enum HBPLOEDPEBC {
+	HBPLOEDPEBC_None = 0;
+	HBPLOEDPEBC_LeyLineChallengeWorld = 1;
+	HBPLOEDPEBC_LeyLineChallengeNextRound = 2;
 }
 
 message JAGIGMPCGGI {
@@ -32470,9 +34515,36 @@ message ONDAFPNBJPH {
 	uint32 OAKDPLBILDD = 8;
 }
 
+enum CGLLCKLAOKB {
+	CGLLCKLAOKB_ClientPlayNoneType = 0;
+	CGLLCKLAOKB_ClientPlayFilmfestShootingType = 1;
+	CGLLCKLAOKB_ClientPlayCookGameType = 2;
+	CGLLCKLAOKB_ClientPlayLanV4PushBoxType = 3;
+	CGLLCKLAOKB_ClientPlayCatcafeLayoutType = 4;
+	CGLLCKLAOKB_ClientPlayCatcafeCatType = 5;
+	CGLLCKLAOKB_ClientPlayGreatFestivalV2SheetRestoreType = 6;
+	CGLLCKLAOKB_ClientPlayBirdBallType = 7;
+	CGLLCKLAOKB_ClientPlayFairyTalesFlyppyHatToyType = 8;
+	CGLLCKLAOKB_ClientPlayNahidaBirthFloatToyType = 9;
+	CGLLCKLAOKB_ClientPlayCeremonyDoodleType = 10;
+	CGLLCKLAOKB_ClientPlayLanV5CardType = 12;
+	CGLLCKLAOKB_ClientPlayLanV5CardNpcLevelType = 13;
+	CGLLCKLAOKB_ClientPlayDreamSwitching = 14;
+	CGLLCKLAOKB_ClientPlayNatlanDrillCollect = 15;
+	CGLLCKLAOKB_ClientPlayHolidayResortAdventure = 16;
+	CGLLCKLAOKB_ClientPlayAutochessFruitPick = 17;
+}
+
 // CmdID: 24257
 message FNEKPFLHEAM {
 	uint32 OGKANLFBBBA = 13;
+}
+
+enum GKIKHFFCOPE {
+	GKIKHFFCOPE_None = 0;
+	GKIKHFFCOPE_Finish = 1;
+	GKIKHFFCOPE_PreStart = 2;
+	GKIKHFFCOPE_Start = 3;
 }
 
 // CmdID: 29972
@@ -32501,6 +34573,11 @@ message EGMDGMKELMI {
 	string NAEAEMHLLPJ = 10;
 	uint32 FEAEEJDHFOO = 1;
 	uint32 CLEGINOPJGM = 5;
+}
+
+enum PMGCJMEHJHI {
+	PMGCJMEHJHI_DealAddFriendReject = 0;
+	PMGCJMEHJHI_DealAddFriendAccept = 1;
 }
 
 message IIFOAFMBAEJ {
@@ -32648,9 +34725,7 @@ message NPALFPBOHPE {
 	uint32 DODBIKKLGAC = 6;
 	uint32 OEGMKHLMCBN = 4;
 	uint32 OEEDKPEBFJA = 1;
-	oneof JEMBCMFOOFP {
-		MIOIMMMBEFC crucible_info = 21;
-	}
+	optional MIOIMMMBEFC crucible_info = 21;
 }
 
 message JLJMJMMNPEC {
@@ -32720,9 +34795,11 @@ message GGNKMPPFAHG {
 }
 
 message ALJAFPNDHED {
-	oneof MBDFLBIAPEF {
-		IGPIKFEONGP ley_line_challenge_detail = 15073;
+	message IGPIKFEONGP {
+		uint32 MBNDMCGABNE = 3;
+		uint32 JBNMDBENHEA = 13;
 	}
+	optional IGPIKFEONGP ley_line_challenge_detail = 15073;
 }
 
 message KFDMDMBFIBJ {
@@ -32754,6 +34831,18 @@ message BDFHPHJGAPI {
 	int32 KBFHMOHPAPJ = 5;
 }
 
+enum MGAGDGCADDO {
+	MGAGDGCADDO_ForwardLocal = 0;
+	MGAGDGCADDO_ForwardToAll = 1;
+	MGAGDGCADDO_ForwardToAllExceptCur = 2;
+	MGAGDGCADDO_ForwardToHost = 3;
+	MGAGDGCADDO_ForwardToAllGuest = 4;
+	MGAGDGCADDO_ForwardToPeer = 5;
+	MGAGDGCADDO_ForwardToPeers = 6;
+	MGAGDGCADDO_ForwardOnlyServer = 7;
+	MGAGDGCADDO_ForwardToAllExistExceptCur = 8;
+}
+
 // CmdID: 23652
 message FFGDHGMBDHM {
 	int32 KBFHMOHPAPJ = 5;
@@ -32776,6 +34865,12 @@ message DINMNFICJPL {
 	bool EIOFBPEBMKG = 2;
 	uint32 DNOKPJGCDOA = 7;
 	uint32 JNMCNLMGOLM = 3;
+}
+
+enum NDEFMHMAELJ {
+	NDEFMHMAELJ_None = 0;
+	NDEFMHMAELJ_ReachScore = 1;
+	NDEFMHMAELJ_TimeUp = 2;
 }
 
 // CmdID: 9516
@@ -32862,6 +34957,11 @@ message HKPEFJDKDMB {
 }
 
 message CBJHIDEIKBL {
+	enum NKPLAKHGCJB {
+		NKPLAKHGCJB_VersionNone = 0;
+		NKPLAKHGCJB_V50 = 1;
+		NKPLAKHGCJB_V57 = 2;
+	}
 	ALPOMHGNOHM PHEOJDEMKGM = 6;
 	repeated APMHGAGGPOC CDMDEHLMNKK = 22;
 	string MEJNKADMBMI = 26;
@@ -32948,6 +35048,11 @@ message NLLMEBEGIFC {
 
 // CmdID: 22154
 message EIMFOJCBAEA {
+	enum ALFICKBJIML {
+		ALFICKBJIML_Invalid = 0;
+		ALFICKBJIML_Start = 1;
+		ALFICKBJIML_Timeout = 2;
+	}
 	string NAEAEMHLLPJ = 12;
 	uint32 FEAEEJDHFOO = 9;
 	ALFICKBJIML HHPKKEFFHLH = 1;
@@ -32977,6 +35082,118 @@ message NGMAEKNGGAE {
 	uint32 EEBPNGJNHAE = 12;
 }
 
+enum LOJPPCLBECH {
+	LOJPPCLBECH_MotionNone = 0;
+	LOJPPCLBECH_MotionReset = 1;
+	LOJPPCLBECH_MotionStandby = 2;
+	LOJPPCLBECH_MotionStandbyMove = 3;
+	LOJPPCLBECH_MotionWalk = 4;
+	LOJPPCLBECH_MotionRun = 5;
+	LOJPPCLBECH_MotionDash = 6;
+	LOJPPCLBECH_MotionClimb = 7;
+	LOJPPCLBECH_MotionClimbJump = 8;
+	LOJPPCLBECH_MotionStandbyToClimb = 9;
+	LOJPPCLBECH_MotionFight = 10;
+	LOJPPCLBECH_MotionJump = 11;
+	LOJPPCLBECH_MotionDrop = 12;
+	LOJPPCLBECH_MotionFly = 13;
+	LOJPPCLBECH_MotionSwimMove = 14;
+	LOJPPCLBECH_MotionSwimIdle = 15;
+	LOJPPCLBECH_MotionSwimDash = 16;
+	LOJPPCLBECH_MotionSwimJump = 17;
+	LOJPPCLBECH_MotionSlip = 18;
+	LOJPPCLBECH_MotionGoUpstairs = 19;
+	LOJPPCLBECH_MotionFallOnGround = 20;
+	LOJPPCLBECH_MotionJumpUpWallForStandby = 21;
+	LOJPPCLBECH_MotionJumpOffWall = 22;
+	LOJPPCLBECH_MotionPoweredFly = 23;
+	LOJPPCLBECH_MotionLadderIdle = 24;
+	LOJPPCLBECH_MotionLadderMove = 25;
+	LOJPPCLBECH_MotionLadderSlip = 26;
+	LOJPPCLBECH_MotionStandbyToLadder = 27;
+	LOJPPCLBECH_MotionLadderToStandby = 28;
+	LOJPPCLBECH_MotionDangerStandby = 29;
+	LOJPPCLBECH_MotionDangerStandbyMove = 30;
+	LOJPPCLBECH_MotionDangerWalk = 31;
+	LOJPPCLBECH_MotionDangerRun = 32;
+	LOJPPCLBECH_MotionDangerDash = 33;
+	LOJPPCLBECH_MotionCrouchIdle = 34;
+	LOJPPCLBECH_MotionCrouchMove = 35;
+	LOJPPCLBECH_MotionCrouchRoll = 36;
+	LOJPPCLBECH_MotionNotify = 37;
+	LOJPPCLBECH_MotionLandSpeed = 38;
+	LOJPPCLBECH_MotionMoveFailAck = 39;
+	LOJPPCLBECH_MotionWaterfall = 40;
+	LOJPPCLBECH_MotionDashBeforeShake = 41;
+	LOJPPCLBECH_MotionSitIdle = 42;
+	LOJPPCLBECH_MotionForceSetPos = 43;
+	LOJPPCLBECH_MotionQuestForceDrag = 44;
+	LOJPPCLBECH_MotionFollowRoute = 45;
+	LOJPPCLBECH_MotionSkiffBoarding = 46;
+	LOJPPCLBECH_MotionSkiffNormal = 47;
+	LOJPPCLBECH_MotionSkiffDash = 48;
+	LOJPPCLBECH_MotionSkiffPoweredDash = 49;
+	LOJPPCLBECH_MotionDestroyVehicle = 50;
+	LOJPPCLBECH_MotionFlyIdle = 51;
+	LOJPPCLBECH_MotionFlySlow = 52;
+	LOJPPCLBECH_MotionFlyFast = 53;
+	LOJPPCLBECH_MotionAimMove = 54;
+	LOJPPCLBECH_MotionAirCompensation = 55;
+	LOJPPCLBECH_MotionSorushNormal = 56;
+	LOJPPCLBECH_MotionRollerCoaster = 57;
+	LOJPPCLBECH_MotionDiveIdle = 58;
+	LOJPPCLBECH_MotionDiveMove = 59;
+	LOJPPCLBECH_MotionDiveDash = 60;
+	LOJPPCLBECH_MotionDiveDolphine = 61;
+	LOJPPCLBECH_MotionDebug = 62;
+	LOJPPCLBECH_MotionOceanCurrent = 63;
+	LOJPPCLBECH_MotionDiveSwimMove = 64;
+	LOJPPCLBECH_MotionDiveSwimIdle = 65;
+	LOJPPCLBECH_MotionDiveSwimDash = 66;
+	LOJPPCLBECH_MotionArcLight = 67;
+	LOJPPCLBECH_MotionArcLightSafe = 68;
+	LOJPPCLBECH_MotionVehicleStandby = 69;
+	LOJPPCLBECH_MotionVehicleRun = 70;
+	LOJPPCLBECH_MotionVehicleDash = 71;
+	LOJPPCLBECH_MotionVehicleClimb = 72;
+	LOJPPCLBECH_MotionVehicleClimbJump = 73;
+	LOJPPCLBECH_MotionVehicleStandbyToClimb = 74;
+	LOJPPCLBECH_MotionVehicleFight = 75;
+	LOJPPCLBECH_MotionVehicleJump = 76;
+	LOJPPCLBECH_MotionVehicleDrop = 77;
+	LOJPPCLBECH_MotionVehicleFly = 78;
+	LOJPPCLBECH_MotionVehicleSwimMove = 79;
+	LOJPPCLBECH_MotionVehicleSwimIdle = 80;
+	LOJPPCLBECH_MotionVehicleSwimDash = 81;
+	LOJPPCLBECH_MotionVehicleSlip = 82;
+	LOJPPCLBECH_MotionVehicleGoUpstairs = 83;
+	LOJPPCLBECH_MotionVehicleFallOnGround = 84;
+	LOJPPCLBECH_MotionVehicleJumpOffWall = 85;
+	LOJPPCLBECH_MotionVehiclePoweredFly = 86;
+	LOJPPCLBECH_MotionVehicleDangerStandby = 87;
+	LOJPPCLBECH_MotionVehicleDangerRun = 88;
+	LOJPPCLBECH_MotionVehicleDangerDash = 89;
+	LOJPPCLBECH_MotionVehicleNotify = 90;
+	LOJPPCLBECH_MotionVehicleLandSpeed = 91;
+	LOJPPCLBECH_MotionVehicleDashBeforeShake = 92;
+	LOJPPCLBECH_MotionVehicleQuestForceDrag = 93;
+	LOJPPCLBECH_MotionVehicleFollowRoute = 94;
+	LOJPPCLBECH_MotionVehicleFlyIdle = 95;
+	LOJPPCLBECH_MotionVehicleFlySlow = 96;
+	LOJPPCLBECH_MotionVehicleFlyFast = 97;
+	LOJPPCLBECH_MotionVehicleAirCompensation = 98;
+	LOJPPCLBECH_MotionVehicleArcLight = 99;
+	LOJPPCLBECH_MotionVehicleArcLightSafe = 100;
+	LOJPPCLBECH_MotionVehicleDangerSwimMove = 101;
+	LOJPPCLBECH_MotionVehicleDangerSwimIdle = 102;
+	LOJPPCLBECH_MotionVehicleDangerSwimDash = 103;
+	LOJPPCLBECH_MotionFollowCurveRoute = 104;
+	LOJPPCLBECH_MotionVehicleFollowCurveRoute = 105;
+	LOJPPCLBECH_MotionNatsaurusNormal = 106;
+	LOJPPCLBECH_MotionNatsaurusEntering = 107;
+	LOJPPCLBECH_MotionNum = 108;
+}
+
 message NNLDILNDECF {
 	repeated OGJFBHGMOBN DBJGBNKMBAO = 12;
 	uint32 KBAHKGKAMIL = 6;
@@ -33004,11 +35221,11 @@ message NLDMGBEAPAO {
 message BPAPMANBCFD {
 	uint32 JNMCNLMGOLM = 5;
 	oneof PKNHCAAFJBB {
-		ODNGEKCCEEI autochess_record_social_brief = 656;
 		HDFPAOFHKMM ad_shooting_social_brief = 1014;
+		KBBHGJDEEID tower_challenge_social_brief = 703;
+		ODNGEKCCEEI autochess_record_social_brief = 656;
 		AAFGAPLJAPN diversity_battle_social_brief = 1439;
 		JMGOMCPILPF effigy_challenge_v_5_brief = 1785;
-		KBBHGJDEEID tower_challenge_social_brief = 703;
 		DCBLKPNGAFL fishing_joy_social_brief = 1643;
 	}
 }
@@ -33042,9 +35259,9 @@ message FEGKIEBDJCM {
 
 message IEAPCKFOOCP {
 	oneof MBDFLBIAPEF {
+		DOMGNAMBDJI prepare_info = 14;
 		MFCLBJPJJGA selection_info = 15;
 		MJIHGPOBGDE artifact_select_info = 1;
-		DOMGNAMBDJI prepare_info = 14;
 	}
 }
 
@@ -33080,6 +35297,13 @@ message OAHPENHGNFF {
 message AJNLDMNINLA {
 	BPDLBKHNEBB HJGLJLPEHCA = 9;
 	uint32 NCEKLKIPGKA = 15;
+}
+
+enum JLCMHMKOBLJ {
+	JLCMHMKOBLJ_None = 0;
+	JLCMHMKOBLJ_Send = 1;
+	JLCMHMKOBLJ_Accept = 2;
+	JLCMHMKOBLJ_Refuse = 3;
 }
 
 // CmdID: 1105
@@ -33132,6 +35356,12 @@ message PJEAMGAJGHG {
 		IJHJAGCJICO score_challenge_info = 14;
 		uint32 boss_challenge_id = 13;
 	}
+}
+
+enum EHPOCPNDDDG {
+	EHPOCPNDDDG_BargainCompleteSucc = 0;
+	EHPOCPNDDDG_BargainSingleFail = 1;
+	EHPOCPNDDDG_BargainCompleteFail = 2;
 }
 
 message JAKDLBAKACO {
@@ -33596,6 +35826,17 @@ message MNMLPEAIANO {
 	repeated LFHNIJANMPB BDOOFKCGEGM = 8;
 }
 
+enum POEOEAIHGJP {
+	POEOEAIHGJP_GcgPerformInvalid = 0;
+	POEOEAIHGJP_GcgPerformCardExchange = 1;
+	POEOEAIHGJP_GcgPerformFirstHand = 2;
+	POEOEAIHGJP_GcgPerformReroll = 3;
+	POEOEAIHGJP_GcgPreformCostRevise = 4;
+	POEOEAIHGJP_GcgPerformRedraw = 5;
+	POEOEAIHGJP_GcgPerformHistory = 6;
+	POEOEAIHGJP_GcgPerformBeforeHenshin = 7;
+}
+
 // CmdID: 2088
 message BKGEAEJLHPC {
 	uint32 AHMFDIDHPNO = 14;
@@ -33784,6 +36025,12 @@ message LDKBCHBMCEI {
 	uint32 FOJDOBLADOG = 12;
 }
 
+enum ENBOJENEGEH {
+	ENBOJENEGEH_None = 0;
+	ENBOJENEGEH_Dungeon = 1;
+	ENBOJENEGEH_Room = 2;
+}
+
 // CmdID: 4910
 message GIOBPJGJIFC {
 	OKDLOEEIDCP FCCDHFEEGAA = 14;
@@ -33834,6 +36081,105 @@ message HIIHABONAMA {
 // CmdID: 4858
 message CDKFEKAAGBP {
 	int32 KBFHMOHPAPJ = 4;
+}
+
+enum MHMNFEFODBF {
+	MHMNFEFODBF_AbilityNone = 0;
+	MHMNFEFODBF_AbilityMetaModifierChange = 1;
+	MHMNFEFODBF_AbilityMetaCommandModifierChangeRequest = 2;
+	MHMNFEFODBF_AbilityMetaSpecialFloatArgument = 3;
+	MHMNFEFODBF_AbilityMetaOverrideParam = 4;
+	MHMNFEFODBF_AbilityMetaClearOverrideParam = 5;
+	MHMNFEFODBF_AbilityMetaReinitOverridemap = 6;
+	MHMNFEFODBF_AbilityMetaGlobalFloatValue = 7;
+	MHMNFEFODBF_AbilityMetaClearGlobalFloatValue = 8;
+	MHMNFEFODBF_AbilityMetaAbilityElementStrength = 9;
+	MHMNFEFODBF_AbilityMetaAddOrGetAbilityAndTrigger = 10;
+	MHMNFEFODBF_AbilityMetaSetKilledSetate = 11;
+	MHMNFEFODBF_AbilityMetaSetAbilityTrigger = 12;
+	MHMNFEFODBF_AbilityMetaAddNewAbility = 13;
+	MHMNFEFODBF_AbilityMetaRemoveAbility = 14;
+	MHMNFEFODBF_AbilityMetaSetModifierApplyEntity = 15;
+	MHMNFEFODBF_AbilityMetaModifierDurabilityChange = 16;
+	MHMNFEFODBF_AbilityMetaElementReactionVisual = 17;
+	MHMNFEFODBF_AbilityMetaSetPoseParameter = 18;
+	MHMNFEFODBF_AbilityMetaUpdateBaseReactionDamage = 19;
+	MHMNFEFODBF_AbilityMetaTriggerElementReaction = 20;
+	MHMNFEFODBF_AbilityMetaLoseHp = 21;
+	MHMNFEFODBF_AbilityMetaDurabilityIsZero = 22;
+	MHMNFEFODBF_AbilityMetaTriggerArkheReaction = 23;
+	MHMNFEFODBF_AbilityMetaChangeNyxValue = 24;
+	MHMNFEFODBF_AbilityMetaAddSpecialEnergyValue = 25;
+	MHMNFEFODBF_AbilityActionTriggerAbility = 50;
+	MHMNFEFODBF_AbilityActionSetCrashDamage = 51;
+	MHMNFEFODBF_AbilityActionEffect = 52;
+	MHMNFEFODBF_AbilityActionSummon = 53;
+	MHMNFEFODBF_AbilityActionBlink = 54;
+	MHMNFEFODBF_AbilityActionCreateGadget = 55;
+	MHMNFEFODBF_AbilityActionApplyLevelModifier = 56;
+	MHMNFEFODBF_AbilityActionGenerateElemBall = 57;
+	MHMNFEFODBF_AbilityActionSetRandomOverrideMapValue = 58;
+	MHMNFEFODBF_AbilityActionServerMonsterLog = 59;
+	MHMNFEFODBF_AbilityActionCreateTile = 60;
+	MHMNFEFODBF_AbilityActionDestroyTile = 61;
+	MHMNFEFODBF_AbilityActionFireAfterImage = 62;
+	MHMNFEFODBF_AbilityActionDeductStamina = 63;
+	MHMNFEFODBF_AbilityActionHitEffect = 64;
+	MHMNFEFODBF_AbilityActionSetBulletTrackTarget = 65;
+	MHMNFEFODBF_AbilityActionFireworkEffect = 66;
+	MHMNFEFODBF_AbilityActionLevelBankAddStuff = 67;
+	MHMNFEFODBF_AbilityActionGetMaterialParamFloat = 68;
+	MHMNFEFODBF_AbilityActionGetMaterialParamVector = 69;
+	MHMNFEFODBF_AbilityActionSpectacleBuildRecreateGadget = 70;
+	MHMNFEFODBF_AbilityActionUpdateNewElementReactionOwner = 71;
+	MHMNFEFODBF_AbilityActionNewElementReactionAttack = 72;
+	MHMNFEFODBF_AbilityMixinAvatarSteerByCamera = 100;
+	MHMNFEFODBF_AbilityMixinMonsterDefend = 101;
+	MHMNFEFODBF_AbilityMixinWindZone = 102;
+	MHMNFEFODBF_AbilityMixinCostStamina = 103;
+	MHMNFEFODBF_AbilityMixinEliteShield = 104;
+	MHMNFEFODBF_AbilityMixinElementShield = 105;
+	MHMNFEFODBF_AbilityMixinGlobalShield = 106;
+	MHMNFEFODBF_AbilityMixinShieldBar = 107;
+	MHMNFEFODBF_AbilityMixinWindSeedSpawner = 108;
+	MHMNFEFODBF_AbilityMixinDoActionByElementReaction = 109;
+	MHMNFEFODBF_AbilityMixinFieldEntityCountChange = 110;
+	MHMNFEFODBF_AbilityMixinScenePropSync = 111;
+	MHMNFEFODBF_AbilityMixinWidgetMpSupport = 112;
+	MHMNFEFODBF_AbilityMixinDoActionBySelfModifierElementDurabilityRatio = 113;
+	MHMNFEFODBF_AbilityMixinFireworksLauncher = 114;
+	MHMNFEFODBF_AbilityMixinAttackResultCreateCount = 115;
+	MHMNFEFODBF_AbilityMixinUgcTimeControl = 116;
+	MHMNFEFODBF_AbilityMixinAvatarCombat = 117;
+	MHMNFEFODBF_AbilityMixinDeathZoneRegionalPlayMixin = 118;
+	MHMNFEFODBF_AbilityMixinUiInteract = 119;
+	MHMNFEFODBF_AbilityMixinShootFromCamera = 120;
+	MHMNFEFODBF_AbilityMixinEraseBrickActivity = 121;
+	MHMNFEFODBF_AbilityMixinBreakout = 122;
+	MHMNFEFODBF_AbilityMixinDamageLoan = 123;
+	MHMNFEFODBF_AbilityMixinBroadcastGv = 124;
+	MHMNFEFODBF_AbilityMixinReceiveGv = 125;
+	MHMNFEFODBF_AbilityMixinRaycastSelectTarget = 126;
+	MHMNFEFODBF_AbilityMixinEnergyCrystalTarget = 127;
+	MHMNFEFODBF_AbilityMixinRotationFollowCamera = 128;
+	MHMNFEFODBF_AbilityMixinBuoyantForce = 129;
+	MHMNFEFODBF_AbilityMixinFilmfestBallGame = 130;
+	MHMNFEFODBF_AbilityMixinCheckScanEntity = 131;
+	MHMNFEFODBF_AbilityMixinTimeTrackPlayer = 133;
+	MHMNFEFODBF_AbilityMixinPartFollow = 134;
+	MHMNFEFODBF_AbilityMixinChangePhlogiston = 135;
+	MHMNFEFODBF_AbilityMixinHumanDragonCollabPickPhlogistonBall = 136;
+	MHMNFEFODBF_AbilityMixinFrequencyShieldBar = 137;
+	MHMNFEFODBF_AbilityMixinShamanViewTarget = 138;
+	MHMNFEFODBF_AbilityMixinAttachModifierToGlobalValue = 139;
+	MHMNFEFODBF_AbilityMixinBrickMatrix = 140;
+	MHMNFEFODBF_AbilityMixinVehicleSteerByCamera = 141;
+	MHMNFEFODBF_AbilityMixinPlacementDetectEffect = 142;
+	MHMNFEFODBF_AbilityMixinAvatarSpecialMove = 143;
+	MHMNFEFODBF_AbilityMixinAvatarDrawPlayBulletHitMixin = 144;
+	MHMNFEFODBF_AbilityMixinModifyDamage = 145;
+	MHMNFEFODBF_AbilityMixinModifyBeHitDamageCount = 146;
+	MHMNFEFODBF_AbilityMixinAvatarDrawPlaySyncMixin = 147;
 }
 
 message PIAPBFCKAGO {
@@ -33906,13 +36252,18 @@ message AOMIDGEOECE {
 	uint32 OJDLFOOCGKP = 1378;
 }
 
+enum DEPDKLPCLKK {
+	DEPDKLPCLKK_LuashellNone = 0;
+	DEPDKLPCLKK_LuashellNormal = 1;
+	DEPDKLPCLKK_LuashellSecurity = 2;
+	DEPDKLPCLKK_LuashellShellCode = 3;
+}
+
 // CmdID: 5136
 message IDMELGCDOID {
 	int32 KBFHMOHPAPJ = 11;
 	OFMAJELOAIN LOBDJPHHKPK = 14;
-	oneof JHNFBMBOCMD {
-		PCOOKCKHCHG music_info = 15;
-	}
+	optional PCOOKCKHCHG music_info = 15;
 }
 
 // CmdID: 2752
@@ -33933,13 +36284,22 @@ message NCPBJIAGIKO {
 }
 
 message HHJNACKKMLM {
+	enum PCGCCOLBEHN {
+		PCGCCOLBEHN_None = 0;
+		PCGCCOLBEHN_CreateConnect = 1;
+		PCGCCOLBEHN_StartGame = 2;
+		PCGCCOLBEHN_Ping = 3;
+		PCGCCOLBEHN_FinishGame = 4;
+		PCGCCOLBEHN_SnapShot = 5;
+		PCGCCOLBEHN_Action = 6;
+	}
 	int32 KBFHMOHPAPJ = 5;
 	oneof KHEJEDNODPP {
-		PIJNAFNLHCC sync_create_connect = 7;
-		EIJJNCBFELJ sync_finish_game = 10;
+		CEGFIJNECNC sync_ping = 2;
 		LIAAOBONJGA sync_action = 8;
 		EHMHCFEEJBC sync_snap_shot = 9;
-		CEGFIJNECNC sync_ping = 2;
+		PIJNAFNLHCC sync_create_connect = 7;
+		EIJJNCBFELJ sync_finish_game = 10;
 	}
 }
 
@@ -33950,6 +36310,12 @@ message OPCJKOEGDMN {
 
 // CmdID: 21053
 message FDLAIOCCBGP {
+	message BOFCOPFHBPE {
+		oneof MBDFLBIAPEF {
+			uint32 mist_trial_avatar_id = 15;
+			uint64 formal_avatar_guid = 13;
+		}
+	}
 	repeated uint32 OFIEKFECBGM = 13;
 	repeated BOFCOPFHBPE CLILHCCDPGK = 9;
 	uint32 IENIJKOBMIP = 1;
@@ -34247,6 +36613,11 @@ message ECJKNEDDLBM {
 	int32 KBFHMOHPAPJ = 14;
 }
 
+enum LFOCNDCBHBB {
+	LFOCNDCBHBB_MaterialDeleteReturnBag = 0;
+	LFOCNDCBHBB_MaterialDeleteReturnSeed = 1;
+}
+
 message FBKAFOMLJIH {
 	uint32 HHDPJFFECJP = 2;
 	bool DDNLEPBCHFM = 13;
@@ -34343,6 +36714,16 @@ message LFFOKNIBHCF {
 	uint32 CCFODFJLADK = 5;
 }
 
+enum BPIDFKHDAKB {
+	BPIDFKHDAKB_ChangeEnergyNone = 0;
+	BPIDFKHDAKB_ChangeEnergySkillStart = 1;
+	BPIDFKHDAKB_ChangeEnergyBall = 2;
+	BPIDFKHDAKB_ChangeEnergyQuest = 3;
+	BPIDFKHDAKB_ChangeEnergyAbility = 4;
+	BPIDFKHDAKB_ChangeEnergyDie = 5;
+	BPIDFKHDAKB_ChangeEnergySkillDepot = 6;
+}
+
 // CmdID: 27610
 message EIDODEEOOPM {
 	uint32 GFHAIFJFJNJ = 9;
@@ -34371,6 +36752,12 @@ message IKPNFOKAEFK {
 	uint32 ANGKDPAKELE = 10;
 	int32 KBFHMOHPAPJ = 15;
 	uint32 DJNPEHGBEJE = 14;
+}
+
+enum JIENJKCCNDG {
+	JIENJKCCNDG_CreateNone = 0;
+	JIENJKCCNDG_CreateQuest = 1;
+	JIENJKCCNDG_CreateEnergy = 2;
 }
 
 // CmdID: 26116
@@ -34545,6 +36932,22 @@ message CPOLNPEMGJH {
 
 // CmdID: 6101
 message KCJBKOKNJDE {
+	enum LELCBMDIOMJ {
+		LELCBMDIOMJ_OptionNone = 0;
+		LELCBMDIOMJ_OptionNormal = 1;
+		LELCBMDIOMJ_OptionFirstCanGo = 2;
+	}
+	enum EBJGBFDLJDB {
+		EBJGBFDLJDB_Classic = 0;
+		EBJGBFDLJDB_Tendency = 1;
+		EBJGBFDLJDB_Adaptive = 2;
+		EBJGBFDLJDB_Inflection = 3;
+	}
+	enum FBMIHDNAIHA {
+		FBMIHDNAIHA_All = 0;
+		FBMIHDNAIHA_Air = 1;
+		FBMIHDNAIHA_Water = 2;
+	}
 	repeated BKJNICKOBNO IMHFCCEEKAJ = 12;
 	BKJNICKOBNO BIONMLIAEFM = 11;
 	BKJNICKOBNO PPAJLHNMJNM = 6;
@@ -34586,6 +36989,20 @@ message IKGACGLFECH {
 
 // CmdID: 9379
 message KFMHEHLIGNM {
+	enum PFCMPMIKMJJ {
+		PFCMPMIKMJJ_PlayerJudge = 0;
+		PFCMPMIKMJJ_PlayerEnterOptionRefuse = 1;
+		PFCMPMIKMJJ_PlayerEnterOptionDirect = 2;
+		PFCMPMIKMJJ_SystemJudge = 3;
+		PFCMPMIKMJJ_HostInMatch = 4;
+		PFCMPMIKMJJ_PsPlayerNotAcceptOthers = 5;
+		PFCMPMIKMJJ_OpenStateNotOpen = 6;
+		PFCMPMIKMJJ_HostInEditMode = 7;
+		PFCMPMIKMJJ_PriorCheck = 8;
+		PFCMPMIKMJJ_XboxPlayerNotAcceptOthers = 9;
+		PFCMPMIKMJJ_PlayerNotAcceptOtherPlatform = 10;
+		PFCMPMIKMJJ_XboxOnly = 11;
+	}
 	string JFIDPNLMFDP = 12;
 	bool IMODNHFNCFA = 3;
 	uint32 EDDKEHLLIEI = 7;
@@ -34607,6 +37024,12 @@ message KAOJDAIAFIN {
 	int32 KBFHMOHPAPJ = 8;
 	uint32 ADBADBIHCFO = 2;
 	uint32 HIHONAKHBFJ = 4;
+}
+
+enum NFCAFADHICG {
+	NFCAFADHICG_None = 0;
+	NFCAFADHICG_RenameMy = 1;
+	NFCAFADHICG_CopyMy = 2;
 }
 
 // CmdID: 21766
@@ -34667,6 +37090,15 @@ message KPDMMMDLPCJ {
 // CmdID: 27496
 message ILDGEDEFCLD {
 	int32 KBFHMOHPAPJ = 12;
+}
+
+enum FEEMAPPHLEC {
+	FEEMAPPHLEC_ReputationRewardNone = 0;
+	FEEMAPPHLEC_ReputationRewardLevel = 1;
+	FEEMAPPHLEC_ReputationRewardQuest = 2;
+	FEEMAPPHLEC_ReputationRewardExplore = 3;
+	FEEMAPPHLEC_ReputationRewardHunting = 4;
+	FEEMAPPHLEC_ReputationRewardTotal = 5;
 }
 
 // CmdID: 27486
